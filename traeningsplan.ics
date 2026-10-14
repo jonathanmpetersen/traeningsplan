@@ -1,0 +1,2781 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Traeningsplan//DA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Træningsplan
+X-WR-TIMEZONE:Europe/Copenhagen
+BEGIN:VTIMEZONE
+TZID:Europe/Helsinki
+BEGIN:DAYLIGHT
+DTSTART:20250330T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251026T040000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261025T040000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20270328T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20271031T040000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20280326T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20281029T040000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Europe/Copenhagen
+BEGIN:DAYLIGHT
+DTSTART:20250330T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251026T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261025T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20270328T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20271031T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20280326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20281029T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-10-12-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261012T170000
+DTEND;TZID=Europe/Helsinki:20261012T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2-3)\n
+ Liggende leg curl: 2 × 10-12 (RIR 2-3)\nStående lægløft: 3 × 10-15 (R
+ IR 2-3)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 2-3)\n\nUge 1 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261013T170000
+DTEND;TZID=Europe/Helsinki:20261013T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2-3)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 2-3)\nStående skulderpres: 3 × 6-8 (RIR 2-3)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 2-3)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 2-3)\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261013T070000
+DTEND;TZID=Europe/Helsinki:20261013T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-14-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261014T070000
+DTEND;TZID=Europe/Helsinki:20261014T080000
+SUMMARY:🏃 Kvalitet 6 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Fartlek: 6×(1 min hurtigt / 1 m
+ in roligt)\nZone: Z4 · 160–179 bpm\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-15-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261015T170000
+DTEND;TZID=Europe/Helsinki:20261015T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2-3)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 2-3)\nDips (evt. med vægt): 3 × 8-12 (RIR 2-3)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 2-3)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 2-3)\nStraight-arm pulldown: 2 × 12-15 (RIR 2-3)\n\nUge 1 
+ · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-16-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261016T070000
+DTEND;TZID=Europe/Helsinki:20261016T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-17-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261017T170000
+DTEND;TZID=Europe/Helsinki:20261017T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2-3)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 2-3)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 2-3)\nEZ-bar curl: 3 × 8-12 (RIR 2-3)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 2-3)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 2-3)\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-18-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261018T090000
+DTEND;TZID=Europe/Helsinki:20261018T100500
+SUMMARY:🏃 Langtur 10 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261019T170000
+DTEND;TZID=Europe/Helsinki:20261019T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2-3)\n
+ Liggende leg curl: 2 × 10-12 (RIR 2-3)\nStående lægløft: 3 × 10-15 (R
+ IR 2-3)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 2-3)\n\nUge 2 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261020T170000
+DTEND;TZID=Europe/Helsinki:20261020T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2-3)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 2-3)\nStående skulderpres: 3 × 6-8 (RIR 2-3)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 2-3)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 2-3)\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261020T070000
+DTEND;TZID=Europe/Helsinki:20261020T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261021T070000
+DTEND;TZID=Europe/Helsinki:20261021T080000
+SUMMARY:🏃 Kvalitet 8 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×8 min tærskel (RPE 7)\, 2 mi
+ n jog pause\nZone: Z4 · 160–179 bpm\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261022T170000
+DTEND;TZID=Europe/Helsinki:20261022T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2-3)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 2-3)\nDips (evt. med vægt): 3 × 8-12 (RIR 2-3)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 2-3)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 2-3)\nStraight-arm pulldown: 2 × 12-15 (RIR 2-3)\n\nUge 2 
+ · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261023T070000
+DTEND;TZID=Europe/Helsinki:20261023T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261024T170000
+DTEND;TZID=Europe/Helsinki:20261024T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2-3)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 2-3)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 2-3)\nEZ-bar curl: 3 × 8-12 (RIR 2-3)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 2-3)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 2-3)\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261025T090000
+DTEND;TZID=Europe/Helsinki:20261025T101200
+SUMMARY:🏃 Langtur 11 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261026T170000
+DTEND;TZID=Europe/Helsinki:20261026T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2-3)\n
+ Liggende leg curl: 2 × 10-12 (RIR 2-3)\nStående lægløft: 3 × 10-15 (R
+ IR 2-3)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 2-3)\n\nUge 3 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261027T170000
+DTEND;TZID=Europe/Helsinki:20261027T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2-3)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 2-3)\nStående skulderpres: 3 × 6-8 (RIR 2-3)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 2-3)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 2-3)\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261027T070000
+DTEND;TZID=Europe/Helsinki:20261027T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-28-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261028T070000
+DTEND;TZID=Europe/Helsinki:20261028T080000
+SUMMARY:🏃 Kvalitet 8 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Bakkeintervaller: 8×45 sek op\,
+  jog ned\nZone: Z4 · 160–179 bpm\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-29-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261029T170000
+DTEND;TZID=Europe/Helsinki:20261029T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2-3)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 2-3)\nDips (evt. med vægt): 3 × 8-12 (RIR 2-3)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 2-3)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 2-3)\nStraight-arm pulldown: 2 × 12-15 (RIR 2-3)\n\nUge 3 
+ · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261030T070000
+DTEND;TZID=Europe/Helsinki:20261030T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-31-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261031T170000
+DTEND;TZID=Europe/Helsinki:20261031T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2-3)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 2-3)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 2-3)\nEZ-bar curl: 3 × 8-12 (RIR 2-3)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 2-3)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 2-3)\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-01-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261101T090000
+DTEND;TZID=Europe/Helsinki:20261101T102400
+SUMMARY:🏃 Langtur 13 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261102T170000
+DTEND;TZID=Europe/Helsinki:20261102T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 1 × 5-8 (RIR 3)\nRumænsk dødløft:
+  1 × 6-8 (RIR 3)\nBulgarsk split squat: 1 × 8-10 pr. ben (RIR 3)\nLiggen
+ de leg curl: 1 × 10-12 (RIR 3)\nStående lægløft: 1 × 10-15 (RIR 3)\nH
+ anging leg raises / ab wheel: 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\
+ , ingen sæt tæt på failure.\n\nUge 4 · Base 1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261103T170000
+DTEND;TZID=Europe/Helsinki:20261103T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 2 × 5-7 (RIR 3)\nPull-ups med vægt / lat pulldown:
+  2 × 6-8 (RIR 3)\nStående skulderpres: 1 × 6-8 (RIR 3)\nRows med støtt
+ e til brystet: 1 × 8-10 (RIR 3)\nIncline DB curl + rebpushdown (superset)
+ : 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\, ingen sæt tæt på failur
+ e.\n\nUge 4 · Base 1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261103T070000
+DTEND;TZID=Europe/Helsinki:20261103T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 4 · Base 1 · Deloa
+ d
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261104T070000
+DTEND;TZID=Europe/Helsinki:20261104T080000
+SUMMARY:🏃 Kvalitet 6 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Rolig + 6×20 sek strides\nZone:
+  Z4 · 160–179 bpm\n\nUge 4 · Base 1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261105T170000
+DTEND;TZID=Europe/Helsinki:20261105T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 2 × 8-10 (RIR 3)\nBarbell- eller T-bar-row: 2
+  × 8-10 (RIR 3)\nDips (evt. med vægt): 1 × 8-12 (RIR 3)\nLat pulldown m
+ ed neutralt greb: 1 × 10-12 (RIR 3)\nCable fly (lav → høj): 1 × 12-15
+  (RIR 3)\nStraight-arm pulldown: 1 × 12-15 (RIR 3)\n\nDeload: lettere væ
+ gt\, ingen sæt tæt på failure.\n\nUge 4 · Base 1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261106T070000
+DTEND;TZID=Europe/Helsinki:20261106T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 4 · Base 1 · Deloa
+ d
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261107T170000
+DTEND;TZID=Europe/Helsinki:20261107T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 1 × 8-10 (RIR 3)\nLateral raises (kab
+ el eller DB): 2 × 12-20 (RIR 3)\nRear delt fly / face pulls: 1 × 15-20 (
+ RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nOverhead triceps extension (kabel)
+ : 1 × 10-12 (RIR 3)\nHammer curl + pushdown (superset): 1 × 12-15 (RIR 3
+ )\n\nDeload: lettere vægt\, ingen sæt tæt på failure.\n\nUge 4 · Base
+  1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-08-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261108T090000
+DTEND;TZID=Europe/Helsinki:20261108T100500
+SUMMARY:🏃 Langtur 10 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 4 · Base 1 · Deloa
+ d
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261109T170000
+DTEND;TZID=Europe/Helsinki:20261109T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Liggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 × 10-15 (R
+ IR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nUge 5 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261110T170000
+DTEND;TZID=Europe/Helsinki:20261110T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261110T070000
+DTEND;TZID=Europe/Helsinki:20261110T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261111T070000
+DTEND;TZID=Europe/Helsinki:20261111T080000
+SUMMARY:🏃 Kvalitet 9 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 4×8 min tærskel\, 2 min jog pa
+ use\nZone: Z4 · 160–179 bpm\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261112T170000
+DTEND;TZID=Europe/Helsinki:20261112T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 5 
+ · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261113T070000
+DTEND;TZID=Europe/Helsinki:20261113T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261114T170000
+DTEND;TZID=Europe/Helsinki:20261114T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-15-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261115T090000
+DTEND;TZID=Europe/Helsinki:20261115T103100
+SUMMARY:🏃 Langtur 14 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261116T170000
+DTEND;TZID=Europe/Helsinki:20261116T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Liggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 × 10-15 (R
+ IR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nUge 6 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261117T170000
+DTEND;TZID=Europe/Helsinki:20261117T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261117T070000
+DTEND;TZID=Europe/Helsinki:20261117T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261118T070000
+DTEND;TZID=Europe/Helsinki:20261118T080000
+SUMMARY:🏃 Kvalitet 9 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Bakkeintervaller: 10×45 sek\nZo
+ ne: Z4 · 160–179 bpm\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261119T170000
+DTEND;TZID=Europe/Helsinki:20261119T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 6 
+ · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261120T070000
+DTEND;TZID=Europe/Helsinki:20261120T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261121T170000
+DTEND;TZID=Europe/Helsinki:20261121T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-22-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261122T090000
+DTEND;TZID=Europe/Helsinki:20261122T103800
+SUMMARY:🏃 Langtur 15 km
+DESCRIPTION:Rolig Z2\, gerne kuperet · Øv energi: 30-60 g kulhydrat i tim
+ en fra 45-60 min\nZone: Z2 · 120–139 bpm\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-23-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261123T170000
+DTEND;TZID=Europe/Helsinki:20261123T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Liggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 × 10-15 (R
+ IR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nUge 7 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261124T170000
+DTEND;TZID=Europe/Helsinki:20261124T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261124T070000
+DTEND;TZID=Europe/Helsinki:20261124T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261125T070000
+DTEND;TZID=Europe/Helsinki:20261125T080000
+SUMMARY:🏃 Kvalitet 10 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×10 min tærskel\, 2 min jog p
+ ause\nZone: Z4 · 160–179 bpm\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-26-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261126T170000
+DTEND;TZID=Europe/Helsinki:20261126T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 7 
+ · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-27-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261127T070000
+DTEND;TZID=Europe/Helsinki:20261127T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261128T170000
+DTEND;TZID=Europe/Helsinki:20261128T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-29-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261129T090000
+DTEND;TZID=Europe/Helsinki:20261129T104400
+SUMMARY:🏃 Langtur 16 km
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+ \nZone: Z2 · 120–139 bpm\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-30-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261130T170000
+DTEND;TZID=Europe/Helsinki:20261130T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 1 × 5-8 (RIR 3)\nRumænsk dødløft:
+  1 × 6-8 (RIR 3)\nBulgarsk split squat: 1 × 8-10 pr. ben (RIR 3)\nLiggen
+ de leg curl: 1 × 10-12 (RIR 3)\nStående lægløft: 1 × 10-15 (RIR 3)\nH
+ anging leg raises / ab wheel: 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\
+ , ingen sæt tæt på failure.\n\nUge 8 · Base 1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261201T170000
+DTEND;TZID=Europe/Helsinki:20261201T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 2 × 5-7 (RIR 3)\nPull-ups med vægt / lat pulldown:
+  2 × 6-8 (RIR 3)\nStående skulderpres: 1 × 6-8 (RIR 3)\nRows med støtt
+ e til brystet: 1 × 8-10 (RIR 3)\nIncline DB curl + rebpushdown (superset)
+ : 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\, ingen sæt tæt på failur
+ e.\n\nUge 8 · Base 1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261201T070000
+DTEND;TZID=Europe/Helsinki:20261201T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 8 · Base 1 · Deloa
+ d
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-02-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261202T070000
+DTEND;TZID=Europe/Helsinki:20261202T080000
+SUMMARY:⏱️ 5 km-test (9 km)
+DESCRIPTION:5 km-test: 2 km rolig opvarmning\, 5 km hårdt og jævnt (det h
+ urtigste tempo\, du kan holde hele vejen)\, 2 km rolig nedvarmning. Log ti
+ den for de 5 km – så foreslår appen dit marathonmål og dine tempoer.\
+ nZone: Z4 · 160–179 bpm\n\nUge 8 · Base 1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-03-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261203T170000
+DTEND;TZID=Europe/Helsinki:20261203T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 2 × 8-10 (RIR 3)\nBarbell- eller T-bar-row: 2
+  × 8-10 (RIR 3)\nDips (evt. med vægt): 1 × 8-12 (RIR 3)\nLat pulldown m
+ ed neutralt greb: 1 × 10-12 (RIR 3)\nCable fly (lav → høj): 1 × 12-15
+  (RIR 3)\nStraight-arm pulldown: 1 × 12-15 (RIR 3)\n\nDeload: lettere væ
+ gt\, ingen sæt tæt på failure.\n\nUge 8 · Base 1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261204T070000
+DTEND;TZID=Europe/Helsinki:20261204T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 8 · Base 1 · Deloa
+ d
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261205T170000
+DTEND;TZID=Europe/Helsinki:20261205T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 1 × 8-10 (RIR 3)\nLateral raises (kab
+ el eller DB): 2 × 12-20 (RIR 3)\nRear delt fly / face pulls: 1 × 15-20 (
+ RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nOverhead triceps extension (kabel)
+ : 1 × 10-12 (RIR 3)\nHammer curl + pushdown (superset): 1 × 12-15 (RIR 3
+ )\n\nDeload: lettere vægt\, ingen sæt tæt på failure.\n\nUge 8 · Base
+  1 · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-06-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261206T090000
+DTEND;TZID=Europe/Helsinki:20261206T101800
+SUMMARY:🏃 Langtur 12 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 8 · Base 1 · Deloa
+ d
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-07-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261207T170000
+DTEND;TZID=Europe/Helsinki:20261207T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261208T170000
+DTEND;TZID=Europe/Helsinki:20261208T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261208T070000
+DTEND;TZID=Europe/Helsinki:20261208T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-09-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261209T070000
+DTEND;TZID=Europe/Helsinki:20261209T080000
+SUMMARY:🏃 Kvalitet 9 km · ↑150 hm
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 5×3 min bakke (hårdt op\, jog 
+ ned)\nZone: Z4 · 160–179 bpm\nHøjdemeter: ≈150 m op\n\nUge 9 · Trai
+ l-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-10-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261210T170000
+DTEND;TZID=Europe/Helsinki:20261210T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 9 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-11-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261211T070000
+DTEND;TZID=Europe/Helsinki:20261211T073500
+SUMMARY:⛰️ Bakke 5 km · ↑200 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 20 min rask gang
+ /let løb på løbebånd med 12 % stigning (≈200 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈200 m op\n\nUge 9 ·
+  Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-12-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261212T170000
+DTEND;TZID=Europe/Helsinki:20261212T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-12-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261212T070000
+DTEND;TZID=Europe/Helsinki:20261212T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-13-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261213T090000
+DTEND;TZID=Europe/Helsinki:20261213T104400
+SUMMARY:🏃 Langtur 16 km · ↑200 hm
+DESCRIPTION:Trail/kuperet\, rolig · Øv energi: 30-60 g kulhydrat i timen 
+ fra 45-60 min · Mål: ≈200 højdemeter – find kuperet terræn\, eller
+  løb 2-3 blokke på løbebånd med 8-10 % stigning undervejs.\nZone: Z2 
+ · 120–139 bpm\nHøjdemeter: ≈200 m op\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-14-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261214T170000
+DTEND;TZID=Europe/Helsinki:20261214T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 10 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-15-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261215T170000
+DTEND;TZID=Europe/Helsinki:20261215T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 10 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-15-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261215T070000
+DTEND;TZID=Europe/Helsinki:20261215T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 10 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-16-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261216T070000
+DTEND;TZID=Europe/Helsinki:20261216T080000
+SUMMARY:🏃 Kvalitet 10 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 2×15 min tærskel\, 3 min jog p
+ ause\nZone: Z4 · 160–179 bpm\n\nUge 10 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-17-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261217T170000
+DTEND;TZID=Europe/Helsinki:20261217T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 10 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-18-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Helsinki:20261218T070000
+DTEND;TZID=Europe/Helsinki:20261218T074000
+SUMMARY:⛰️ Bakke 5 km · ↑250 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 25 min rask gang
+ /let løb på løbebånd med 12 % stigning (≈250 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈250 m op\n\nUge 10 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-19-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261219T170000
+DTEND;TZID=Europe/Copenhagen:20261219T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 10 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-19-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261219T070000
+DTEND;TZID=Europe/Copenhagen:20261219T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 10 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-20-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261220T090000
+DTEND;TZID=Europe/Copenhagen:20261220T105000
+SUMMARY:🏃 Langtur 17 km · ↑250 hm
+DESCRIPTION:Trail/kuperet\, rolig · Øv energi: 30-60 g kulhydrat i timen 
+ fra 45-60 min · Mål: ≈250 højdemeter – find kuperet terræn\, eller
+  løb 2-3 blokke på løbebånd med 8-10 % stigning undervejs.\nZone: Z2 
+ · 120–139 bpm\nHøjdemeter: ≈250 m op\n\nUge 10 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-21-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261221T170000
+DTEND;TZID=Europe/Copenhagen:20261221T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-22-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261222T170000
+DTEND;TZID=Europe/Copenhagen:20261222T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-22-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261222T070000
+DTEND;TZID=Europe/Copenhagen:20261222T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 11 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-23-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261223T070000
+DTEND;TZID=Europe/Copenhagen:20261223T080000
+SUMMARY:🏃 Kvalitet 8 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Fartlek 30 min: 8×(2 min hurtig
+ t / 1 min roligt)\nZone: Z4 · 160–179 bpm\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-24-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261224T170000
+DTEND;TZID=Europe/Copenhagen:20261224T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 11 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-25-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261225T070000
+DTEND;TZID=Europe/Copenhagen:20261225T074000
+SUMMARY:⛰️ Bakke 7 km · ↑250 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 25 min rask gang
+ /let løb på løbebånd med 12 % stigning (≈250 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈250 m op\n\nUge 11 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-26-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261226T170000
+DTEND;TZID=Europe/Copenhagen:20261226T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-27-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261227T090000
+DTEND;TZID=Europe/Copenhagen:20261227T104400
+SUMMARY:🏃 Langtur 16 km · ↑250 hm
+DESCRIPTION:Rolig Z2 (juleuge) · Øv energi: 30-60 g kulhydrat i timen fra
+  45-60 min · Mål: ≈250 højdemeter – find kuperet terræn\, eller l
+ øb 2-3 blokke på løbebånd med 8-10 % stigning undervejs.\nZone: Z2 · 
+ 120–139 bpm\nHøjdemeter: ≈250 m op\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-28-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261228T170000
+DTEND;TZID=Europe/Copenhagen:20261228T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 1 × 5-8 (RIR 3)\nRumænsk dødløft:
+  1 × 6-8 (RIR 3)\nBulgarsk split squat: 1 × 8-10 pr. ben (RIR 3)\nLiggen
+ de leg curl: 1 × 10-12 (RIR 3)\nStående lægløft: 1 × 10-15 (RIR 3)\nH
+ anging leg raises / ab wheel: 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\
+ , ingen sæt tæt på failure.\n\nUge 12 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-29-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261229T170000
+DTEND;TZID=Europe/Copenhagen:20261229T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 2 × 5-7 (RIR 3)\nPull-ups med vægt / lat pulldown:
+  2 × 6-8 (RIR 3)\nStående skulderpres: 1 × 6-8 (RIR 3)\nRows med støtt
+ e til brystet: 1 × 8-10 (RIR 3)\nIncline DB curl + rebpushdown (superset)
+ : 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\, ingen sæt tæt på failur
+ e.\n\nUge 12 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-29-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261229T070000
+DTEND;TZID=Europe/Copenhagen:20261229T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 12 · Trail-opbygnin
+ g · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-30-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261230T070000
+DTEND;TZID=Europe/Copenhagen:20261230T080000
+SUMMARY:🏃 Kvalitet 6 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Rolig + 6×20 sek strides\nZone:
+  Z4 · 160–179 bpm\n\nUge 12 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-31-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20261231T170000
+DTEND;TZID=Europe/Copenhagen:20261231T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 2 × 8-10 (RIR 3)\nBarbell- eller T-bar-row: 2
+  × 8-10 (RIR 3)\nDips (evt. med vægt): 1 × 8-12 (RIR 3)\nLat pulldown m
+ ed neutralt greb: 1 × 10-12 (RIR 3)\nCable fly (lav → høj): 1 × 12-15
+  (RIR 3)\nStraight-arm pulldown: 1 × 12-15 (RIR 3)\n\nDeload: lettere væ
+ gt\, ingen sæt tæt på failure.\n\nUge 12 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-01-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270101T070000
+DTEND;TZID=Europe/Copenhagen:20270101T073000
+SUMMARY:⛰️ Bakke 6 km · ↑150 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 15 min rask gang
+ /let løb på løbebånd med 12 % stigning (≈150 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈150 m op\n\nUge 12 
+ · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-02-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270102T170000
+DTEND;TZID=Europe/Copenhagen:20270102T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 1 × 8-10 (RIR 3)\nLateral raises (kab
+ el eller DB): 2 × 12-20 (RIR 3)\nRear delt fly / face pulls: 1 × 15-20 (
+ RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nOverhead triceps extension (kabel)
+ : 1 × 10-12 (RIR 3)\nHammer curl + pushdown (superset): 1 × 12-15 (RIR 3
+ )\n\nDeload: lettere vægt\, ingen sæt tæt på failure.\n\nUge 12 · Tra
+ il-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-03-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270103T090000
+DTEND;TZID=Europe/Copenhagen:20270103T102400
+SUMMARY:🏃 Langtur 13 km · ↑150 hm
+DESCRIPTION:Rolig Z2 · Mål: ≈150 højdemeter – find kuperet terræn\,
+  eller løb 2-3 blokke på løbebånd med 8-10 % stigning undervejs.\nZone
+ : Z2 · 120–139 bpm\nHøjdemeter: ≈150 m op\n\nUge 12 · Trail-opbygni
+ ng · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-04-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270104T170000
+DTEND;TZID=Europe/Copenhagen:20270104T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-05-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270105T170000
+DTEND;TZID=Europe/Copenhagen:20270105T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-05-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270105T070000
+DTEND;TZID=Europe/Copenhagen:20270105T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 13 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-06-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270106T070000
+DTEND;TZID=Europe/Copenhagen:20270106T080000
+SUMMARY:🏃 Kvalitet 10 km · ↑200 hm
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 6×3 min bakke\nZone: Z4 · 160
+ –179 bpm\nHøjdemeter: ≈200 m op\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-07-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270107T170000
+DTEND;TZID=Europe/Copenhagen:20270107T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 13 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-08-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270108T070000
+DTEND;TZID=Europe/Copenhagen:20270108T074500
+SUMMARY:⛰️ Bakke 5 km · ↑380 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 30 min rask gang
+ /let løb på løbebånd med 15 % stigning (≈380 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈380 m op\n\nUge 13 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-09-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270109T170000
+DTEND;TZID=Europe/Copenhagen:20270109T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-09-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270109T070000
+DTEND;TZID=Europe/Copenhagen:20270109T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 13 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-10-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270110T090000
+DTEND;TZID=Europe/Copenhagen:20270110T105700
+SUMMARY:🏃 Langtur 18 km · ↑400 hm
+DESCRIPTION:Trail med højdemeter · Øv energi: 30-60 g kulhydrat i timen 
+ fra 45-60 min · Mål: ≈400 højdemeter – find kuperet terræn\, eller
+  løb 2-3 blokke på løbebånd med 8-10 % stigning undervejs.\nZone: Z2 
+ · 120–139 bpm\nHøjdemeter: ≈400 m op\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270111T170000
+DTEND;TZID=Europe/Copenhagen:20270111T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 14 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-12-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270112T170000
+DTEND;TZID=Europe/Copenhagen:20270112T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 14 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-12-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270112T070000
+DTEND;TZID=Europe/Copenhagen:20270112T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 14 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-13-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270113T070000
+DTEND;TZID=Europe/Copenhagen:20270113T080000
+SUMMARY:🏃 Kvalitet 10 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×12 min tærskel\nZone: Z4 · 
+ 160–179 bpm\n\nUge 14 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-14-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270114T170000
+DTEND;TZID=Europe/Copenhagen:20270114T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 14 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-15-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270115T070000
+DTEND;TZID=Europe/Copenhagen:20270115T075000
+SUMMARY:⛰️ Bakke 6 km · ↑440 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 35 min rask gang
+ /let løb på løbebånd med 15 % stigning (≈440 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈440 m op\n\nUge 14 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-16-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270116T170000
+DTEND;TZID=Europe/Copenhagen:20270116T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 14 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-16-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270116T070000
+DTEND;TZID=Europe/Copenhagen:20270116T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 14 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-17-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270117T090000
+DTEND;TZID=Europe/Copenhagen:20270117T110400
+SUMMARY:🏃 Langtur 19 km · ↑450 hm
+DESCRIPTION:Kuperet\, rolig · Øv energi: 30-60 g kulhydrat i timen fra 45
+ -60 min · Mål: ≈450 højdemeter – find kuperet terræn\, eller løb 
+ 2-3 blokke på løbebånd med 8-10 % stigning undervejs.\nZone: Z2 · 120
+ –139 bpm\nHøjdemeter: ≈450 m op\n\nUge 14 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-18-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270118T170000
+DTEND;TZID=Europe/Copenhagen:20270118T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-19-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270119T170000
+DTEND;TZID=Europe/Copenhagen:20270119T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-19-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270119T070000
+DTEND;TZID=Europe/Copenhagen:20270119T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 15 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270120T070000
+DTEND;TZID=Europe/Copenhagen:20270120T080000
+SUMMARY:🏃 Kvalitet 10 km · ↑200 hm
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 8×2 min bakke + 4 strides\nZone
+ : Z4 · 160–179 bpm\nHøjdemeter: ≈200 m op\n\nUge 15 · Trail-opbygni
+ ng
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-21-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270121T170000
+DTEND;TZID=Europe/Copenhagen:20270121T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 15 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-22-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270122T070000
+DTEND;TZID=Europe/Copenhagen:20270122T075500
+SUMMARY:⛰️ Bakke 6 km · ↑500 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 40 min rask gang
+ /let løb på løbebånd med 15 % stigning (≈500 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈500 m op\n\nUge 15 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-23-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270123T170000
+DTEND;TZID=Europe/Copenhagen:20270123T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-23-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270123T070000
+DTEND;TZID=Europe/Copenhagen:20270123T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 15 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-24-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270124T090000
+DTEND;TZID=Europe/Copenhagen:20270124T111000
+SUMMARY:🏃 Langtur 20 km · ↑500 hm
+DESCRIPTION:Trail med højdemeter\, øv nedløb · Øv energi: 30-60 g kulh
+ ydrat i timen fra 45-60 min · Mål: ≈500 højdemeter – find kuperet t
+ erræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning undervej
+ s.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈500 m op\n\nUge 15 · Trail
+ -opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-25-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270125T170000
+DTEND;TZID=Europe/Copenhagen:20270125T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 1 × 5-8 (RIR 3)\nRumænsk dødløft:
+  1 × 6-8 (RIR 3)\nBulgarsk split squat: 1 × 8-10 pr. ben (RIR 3)\nLiggen
+ de leg curl: 1 × 10-12 (RIR 3)\nStående lægløft: 1 × 10-15 (RIR 3)\nH
+ anging leg raises / ab wheel: 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\
+ , ingen sæt tæt på failure.\n\nUge 16 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-26-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270126T170000
+DTEND;TZID=Europe/Copenhagen:20270126T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 2 × 5-7 (RIR 3)\nPull-ups med vægt / lat pulldown:
+  2 × 6-8 (RIR 3)\nStående skulderpres: 1 × 6-8 (RIR 3)\nRows med støtt
+ e til brystet: 1 × 8-10 (RIR 3)\nIncline DB curl + rebpushdown (superset)
+ : 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\, ingen sæt tæt på failur
+ e.\n\nUge 16 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-26-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270126T070000
+DTEND;TZID=Europe/Copenhagen:20270126T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 16 · Trail-opbygnin
+ g · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270127T070000
+DTEND;TZID=Europe/Copenhagen:20270127T080000
+SUMMARY:🏃 Kvalitet 7 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Rolig + 6×20 sek strides\nZone:
+  Z4 · 160–179 bpm\n\nUge 16 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-28-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270128T170000
+DTEND;TZID=Europe/Copenhagen:20270128T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 2 × 8-10 (RIR 3)\nBarbell- eller T-bar-row: 2
+  × 8-10 (RIR 3)\nDips (evt. med vægt): 1 × 8-12 (RIR 3)\nLat pulldown m
+ ed neutralt greb: 1 × 10-12 (RIR 3)\nCable fly (lav → høj): 1 × 12-15
+  (RIR 3)\nStraight-arm pulldown: 1 × 12-15 (RIR 3)\n\nDeload: lettere væ
+ gt\, ingen sæt tæt på failure.\n\nUge 16 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-29-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270129T070000
+DTEND;TZID=Europe/Copenhagen:20270129T074000
+SUMMARY:⛰️ Bakke 7 km · ↑250 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 25 min rask gang
+ /let løb på løbebånd med 12 % stigning (≈250 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈250 m op\n\nUge 16 
+ · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-30-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270130T170000
+DTEND;TZID=Europe/Copenhagen:20270130T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 1 × 8-10 (RIR 3)\nLateral raises (kab
+ el eller DB): 2 × 12-20 (RIR 3)\nRear delt fly / face pulls: 1 × 15-20 (
+ RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nOverhead triceps extension (kabel)
+ : 1 × 10-12 (RIR 3)\nHammer curl + pushdown (superset): 1 × 12-15 (RIR 3
+ )\n\nDeload: lettere vægt\, ingen sæt tæt på failure.\n\nUge 16 · Tra
+ il-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-31-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270131T090000
+DTEND;TZID=Europe/Copenhagen:20270131T103800
+SUMMARY:🏃 Langtur 15 km · ↑250 hm
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+  · Mål: ≈250 højdemeter – find kuperet terræn\, eller løb 2-3 blo
+ kke på løbebånd med 8-10 % stigning undervejs.\nZone: Z2 · 120–139 b
+ pm\nHøjdemeter: ≈250 m op\n\nUge 16 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-01-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270201T170000
+DTEND;TZID=Europe/Copenhagen:20270201T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-02-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270202T170000
+DTEND;TZID=Europe/Copenhagen:20270202T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-02-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270202T070000
+DTEND;TZID=Europe/Copenhagen:20270202T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 17 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-03-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270203T070000
+DTEND;TZID=Europe/Copenhagen:20270203T080000
+SUMMARY:🏃 Kvalitet 11 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 2×20 min tempo (RPE 7)\nZone: Z
+ 4 · 160–179 bpm\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-04-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270204T170000
+DTEND;TZID=Europe/Copenhagen:20270204T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 17 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-05-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270205T070000
+DTEND;TZID=Europe/Copenhagen:20270205T080000
+SUMMARY:⛰️ Bakke 5 km · ↑560 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 45 min rask gang
+ /let løb på løbebånd med 15 % stigning (≈560 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈560 m op\n\nUge 17 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-06-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270206T170000
+DTEND;TZID=Europe/Copenhagen:20270206T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-06-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270206T070000
+DTEND;TZID=Europe/Copenhagen:20270206T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 17 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-07-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270207T090000
+DTEND;TZID=Europe/Copenhagen:20270207T111600
+SUMMARY:🏃 Langtur 21 km · ↑700 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈700 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈700 m op\n\nUge 17 ·
+  Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-08-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270208T170000
+DTEND;TZID=Europe/Copenhagen:20270208T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-09-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270209T170000
+DTEND;TZID=Europe/Copenhagen:20270209T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-09-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270209T070000
+DTEND;TZID=Europe/Copenhagen:20270209T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 18 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-10-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270210T070000
+DTEND;TZID=Europe/Copenhagen:20270210T080000
+SUMMARY:🏃 Kvalitet 10 km · ↑250 hm
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 6×4 min bakke\nZone: Z4 · 160
+ –179 bpm\nHøjdemeter: ≈250 m op\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-11-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270211T170000
+DTEND;TZID=Europe/Copenhagen:20270211T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 18 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-12-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270212T070000
+DTEND;TZID=Europe/Copenhagen:20270212T080500
+SUMMARY:⛰️ Bakke 6 km · ↑630 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 50 min rask gang
+ /let løb på løbebånd med 15 % stigning (≈630 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈630 m op\n\nUge 18 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-13-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270213T170000
+DTEND;TZID=Europe/Copenhagen:20270213T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-13-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270213T070000
+DTEND;TZID=Europe/Copenhagen:20270213T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 18 · Trail-opbygnin
+ g
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-14-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270214T090000
+DTEND;TZID=Europe/Copenhagen:20270214T112300
+SUMMARY:🏃 Langtur 22 km · ↑900 hm
+DESCRIPTION:Race-simulation: trail i racegear\, sidste 5 km i løbsfart · 
+ Øv energi: 30-60 g kulhydrat i timen fra 45-60 min · Mål: ≈900 højde
+ meter – find kuperet terræn\, eller løb 2-3 blokke på løbebånd med 
+ 8-10 % stigning undervejs.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈900
+  m op\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-15-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270215T170000
+DTEND;TZID=Europe/Copenhagen:20270215T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 1-2)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 1-2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 1-2)\n
+ Step-ups med håndvægte (høj kasse\, knæhøjde): 2 × 8-10 pr. ben (RIR
+  1-2)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8-10 pr. ben (R
+ IR 1-2)\nLiggende leg curl: 2 × 10-12 (RIR 1-2)\nStående lægløft: 3 ×
+  10-15 (RIR 1-2)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 1-2)\n\nS
+ tep-ups og step-downs forbereder benene til de 1.800 højdemeter på Trans
+ grancanaria.\n\nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-16-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270216T170000
+DTEND;TZID=Europe/Copenhagen:20270216T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-16-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270216T070000
+DTEND;TZID=Europe/Copenhagen:20270216T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 19 · Nedtrapning (H
+ alf)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-17-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270217T070000
+DTEND;TZID=Europe/Copenhagen:20270217T080000
+SUMMARY:🏃 Kvalitet 8 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×8 min tærskel\nZone: Z4 · 1
+ 60–179 bpm\n\nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-18-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270218T170000
+DTEND;TZID=Europe/Copenhagen:20270218T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 1-2)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 1-2)\nDips (evt. med vægt): 3 × 8-12 (RIR 1-2)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 1-2)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 1-2)\nStraight-arm pulldown: 2 × 12-15 (RIR 1-2)\n\nUge 19 
+ · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-19-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270219T070000
+DTEND;TZID=Europe/Copenhagen:20270219T074000
+SUMMARY:⛰️ Bakke 5 km · ↑250 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 25 min rask gang
+ /let løb på løbebånd med 12 % stigning (≈250 højdemeter)\, 5 min ro
+ lig. Alternativ: trapper/StairMaster i samme tid. Træn hænder-på-lår-t
+ eknikken.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈250 m op\n\nUge 19 
+ · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-20-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270220T170000
+DTEND;TZID=Europe/Copenhagen:20270220T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 1-2)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 1-2)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 1-2)\nEZ-bar curl: 3 × 8-12 (RIR 1-2)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 1-2)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 1-2)\n\nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-20-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270220T070000
+DTEND;TZID=Europe/Copenhagen:20270220T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 19 · Nedtrapning (H
+ alf)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-21-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270221T090000
+DTEND;TZID=Europe/Copenhagen:20270221T104400
+SUMMARY:🏃 Langtur 16 km · ↑300 hm
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+  · Mål: ≈300 højdemeter – find kuperet terræn\, eller løb 2-3 blo
+ kke på løbebånd med 8-10 % stigning undervejs.\nZone: Z2 · 120–139 b
+ pm\nHøjdemeter: ≈300 m op\n\nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270222T070000
+DTEND;TZID=Europe/Copenhagen:20270222T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig + 4 strides\nZone: Z2 · 120–139 bpm\n\nUge 20 · Løbs
+ uge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-23-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270223T170000
+DTEND;TZID=Europe/Copenhagen:20270223T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 1-2)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 1-2)\nStående skulderpres: 3 × 6-8 (RIR 1-2)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 1-2)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 1-2)\n\nUge 20 · Løbsuge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-24-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270224T070000
+DTEND;TZID=Europe/Copenhagen:20270224T080000
+SUMMARY:🏃 Kvalitet 7 km
+DESCRIPTION:Opvarmning + 4×3 min ved race-indsats\nZone: Z4 · 160–179 b
+ pm\n\nUge 20 · Løbsuge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-25-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270225T170000
+DTEND;TZID=Europe/Copenhagen:20270225T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 2 × 8-10 (RIR 3)\nBarbell- eller T-bar-row: 2
+  × 8-10 (RIR 3)\nDips (evt. med vægt): 1 × 8-12 (RIR 3)\nLat pulldown m
+ ed neutralt greb: 1 × 10-12 (RIR 3)\nCable fly (lav → høj): 1 × 12-15
+  (RIR 3)\nStraight-arm pulldown: 1 × 12-15 (RIR 3)\n\nDeload: lettere væ
+ gt\, ingen sæt tæt på failure.\n\nUge 20 · Løbsuge – Transgrancanar
+ ia
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-26-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270226T070000
+DTEND;TZID=Europe/Copenhagen:20270226T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Shakeout\, meget rolig\nZone: Z1-2 · 102–139 bpm\n\nUge 20 
+ · Løbsuge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-27-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270227T080000
+DTEND;TZID=Europe/Copenhagen:20270227T103000
+SUMMARY:🏁 Transgrancanaria Half · ↑1817 hm
+DESCRIPTION:RACE: Transgrancanaria Half – 23 km\, ca. 1.800 højdemeter o
+ p (2026-ruten Santa Lucía → Tejeda). Gå de stejle stykker\, løb reste
+ n.\nZone: Race · Race-indsats\nHøjdemeter: ≈1817 m op\n\nUge 20 · Lø
+ bsuge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-01-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270301T170000
+DTEND;TZID=Europe/Copenhagen:20270301T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 1 × 5-8 (RIR 3)\nRumænsk dødløft:
+  1 × 6-8 (RIR 3)\nBulgarsk split squat: 1 × 8-10 pr. ben (RIR 3)\nLiggen
+ de leg curl: 1 × 10-12 (RIR 3)\nStående lægløft: 1 × 10-15 (RIR 3)\nH
+ anging leg raises / ab wheel: 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\
+ , ingen sæt tæt på failure.\n\nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-02-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270302T170000
+DTEND;TZID=Europe/Copenhagen:20270302T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 2 × 5-7 (RIR 3)\nPull-ups med vægt / lat pulldown:
+  2 × 6-8 (RIR 3)\nStående skulderpres: 1 × 6-8 (RIR 3)\nRows med støtt
+ e til brystet: 1 × 8-10 (RIR 3)\nIncline DB curl + rebpushdown (superset)
+ : 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\, ingen sæt tæt på failur
+ e.\n\nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-02-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270302T070000
+DTEND;TZID=Europe/Copenhagen:20270302T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 21 · Restitution ·
+  Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-04-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270304T170000
+DTEND;TZID=Europe/Copenhagen:20270304T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 2 × 8-10 (RIR 3)\nBarbell- eller T-bar-row: 2
+  × 8-10 (RIR 3)\nDips (evt. med vægt): 1 × 8-12 (RIR 3)\nLat pulldown m
+ ed neutralt greb: 1 × 10-12 (RIR 3)\nCable fly (lav → høj): 1 × 12-15
+  (RIR 3)\nStraight-arm pulldown: 1 × 12-15 (RIR 3)\n\nDeload: lettere væ
+ gt\, ingen sæt tæt på failure.\n\nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-05-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270305T070000
+DTEND;TZID=Europe/Copenhagen:20270305T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 21 · Restitution ·
+  Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-06-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270306T170000
+DTEND;TZID=Europe/Copenhagen:20270306T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 1 × 8-10 (RIR 3)\nLateral raises (kab
+ el eller DB): 2 × 12-20 (RIR 3)\nRear delt fly / face pulls: 1 × 15-20 (
+ RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nOverhead triceps extension (kabel)
+ : 1 × 10-12 (RIR 3)\nHammer curl + pushdown (superset): 1 × 12-15 (RIR 3
+ )\n\nDeload: lettere vægt\, ingen sæt tæt på failure.\n\nUge 21 · Res
+ titution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-06-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270306T070000
+DTEND;TZID=Europe/Copenhagen:20270306T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 21 · Restitution ·
+  Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-07-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270307T090000
+DTEND;TZID=Europe/Copenhagen:20270307T100500
+SUMMARY:🏃 Langtur 10 km
+DESCRIPTION:Rolig\, kun hvis kroppen er frisk\nZone: Z2 · 120–139 bpm\n\
+ nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-08-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270308T170000
+DTEND;TZID=Europe/Copenhagen:20270308T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 5-8 (RIR 2)\nRumænsk dødløft:
+  2 × 6-8 (RIR 2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2)\nLiggen
+ de leg curl: 2 × 10-12 (RIR 2)\nStående lægløft: 2 × 10-15 (RIR 2)\nH
+ anging leg raises / ab wheel: 2 × 10-12 (RIR 2)\n\nMarathonfase: vedligeh
+ old styrke\, ingen ømhed før langturen.\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-09-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270309T170000
+DTEND;TZID=Europe/Copenhagen:20270309T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2)\nPull-ups med vægt / lat pulldown:
+  4 × 6-8 (RIR 2)\nStående skulderpres: 3 × 6-8 (RIR 2)\nRows med støtt
+ e til brystet: 3 × 8-10 (RIR 2)\nIncline DB curl + rebpushdown (superset)
+ : 2 × 10-12 (RIR 2)\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-09-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270309T070000
+DTEND;TZID=Europe/Copenhagen:20270309T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 22 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-10-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270310T070000
+DTEND;TZID=Europe/Copenhagen:20270310T080000
+SUMMARY:🏃 Kvalitet 10 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×10 min tærskel\nZone: Z4 · 
+ 160–179 bpm\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-11-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270311T170000
+DTEND;TZID=Europe/Copenhagen:20270311T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2)\nBarbell- eller T-bar-row: 4
+  × 8-10 (RIR 2)\nDips (evt. med vægt): 3 × 8-12 (RIR 2)\nLat pulldown m
+ ed neutralt greb: 3 × 10-12 (RIR 2)\nCable fly (lav → høj): 3 × 12-15
+  (RIR 2)\nStraight-arm pulldown: 2 × 12-15 (RIR 2)\n\nUge 22 · Marathon-
+ opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-12-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270312T070000
+DTEND;TZID=Europe/Copenhagen:20270312T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-13-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270313T170000
+DTEND;TZID=Europe/Copenhagen:20270313T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2)\nLateral raises (kab
+ el eller DB): 4 × 12-20 (RIR 2)\nRear delt fly / face pulls: 3 × 15-20 (
+ RIR 2)\nEZ-bar curl: 3 × 8-12 (RIR 2)\nOverhead triceps extension (kabel)
+ : 3 × 10-12 (RIR 2)\nHammer curl + pushdown (superset): 2 × 12-15 (RIR 2
+ )\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-14-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270314T090000
+DTEND;TZID=Europe/Copenhagen:20270314T112300
+SUMMARY:🏃 Langtur 22 km
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+ \nZone: Z2 · 120–139 bpm\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-15-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270315T170000
+DTEND;TZID=Europe/Copenhagen:20270315T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 5-8 (RIR 2)\nRumænsk dødløft:
+  2 × 6-8 (RIR 2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2)\nLiggen
+ de leg curl: 2 × 10-12 (RIR 2)\nStående lægløft: 2 × 10-15 (RIR 2)\nH
+ anging leg raises / ab wheel: 2 × 10-12 (RIR 2)\n\nMarathonfase: vedligeh
+ old styrke\, ingen ømhed før langturen.\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-16-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270316T170000
+DTEND;TZID=Europe/Copenhagen:20270316T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2)\nPull-ups med vægt / lat pulldown:
+  4 × 6-8 (RIR 2)\nStående skulderpres: 3 × 6-8 (RIR 2)\nRows med støtt
+ e til brystet: 3 × 8-10 (RIR 2)\nIncline DB curl + rebpushdown (superset)
+ : 2 × 10-12 (RIR 2)\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-16-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270316T070000
+DTEND;TZID=Europe/Copenhagen:20270316T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 23 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270317T070000
+DTEND;TZID=Europe/Copenhagen:20270317T080000
+SUMMARY:🏃 Kvalitet 11 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 5×1 km i 10k-fart\, 90 sek jog\
+ nZone: Z4 · 160–179 bpm\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-18-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270318T170000
+DTEND;TZID=Europe/Copenhagen:20270318T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2)\nBarbell- eller T-bar-row: 4
+  × 8-10 (RIR 2)\nDips (evt. med vægt): 3 × 8-12 (RIR 2)\nLat pulldown m
+ ed neutralt greb: 3 × 10-12 (RIR 2)\nCable fly (lav → høj): 3 × 12-15
+  (RIR 2)\nStraight-arm pulldown: 2 × 12-15 (RIR 2)\n\nUge 23 · Marathon-
+ opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270319T070000
+DTEND;TZID=Europe/Copenhagen:20270319T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-20-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270320T170000
+DTEND;TZID=Europe/Copenhagen:20270320T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2)\nLateral raises (kab
+ el eller DB): 4 × 12-20 (RIR 2)\nRear delt fly / face pulls: 3 × 15-20 (
+ RIR 2)\nEZ-bar curl: 3 × 8-12 (RIR 2)\nOverhead triceps extension (kabel)
+ : 3 × 10-12 (RIR 2)\nHammer curl + pushdown (superset): 2 × 12-15 (RIR 2
+ )\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-20-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270320T070000
+DTEND;TZID=Europe/Copenhagen:20270320T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 23 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-21-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270321T090000
+DTEND;TZID=Europe/Copenhagen:20270321T114200
+SUMMARY:🏃 Langtur 25 km
+DESCRIPTION:Rolig\, sidste 5 km i marathonfart (MP) · Øv energi: 30-60 g 
+ kulhydrat i timen fra 45-60 min\nZone: Z2 · 120–139 bpm\n\nUge 23 · Ma
+ rathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-22-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270322T170000
+DTEND;TZID=Europe/Copenhagen:20270322T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 5-8 (RIR 2)\nRumænsk dødløft:
+  2 × 6-8 (RIR 2)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2)\nLiggen
+ de leg curl: 2 × 10-12 (RIR 2)\nStående lægløft: 2 × 10-15 (RIR 2)\nH
+ anging leg raises / ab wheel: 2 × 10-12 (RIR 2)\n\nMarathonfase: vedligeh
+ old styrke\, ingen ømhed før langturen.\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-23-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270323T170000
+DTEND;TZID=Europe/Copenhagen:20270323T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2)\nPull-ups med vægt / lat pulldown:
+  4 × 6-8 (RIR 2)\nStående skulderpres: 3 × 6-8 (RIR 2)\nRows med støtt
+ e til brystet: 3 × 8-10 (RIR 2)\nIncline DB curl + rebpushdown (superset)
+ : 2 × 10-12 (RIR 2)\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-23-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270323T070000
+DTEND;TZID=Europe/Copenhagen:20270323T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 24 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-24-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270324T070000
+DTEND;TZID=Europe/Copenhagen:20270324T080000
+SUMMARY:🏃 Kvalitet 12 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×15 min i MP / let over\nZone:
+  Z4 · 160–179 bpm\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270325T170000
+DTEND;TZID=Europe/Copenhagen:20270325T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2)\nBarbell- eller T-bar-row: 4
+  × 8-10 (RIR 2)\nDips (evt. med vægt): 3 × 8-12 (RIR 2)\nLat pulldown m
+ ed neutralt greb: 3 × 10-12 (RIR 2)\nCable fly (lav → høj): 3 × 12-15
+  (RIR 2)\nStraight-arm pulldown: 2 × 12-15 (RIR 2)\n\nUge 24 · Marathon-
+ opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-26-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270326T070000
+DTEND;TZID=Europe/Copenhagen:20270326T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-27-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270327T170000
+DTEND;TZID=Europe/Copenhagen:20270327T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2)\nLateral raises (kab
+ el eller DB): 4 × 12-20 (RIR 2)\nRear delt fly / face pulls: 3 × 15-20 (
+ RIR 2)\nEZ-bar curl: 3 × 8-12 (RIR 2)\nOverhead triceps extension (kabel)
+ : 3 × 10-12 (RIR 2)\nHammer curl + pushdown (superset): 2 × 12-15 (RIR 2
+ )\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-27-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270327T070000
+DTEND;TZID=Europe/Copenhagen:20270327T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 24 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-28-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270328T090000
+DTEND;TZID=Europe/Copenhagen:20270328T120200
+SUMMARY:🏃 Langtur 28 km
+DESCRIPTION:Rolig Z2\, øv gel hver 30-40 min\nZone: Z2 · 120–139 bpm\n\
+ nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-29-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270329T170000
+DTEND;TZID=Europe/Copenhagen:20270329T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 1 × 5-8 (RIR 3)\nRumænsk dødløft:
+  1 × 6-8 (RIR 3)\nBulgarsk split squat: 1 × 8-10 pr. ben (RIR 3)\nLiggen
+ de leg curl: 1 × 10-12 (RIR 3)\nStående lægløft: 1 × 10-15 (RIR 3)\nH
+ anging leg raises / ab wheel: 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\
+ , ingen sæt tæt på failure. Marathonfase: vedligehold styrke\, ingen ø
+ mhed før langturen.\n\nUge 25 · Marathon-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-30-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270330T170000
+DTEND;TZID=Europe/Copenhagen:20270330T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 2 × 5-7 (RIR 3)\nPull-ups med vægt / lat pulldown:
+  2 × 6-8 (RIR 3)\nStående skulderpres: 1 × 6-8 (RIR 3)\nRows med støtt
+ e til brystet: 1 × 8-10 (RIR 3)\nIncline DB curl + rebpushdown (superset)
+ : 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\, ingen sæt tæt på failur
+ e.\n\nUge 25 · Marathon-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-30-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270330T070000
+DTEND;TZID=Europe/Copenhagen:20270330T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 25 · Marathon-opbyg
+ ning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-31-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270331T070000
+DTEND;TZID=Europe/Copenhagen:20270331T080000
+SUMMARY:🏃 Kvalitet 8 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Rolig + 6×20 sek strides\nZone:
+  Z4 · 160–179 bpm\n\nUge 25 · Marathon-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-01-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270401T170000
+DTEND;TZID=Europe/Copenhagen:20270401T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 2 × 8-10 (RIR 3)\nBarbell- eller T-bar-row: 2
+  × 8-10 (RIR 3)\nDips (evt. med vægt): 1 × 8-12 (RIR 3)\nLat pulldown m
+ ed neutralt greb: 1 × 10-12 (RIR 3)\nCable fly (lav → høj): 1 × 12-15
+  (RIR 3)\nStraight-arm pulldown: 1 × 12-15 (RIR 3)\n\nDeload: lettere væ
+ gt\, ingen sæt tæt på failure.\n\nUge 25 · Marathon-opbygning · Deloa
+ d
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-02-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270402T070000
+DTEND;TZID=Europe/Copenhagen:20270402T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 25 · Marathon-opbyg
+ ning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-03-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270403T170000
+DTEND;TZID=Europe/Copenhagen:20270403T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 1 × 8-10 (RIR 3)\nLateral raises (kab
+ el eller DB): 2 × 12-20 (RIR 3)\nRear delt fly / face pulls: 1 × 15-20 (
+ RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nOverhead triceps extension (kabel)
+ : 1 × 10-12 (RIR 3)\nHammer curl + pushdown (superset): 1 × 12-15 (RIR 3
+ )\n\nDeload: lettere vægt\, ingen sæt tæt på failure.\n\nUge 25 · Mar
+ athon-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-03-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270403T070000
+DTEND;TZID=Europe/Copenhagen:20270403T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 25 · Marathon-opbyg
+ ning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-04-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270404T090000
+DTEND;TZID=Europe/Copenhagen:20270404T111000
+SUMMARY:🏃 Langtur 20 km
+DESCRIPTION:Rolig\, med 10 km i MP · Øv energi: 30-60 g kulhydrat i timen
+  fra 45-60 min\nZone: Z2 · 120–139 bpm\n\nUge 25 · Marathon-opbygning 
+ · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-05-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270405T170000
+DTEND;TZID=Europe/Copenhagen:20270405T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 5-8 (RIR 2)\nRumænsk dødløft:
+  2 × 6-8 (RIR 2)\nLiggende leg curl: 2 × 10-12 (RIR 2)\nStående læglø
+ ft: 2 × 10-15 (RIR 2)\nHanging leg raises / ab wheel: 2 × 10-12 (RIR 2)\
+ n\nMarathonfase: vedligehold styrke\, ingen ømhed før langturen.\n\nUge 
+ 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-06-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270406T170000
+DTEND;TZID=Europe/Copenhagen:20270406T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2)\nPull-ups med vægt / lat pulldown:
+  4 × 6-8 (RIR 2)\nStående skulderpres: 3 × 6-8 (RIR 2)\nRows med støtt
+ e til brystet: 3 × 8-10 (RIR 2)\nIncline DB curl + rebpushdown (superset)
+ : 2 × 10-12 (RIR 2)\n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-06-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270406T070000
+DTEND;TZID=Europe/Copenhagen:20270406T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 26 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-07-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270407T070000
+DTEND;TZID=Europe/Copenhagen:20270407T080000
+SUMMARY:🏃 Kvalitet 12 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 2×20 min tærskel\nZone: Z4 · 
+ 160–179 bpm\n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-08-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270408T170000
+DTEND;TZID=Europe/Copenhagen:20270408T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2)\nBarbell- eller T-bar-row: 4
+  × 8-10 (RIR 2)\nDips (evt. med vægt): 3 × 8-12 (RIR 2)\nLat pulldown m
+ ed neutralt greb: 3 × 10-12 (RIR 2)\nCable fly (lav → høj): 3 × 12-15
+  (RIR 2)\nStraight-arm pulldown: 2 × 12-15 (RIR 2)\n\nUge 26 · Marathon-
+ opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-09-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270409T070000
+DTEND;TZID=Europe/Copenhagen:20270409T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-10-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270410T170000
+DTEND;TZID=Europe/Copenhagen:20270410T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2)\nLateral raises (kab
+ el eller DB): 4 × 12-20 (RIR 2)\nRear delt fly / face pulls: 3 × 15-20 (
+ RIR 2)\nEZ-bar curl: 3 × 8-12 (RIR 2)\nOverhead triceps extension (kabel)
+ : 3 × 10-12 (RIR 2)\nHammer curl + pushdown (superset): 2 × 12-15 (RIR 2
+ )\n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-10-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270410T070000
+DTEND;TZID=Europe/Copenhagen:20270410T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 26 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-11-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270411T090000
+DTEND;TZID=Europe/Copenhagen:20270411T121500
+SUMMARY:🏃 Langtur 30 km
+DESCRIPTION:Rolig Z2\, fuld race-ernæring\nZone: Z2 · 120–139 bpm\n\nUg
+ e 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-12-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270412T170000
+DTEND;TZID=Europe/Copenhagen:20270412T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 5-8 (RIR 2)\nRumænsk dødløft:
+  2 × 6-8 (RIR 2)\nLiggende leg curl: 2 × 10-12 (RIR 2)\nStående læglø
+ ft: 2 × 10-15 (RIR 2)\nHanging leg raises / ab wheel: 2 × 10-12 (RIR 2)\
+ n\nMarathonfase: vedligehold styrke\, ingen ømhed før langturen.\n\nUge 
+ 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-13-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270413T170000
+DTEND;TZID=Europe/Copenhagen:20270413T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2)\nPull-ups med vægt / lat pulldown:
+  4 × 6-8 (RIR 2)\nStående skulderpres: 3 × 6-8 (RIR 2)\nRows med støtt
+ e til brystet: 3 × 8-10 (RIR 2)\nIncline DB curl + rebpushdown (superset)
+ : 2 × 10-12 (RIR 2)\n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-13-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270413T070000
+DTEND;TZID=Europe/Copenhagen:20270413T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 27 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-14-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270414T070000
+DTEND;TZID=Europe/Copenhagen:20270414T080000
+SUMMARY:🏃 Kvalitet 13 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 6×1 km i 10k-fart\nZone: Z4 · 
+ 160–179 bpm\n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-15-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270415T170000
+DTEND;TZID=Europe/Copenhagen:20270415T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2)\nBarbell- eller T-bar-row: 4
+  × 8-10 (RIR 2)\nDips (evt. med vægt): 3 × 8-12 (RIR 2)\nLat pulldown m
+ ed neutralt greb: 3 × 10-12 (RIR 2)\nCable fly (lav → høj): 3 × 12-15
+  (RIR 2)\nStraight-arm pulldown: 2 × 12-15 (RIR 2)\n\nUge 27 · Marathon-
+ opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-16-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270416T070000
+DTEND;TZID=Europe/Copenhagen:20270416T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-17-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270417T170000
+DTEND;TZID=Europe/Copenhagen:20270417T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2)\nLateral raises (kab
+ el eller DB): 4 × 12-20 (RIR 2)\nRear delt fly / face pulls: 3 × 15-20 (
+ RIR 2)\nEZ-bar curl: 3 × 8-12 (RIR 2)\nOverhead triceps extension (kabel)
+ : 3 × 10-12 (RIR 2)\nHammer curl + pushdown (superset): 2 × 12-15 (RIR 2
+ )\n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-17-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270417T070000
+DTEND;TZID=Europe/Copenhagen:20270417T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 27 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-18-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270418T090000
+DTEND;TZID=Europe/Copenhagen:20270418T122800
+SUMMARY:🏃 Langtur 32 km
+DESCRIPTION:Længste tur: rolig\, sidste 8 km stabil · Øv energi: 30-60 g
+  kulhydrat i timen fra 45-60 min\nZone: Z2 · 120–139 bpm\n\nUge 27 · M
+ arathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-19-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270419T170000
+DTEND;TZID=Europe/Copenhagen:20270419T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 5-8 (RIR 2)\nRumænsk dødløft:
+  2 × 6-8 (RIR 2)\nLiggende leg curl: 2 × 10-12 (RIR 2)\nStående læglø
+ ft: 2 × 10-15 (RIR 2)\nHanging leg raises / ab wheel: 2 × 10-12 (RIR 2)\
+ n\nMarathonfase: vedligehold styrke\, ingen ømhed før langturen.\n\nUge 
+ 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-20-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270420T170000
+DTEND;TZID=Europe/Copenhagen:20270420T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2)\nPull-ups med vægt / lat pulldown:
+  4 × 6-8 (RIR 2)\nStående skulderpres: 3 × 6-8 (RIR 2)\nRows med støtt
+ e til brystet: 3 × 8-10 (RIR 2)\nIncline DB curl + rebpushdown (superset)
+ : 2 × 10-12 (RIR 2)\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-20-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270420T070000
+DTEND;TZID=Europe/Copenhagen:20270420T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-21-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270421T070000
+DTEND;TZID=Europe/Copenhagen:20270421T080000
+SUMMARY:🏃 Kvalitet 11 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 4×10 min i MP\nZone: Z4 · 160
+ –179 bpm\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-22-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270422T170000
+DTEND;TZID=Europe/Copenhagen:20270422T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2)\nBarbell- eller T-bar-row: 4
+  × 8-10 (RIR 2)\nDips (evt. med vægt): 3 × 8-12 (RIR 2)\nLat pulldown m
+ ed neutralt greb: 3 × 10-12 (RIR 2)\nCable fly (lav → høj): 3 × 12-15
+  (RIR 2)\nStraight-arm pulldown: 2 × 12-15 (RIR 2)\n\nUge 28 · Nedtrapni
+ ng
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-23-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270423T070000
+DTEND;TZID=Europe/Copenhagen:20270423T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-24-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270424T170000
+DTEND;TZID=Europe/Copenhagen:20270424T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2)\nLateral raises (kab
+ el eller DB): 4 × 12-20 (RIR 2)\nRear delt fly / face pulls: 3 × 15-20 (
+ RIR 2)\nEZ-bar curl: 3 × 8-12 (RIR 2)\nOverhead triceps extension (kabel)
+ : 3 × 10-12 (RIR 2)\nHammer curl + pushdown (superset): 2 × 12-15 (RIR 2
+ )\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-24-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270424T070000
+DTEND;TZID=Europe/Copenhagen:20270424T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-25-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270425T090000
+DTEND;TZID=Europe/Copenhagen:20270425T114900
+SUMMARY:🏃 Langtur 26 km
+DESCRIPTION:Rolig\, med 14 km i MP · Øv energi: 30-60 g kulhydrat i timen
+  fra 45-60 min\nZone: Z2 · 120–139 bpm\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-26-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270426T170000
+DTEND;TZID=Europe/Copenhagen:20270426T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 5-8 (RIR 4)\nRumænsk dødløft:
+  2 × 6-8 (RIR 4)\nLiggende leg curl: 2 × 10-12 (RIR 4)\nStående læglø
+ ft: 2 × 10-15 (RIR 4)\nHanging leg raises / ab wheel: 2 × 10-12 (RIR 4)\
+ n\nSidste benpas før marathon: kun 2 lette sæt pr. øvelse\, langt fra f
+ ailure.\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-27-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270427T170000
+DTEND;TZID=Europe/Copenhagen:20270427T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2)\nPull-ups med vægt / lat pulldown:
+  4 × 6-8 (RIR 2)\nStående skulderpres: 3 × 6-8 (RIR 2)\nRows med støtt
+ e til brystet: 3 × 8-10 (RIR 2)\nIncline DB curl + rebpushdown (superset)
+ : 2 × 10-12 (RIR 2)\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-27-1@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270427T070000
+DTEND;TZID=Europe/Copenhagen:20270427T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-28-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270428T070000
+DTEND;TZID=Europe/Copenhagen:20270428T080000
+SUMMARY:🏃 Kvalitet 9 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×8 min tærskel\nZone: Z4 · 1
+ 60–179 bpm\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-29-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270429T170000
+DTEND;TZID=Europe/Copenhagen:20270429T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2)\nBarbell- eller T-bar-row: 4
+  × 8-10 (RIR 2)\nDips (evt. med vægt): 3 × 8-12 (RIR 2)\nLat pulldown m
+ ed neutralt greb: 3 × 10-12 (RIR 2)\nCable fly (lav → høj): 3 × 12-15
+  (RIR 2)\nStraight-arm pulldown: 2 × 12-15 (RIR 2)\n\nUge 29 · Nedtrapni
+ ng
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-30-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270430T070000
+DTEND;TZID=Europe/Copenhagen:20270430T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-01-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270501T170000
+DTEND;TZID=Europe/Copenhagen:20270501T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2)\nLateral raises (kab
+ el eller DB): 4 × 12-20 (RIR 2)\nRear delt fly / face pulls: 3 × 15-20 (
+ RIR 2)\nEZ-bar curl: 3 × 8-12 (RIR 2)\nOverhead triceps extension (kabel)
+ : 3 × 10-12 (RIR 2)\nHammer curl + pushdown (superset): 2 × 12-15 (RIR 2
+ )\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-02-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270502T090000
+DTEND;TZID=Europe/Copenhagen:20270502T105700
+SUMMARY:🏃 Langtur 18 km
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+ \nZone: Z2 · 120–139 bpm\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-03-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270503T070000
+DTEND;TZID=Europe/Copenhagen:20270503T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig\nZone: Z2 · 120–139 bpm\n\nUge 30 · Løbsuge – CPH 
+ Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-04-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270504T170000
+DTEND;TZID=Europe/Copenhagen:20270504T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 2 × 5-7 (RIR 3)\nPull-ups med vægt / lat pulldown:
+  2 × 6-8 (RIR 3)\nStående skulderpres: 1 × 6-8 (RIR 3)\nRows med støtt
+ e til brystet: 1 × 8-10 (RIR 3)\nIncline DB curl + rebpushdown (superset)
+ : 1 × 10-12 (RIR 3)\n\nDeload: lettere vægt\, ingen sæt tæt på failur
+ e.\n\nUge 30 · Løbsuge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-05-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270505T070000
+DTEND;TZID=Europe/Copenhagen:20270505T080000
+SUMMARY:🏃 Kvalitet 7 km
+DESCRIPTION:Opvarmning + 3×5 min i MP\nZone: MP · RPE 6\n\nUge 30 · Løb
+ suge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-06-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270506T170000
+DTEND;TZID=Europe/Copenhagen:20270506T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 2 × 8-10 (RIR 3)\nBarbell- eller T-bar-row: 2
+  × 8-10 (RIR 3)\nDips (evt. med vægt): 1 × 8-12 (RIR 3)\nLat pulldown m
+ ed neutralt greb: 1 × 10-12 (RIR 3)\nCable fly (lav → høj): 1 × 12-15
+  (RIR 3)\nStraight-arm pulldown: 1 × 12-15 (RIR 3)\n\nDeload: lettere væ
+ gt\, ingen sæt tæt på failure.\n\nUge 30 · Løbsuge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-07-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270507T070000
+DTEND;TZID=Europe/Copenhagen:20270507T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig + 4 strides\nZone: Z2 · 120–139 bpm\n\nUge 30 · Løbs
+ uge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-08-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270508T070000
+DTEND;TZID=Europe/Copenhagen:20270508T074500
+SUMMARY:🏃 Rolig 3 km
+DESCRIPTION:Shakeout\, meget rolig\nZone: Z1 · 102–119 bpm\n\nUge 30 · 
+ Løbsuge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-09-0@traeningsplan
+DTSTAMP:20261014T201024Z
+DTSTART;TZID=Europe/Copenhagen:20270509T093000
+DTEND;TZID=Europe/Copenhagen:20270509T140400
+SUMMARY:🏁 CPH Marathon
+DESCRIPTION:RACE: Copenhagen Marathon\nZone: Race · Race-indsats\n\nUge 30
+  · Løbsuge – CPH Marathon
+END:VEVENT
+END:VCALENDAR

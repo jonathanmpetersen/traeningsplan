@@ -1,0 +1,28 @@
+{
+  "timezone": "Europe/Helsinki",
+  "timezone_from": [
+    {
+      "from": "2026-10-12",
+      "timezone": "Europe/Helsinki"
+    },
+    {
+      "from": "2026-12-19",
+      "timezone": "Europe/Copenhagen"
+    }
+  ],
+  "timezone_note": "Tidszonen skifter automatisk efter timezone_from (Helsinki til og med 18/12-2026, København fra 19/12-2026). 'timezone' bruges kun, hvis timezone_from mangler.",
+  "max_hr": null,
+  "resting_hr": null,
+  "lthr": null,
+  "hr_zones": null,
+  "marathon_goal_time": null,
+  "goal_time_note": "Sættes efter en testløbetur omkring uge 6-8 (f.eks. 5 km eller 10 km). Indtil da styres løb efter puls/RPE.",
+  "paces": null,
+  "default_times": {
+    "run_weekday": "07:00",
+    "long_run": "09:00",
+    "strength": "17:00",
+    "transgrancanaria": "08:00",
+    "cph_marathon": "09:30"
+  }
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Træningsplan</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' data: blob:; connect-src 'self' https://qdmyolaucjykebhipgae.supabase.co wss://qdmyolaucjykebhipgae.supabase.co; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="description" content="Jonathans trænings- og løbeplan">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Træning">
+  <meta name="theme-color" content="#F3F4F6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0B0D10" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/premium.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="nav-left" id="navLeft"></div>
+    <div class="nav-title" id="navTitle" aria-hidden="true"></div>
+    <div class="nav-right" id="navRight"></div>
+  </header>
+
+  <aside class="sidebar glass" id="sidebar" aria-label="Navigation"></aside>
+
+  <div class="ptr" id="ptr" aria-hidden="true"></div>
+
+  <main id="view"><div class="loading">Henter planen …</div></main>
+
+  <nav class="tabbar glass" id="tabbar" aria-label="Faner"></nav>
+
+  <!-- Styrkepas i fuldskærm: fast topbjælke, indhold der scroller, og pause-uret fastgjort i bunden -->
+  <section class="workout" id="workout" role="dialog" aria-modal="true" aria-labelledby="woTitle" hidden>
+    <header class="wo-head glass">
+      <button type="button" class="nav-btn wo-close" data-act="woClose" aria-label="Luk passet">‹ Luk</button>
+      <div class="wo-title">
+        <h2 id="woTitle"></h2>
+        <div class="wo-meta"><span class="wo-elapsed" id="woElapsed" aria-label="Tid siden start">–</span><span class="wo-awake" id="woAwake" hidden></span></div>
+      </div>
+      <button type="button" class="btn filled wo-finish" data-act="woFinish">Afslut pas</button>
+    </header>
+    <div class="wo-body" id="woBody"></div>
+    <div class="rest-dock glass" id="restDock" role="timer" aria-live="off">
+      <div class="rd-main"><span class="rd-label" id="rdLabel">Pause</span><span class="rd-time" id="rdTime">0:00</span></div>
+      <div class="rd-btns">
+        <button type="button" class="btn" data-act="restAdd" data-sec="-15" aria-label="15 sekunder kortere">−15</button>
+        <button type="button" class="btn" data-act="restAdd" data-sec="15" aria-label="15 sekunder længere">+15</button>
+        <button type="button" class="btn" data-act="restSound" id="rdSound" aria-label="Lyd"></button>
+        <button type="button" class="btn" data-act="restStop" id="rdStop" aria-label="Stop pause"></button>
+      </div>
+      <div class="rd-bar"><span id="rdBar"></span></div>
+    </div>
+  </section>
+
+  <div class="backdrop" id="backdrop" hidden></div>
+  <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+    <div class="sheet-grab"><span></span></div>
+    <div class="sheet-head">
+      <button class="nav-btn" data-act="closeSheet">Luk</button>
+      <h2 id="sheetTitle"></h2>
+      <div id="sheetRight"></div>
+    </div>
+    <div class="sheet-body" id="sheetBody"></div>
+    <div class="sheet-foot" id="sheetFoot" hidden></div>
+  </section>
+
+  <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

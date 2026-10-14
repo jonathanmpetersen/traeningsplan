@@ -1,0 +1,248 @@
+{
+  "intro": "Planen følger 80/20-princippet: ca. 80 % af løbet er roligt og ca. 20 % er hårdt. De rolige ture bygger fundamentet, så de hårde pas kan løbes med kvalitet. Løb de rolige ture roligt og de hårde pas hårdt – det er det, der gør dig hurtigere.",
+  "zones_note": "RPE = oplevet anstrengelse 1–10. Brug både puls og følelse: pulsen halter 1–2 min efter på korte intervaller, og varme, søvnmangel og stress hæver den.",
+  "zones": [
+    {
+      "zone": "Z1",
+      "rpe": "1–2",
+      "text": "Meget let – restitution"
+    },
+    {
+      "zone": "Z2",
+      "rpe": "3–4",
+      "text": "Rolig – du kan tale i hele sætninger"
+    },
+    {
+      "zone": "Z3",
+      "rpe": "5–6",
+      "text": "Stabil – kontrolleret, korte sætninger"
+    },
+    {
+      "zone": "Z4",
+      "rpe": "7–8",
+      "text": "Hård – tærskel og intervaller, kun få ord"
+    },
+    {
+      "zone": "Z5",
+      "rpe": "9–10",
+      "text": "Meget hård – korte stykker, ingen snak"
+    }
+  ],
+  "categories": [
+    {
+      "id": "easy",
+      "name": "Rolig",
+      "when": "Tirsdag og fredag – i travle uger også lørdag.",
+      "volume": "Typisk 4–8 km.",
+      "content": "Hele turen i Z2. Fredag slutter ofte med 6×20 sek strides.",
+      "purpose": "Bygger kondition, sener og fedtforbrænding og giver mængde uden at slide. Binder ugen sammen mellem de hårde pas.",
+      "types": [
+        "rolig",
+        "strides",
+        "shakeout"
+      ]
+    },
+    {
+      "id": "quality",
+      "name": "Kvalitet",
+      "when": "Onsdag – altid mindst 48 timer efter benpasset.",
+      "volume": "6–13 km i alt, inkl. ca. 2 km opvarmning og 2 km nedvarmning.",
+      "content": "Ugens hårde pas. Typen skifter: okt–nov fartlek, tærskel og korte bakker · dec–feb længere bakkeintervaller og tærskel · mar–apr tærskel, 1 km-intervaller og marathonfart · deload-uger kun rolig tur med strides.",
+      "purpose": "Gør dig hurtigere og bedre til at holde et højt tempo længe.",
+      "types": [
+        "fartlek",
+        "taerskel",
+        "korte_intervaller",
+        "bakkeintervaller",
+        "marathonfart"
+      ]
+    },
+    {
+      "id": "long",
+      "name": "Langtur",
+      "when": "Søndag.",
+      "volume": "Stiger fra 10 km i oktober til 32 km midt i april og falder derefter frem mod marathon.",
+      "content": "Mest Z2. Dec–feb på kuperet terræn/trail med mål for højdemeter. Mar–apr nogle gange med de sidste 5–14 km i marathonfart. Ture over 90 min er også energitræning: 30–60 g kulhydrat i timen fra 45–60 min.",
+      "purpose": "Udholdenhed – ugens vigtigste pas til både Transgrancanaria og marathon.",
+      "types": [
+        "langtur",
+        "marathonfart",
+        "power_hike"
+      ]
+    },
+    {
+      "id": "hills",
+      "name": "Bakke / højdemeter",
+      "when": "Fredag i uge 9–19 (december–februar) – erstatter den rolige fredagstur.",
+      "volume": "10 min opvarmning + 20–50 min power hike/let løb på 12–15 % stigning + 5 min nedvarmning ≈ 250–630 højdemeter.",
+      "content": "Løbebånd med stigning, trapper eller StairMaster.",
+      "purpose": "Forbereder ben, lægge og puls til de ca. 1.800 højdemeter på Transgrancanaria, selvom du træner i flade Helsinki og København.",
+      "types": [
+        "power_hike",
+        "bakkeintervaller"
+      ]
+    },
+    {
+      "id": "race",
+      "name": "Race",
+      "when": "Transgrancanaria Half (antaget lørdag 27/2-2027 – bekræft datoen) og CPH Marathon (søndag 9/5-2027).",
+      "volume": "Løbsugen har færre km.",
+      "content": "Kort kvalitetspas midt i ugen og shakeout dagen før. Ingen benstyrke og intet Skulder & arm i løbsugen.",
+      "purpose": "At høste træningen.",
+      "types": [
+        "race",
+        "shakeout"
+      ]
+    }
+  ],
+  "week_example": [
+    {
+      "day": "Man",
+      "strength": "Lower",
+      "run": "– (aldrig løb på bendag)"
+    },
+    {
+      "day": "Tir",
+      "strength": "Upper",
+      "run": "Rolig"
+    },
+    {
+      "day": "Ons",
+      "strength": "–",
+      "run": "Kvalitet"
+    },
+    {
+      "day": "Tor",
+      "strength": "Bryst & ryg",
+      "run": "–"
+    },
+    {
+      "day": "Fre",
+      "strength": "–",
+      "run": "Rolig + strides (dec–feb: Bakke)"
+    },
+    {
+      "day": "Lør",
+      "strength": "Skulder & arm",
+      "run": "Rolig i travle uger"
+    },
+    {
+      "day": "Søn",
+      "strength": "–",
+      "run": "Langtur"
+    }
+  ],
+  "week_exceptions": "Deload-uger cirka hver 4. uge (mindre mængde, ingen intervaller, styrke med halverede sæt) og løbsuger.",
+  "types": [
+    {
+      "id": "rolig",
+      "name": "Rolig",
+      "zone": "Z2",
+      "rpe": "3–4",
+      "what": "Jævnt, afslappet tempo, hvor du kan føre en samtale.",
+      "why": "Bygger hjerte, kapillærer, sener og fedtforbrænding – grundlaget for alt andet.",
+      "feel": "Næsten for let. Du kunne fortsætte meget længere.",
+      "mistake": "At løbe for hurtigt (Z3), så du er træt til onsdagens kvalitetspas. Gå op ad bakker, hvis pulsen stikker af."
+    },
+    {
+      "id": "langtur",
+      "name": "Langtur",
+      "zone": "Z2",
+      "rpe": "3–5",
+      "what": "Ugens længste tur i roligt tempo, nogle gange med en afslutning i marathonfart.",
+      "why": "Udholdenhed og tid på benene. Her øver du også gel, væske, sko og påklædning til race.",
+      "feel": "Let den første halvdel, tungt de sidste km.",
+      "mistake": "At starte for hurtigt og glemme at spise. Begynd at tage energi efter 45–60 min – før du føler behov."
+    },
+    {
+      "id": "taerskel",
+      "name": "Tærskel",
+      "zone": "Z4",
+      "rpe": "7",
+      "what": "Blokke på 8–20 min i et tempo, du kunne holde i ca. 1 time i et løb, med 2–3 min jog imellem.",
+      "why": "Hæver det tempo, du kan holde uden at syre til. Det vigtigste kvalitetspas til marathon.",
+      "feel": "Komfortabelt hårdt. Kun korte sætninger, og du skal koncentrere dig.",
+      "mistake": "At gøre det til et race, så sidste blok bliver langsommere. Sidste blok skal være lige så hurtig som den første."
+    },
+    {
+      "id": "marathonfart",
+      "name": "Marathonfart (MP)",
+      "zone": "Z3–Z4",
+      "rpe": "5–6",
+      "what": "Længere stykker (10–15 min eller flere km sidst på en langtur) i dit planlagte racetempo.",
+      "why": "Kroppen og hovedet lærer racetempoet, og du øver ernæring i fart.",
+      "feel": "Kontrolleret og rytmisk – let de første km.",
+      "mistake": "At løbe hurtigere end MP, fordi det føles let. Det koster dyrt efter 30 km på racedagen."
+    },
+    {
+      "id": "fartlek",
+      "name": "Fartlek",
+      "zone": "Z3–Z5",
+      "rpe": "6–8",
+      "what": "Fartleg, f.eks. 1 min hurtigt / 1 min roligt i 20–30 min.",
+      "why": "Blød introduktion til fart – bedre løbeøkonomi og rytme.",
+      "feel": "Varieret og sjovt. Hårdt, men aldrig udmattende.",
+      "mistake": "At sprinte de hurtige stykker, så de rolige bliver til gang."
+    },
+    {
+      "id": "korte_intervaller",
+      "name": "Korte intervaller (10 km-fart)",
+      "zone": "Z4–Z5",
+      "rpe": "8",
+      "what": "F.eks. 5–6×1 km i det tempo, du kunne holde på 10 km, med 90 sek jog imellem.",
+      "why": "Øger iltoptagelsen (VO2max) og topfarten, så marathontempoet føles lettere.",
+      "feel": "Hårdt med tung vejrtrækning – men alle intervaller skal kunne løbes i samme tempo.",
+      "mistake": "At første interval er det hurtigste. Start lidt for roligt, og slut stærkt."
+    },
+    {
+      "id": "bakkeintervaller",
+      "name": "Bakkeintervaller",
+      "zone": "Z4–Z5",
+      "rpe": "8",
+      "what": "Korte (45 sek) eller lange (2–4 min) hårde stykker op ad bakke eller på løbebånd med stigning, med jog eller gang ned.",
+      "why": "Styrke i lægge, lår og baller, kraft og bedre løbeteknik – afgørende til Transgrancanaria.",
+      "feel": "Tungt i ben og lunger, men med kontrolleret teknik.",
+      "mistake": "Korte, hoppende skridt og at kigge ned. Hold dig oprejst, kig 10 m frem, og brug armene aktivt."
+    },
+    {
+      "id": "power_hike",
+      "name": "Power hike",
+      "zone": "Z2–Z3",
+      "rpe": "5–6",
+      "what": "Rask gang op ad stejl stigning (12–15 % på løbebånd), trapper eller StairMaster, med hænderne skubbende på lårene.",
+      "why": "På stejle trailstigninger er rask gang ofte lige så hurtig som løb og meget mere økonomisk. De fleste går de stejle stykker på Transgrancanaria.",
+      "feel": "Brænder i lægge og baller, pulsen stiger roligt.",
+      "mistake": "At holde fast i løbebåndets håndtag – det fjerner effekten. Læn dig let frem fra anklerne."
+    },
+    {
+      "id": "strides",
+      "name": "Strides",
+      "zone": "–",
+      "rpe": "7–8",
+      "what": "4–6 afslappede accelerationer på 20 sek op til ca. 90 % af topfart efter en rolig tur, med fuld pause (gå/stå) imellem.",
+      "why": "Bedre løbestil, kadence og fart uden at blive træt.",
+      "feel": "Hurtigt, let og afslappet – som at flyve.",
+      "mistake": "At spænde op i skuldre og ansigt eller sprinte 100 %."
+    },
+    {
+      "id": "shakeout",
+      "name": "Shakeout",
+      "zone": "Z1",
+      "rpe": "2",
+      "what": "Meget kort (3–5 km) og meget rolig tur, typisk dagen før et race.",
+      "why": "Løsner benene, dæmper nerverne og holder rytmen.",
+      "feel": "Næsten som en gåtur.",
+      "mistake": "At lave mere, end der står, eller at teste formen."
+    },
+    {
+      "id": "race",
+      "name": "Race",
+      "zone": "Race",
+      "rpe": "–",
+      "what": "Transgrancanaria Half: ca. 23 km trail med ca. 1.800 højdemeter op (ruten 2026: Santa Lucía de Tirajana → Tejeda). CPH Marathon: 42,2 km på flad rute.",
+      "why": "At høste træningen.",
+      "feel": "Nerver før start er normalt – stol på planen.",
+      "mistake": "At starte for hurtigt eller prøve noget nyt. Transgrancanaria: gå de stejle stykker, løb det flade og nedløbet, og spis/drik hver 30.–40. min. Marathon: de første 10 km lidt langsommere end MP, midterdelen i MP – halvvejs er kun opvarmningen, det rigtige løb starter ved 30 km. Samme sko, gel og morgenmad som på langturene."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+/* Træningsplan – skarpt og professionelt: neutrale grafit-toner, én dyb blå accent, tynde præcise kanter,
+   ingen dekoration. Ligger oven på app.css og ændrer kun udseendet (farver, kanter, typografi) – ikke funktion.
+   Kontrast mindst 4,5:1 på tekst, i både mørkt og lyst tema. */
+
+:root {
+  --bg: #F3F4F6;
+  --card: #FFFFFF;
+  --fill: rgba(15, 23, 42, .055);
+  --fill-2: rgba(15, 23, 42, .10);
+  --label: #0F172A;
+  --label-2: #475569;
+  --label-3: #94A3B8;
+  --sep: rgba(15, 23, 42, .10);
+  --accent: #2563EB;
+  --accent-text: #1D4ED8;
+  --run: #2BB673;   --run-text: #15803D;
+  --strength: #E8750C; --strength-text: #B45309;
+  --race: #DC3545;  --race-text: #B91C2C;
+  --deload: #94A3B8;
+  --hrv: #7C3AED;
+  --yellow: #D99A06;
+  --warn-bg: rgba(232, 117, 12, .10);
+  --glass: rgba(255, 255, 255, .80);
+  --glass-edge: inset 0 0 0 .5px rgba(15, 23, 42, .12);
+  --glass-shadow: 0 6px 24px rgba(15, 23, 42, .08);
+  --radius: 14px;
+  --card-edge: inset 0 0 0 .5px rgba(15, 23, 42, .10);
+  --card-shadow: 0 1px 2px rgba(15, 23, 42, .04);
+  --cool: #2563EB;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0B0D10;
+    --card: #14171C;
+    --fill: rgba(255, 255, 255, .06);
+    --fill-2: rgba(255, 255, 255, .11);
+    --label: #F1F5F9;
+    --label-2: #A3ADBB;
+    --label-3: #6B7686;
+    --sep: rgba(255, 255, 255, .09);
+    --accent: #3B82F6;
+    --accent-text: #7EB0FF;
+    --run: #34C38F;   --run-text: #4ED6A3;
+    --strength: #F59A3C; --strength-text: #F7AE5E;
+    --race: #EF5B67;  --race-text: #F5848D;
+    --deload: #6B7686;
+    --hrv: #A78BFA;
+    --yellow: #E8B73A;
+    --warn-bg: rgba(245, 154, 60, .14);
+    --glass: rgba(20, 23, 28, .78);
+    --glass-edge: inset 0 0 0 .5px rgba(255, 255, 255, .12);
+    --glass-shadow: 0 8px 28px rgba(0, 0, 0, .5);
+    --card-edge: inset 0 0 0 .5px rgba(255, 255, 255, .08);
+    --card-shadow: none;
+    --cool: #7EB0FF;
+  }
+}
+
+/* ---------- Typografi ---------- */
+body { letter-spacing: -.005em; }
+.large-title { font-size: 2.15rem; font-weight: 700; letter-spacing: -.025em; line-height: 1.1; }
+.card h3, .session-head h3 { font-weight: 650; letter-spacing: -.012em; }
+.section-header { font-size: .72rem; font-weight: 600; letter-spacing: .07em; color: var(--label-2); margin-top: 26px; }
+.stat-tile .v, .stat .v, .countdown .num, .streak-n, .m-value, .rd-time, .rec-top b { font-variant-numeric: tabular-nums lining-nums; letter-spacing: -.02em; }
+.stat-tile .v, .stat .v, .countdown .num { font-weight: 700; }
+.stat-tile .l { letter-spacing: .06em; }
+
+/* ---------- Kort og lister: tynd kant, næsten ingen skygge ---------- */
+.card, .group, .stat-tile, .pd-tile, .mm-card { border-radius: var(--radius); box-shadow: var(--card-edge), var(--card-shadow); }
+.row.tappable:active { background-image: linear-gradient(var(--fill), var(--fill)); }
+.note { border-radius: 10px; }
+.adapt-banner { border-left: 3px solid var(--accent); }
+
+/* ---------- Ikon-badges: flade, skarpe farver ---------- */
+.badge-ic { border-radius: 9px; box-shadow: none; }
+.k-accent { background: var(--accent); color: #fff; }
+.k-gray { background: #64748B; }
+.k-rest { background: #64748B; }
+
+/* ---------- Knapper ---------- */
+.btn { border-radius: 12px; box-shadow: none; }
+.btn.filled { background: var(--accent); color: #fff; box-shadow: none; }
+.btn.filled .ic { color: #fff; }
+.btn.green, .btn.on { background: var(--run); color: #04200F; }
+.run-btn.filled { background: var(--fill); color: var(--accent-text); }
+.run-btn.filled .ic { color: var(--accent-text); }
+
+/* ---------- Segmented control og chips ---------- */
+.seg { border-radius: 11px; box-shadow: none; }
+.seg button { border-radius: 9px; }
+.seg button[aria-pressed="true"] { background: var(--card); color: var(--label); box-shadow: 0 1px 3px rgba(15, 23, 42, .18), 0 0 0 .5px rgba(15, 23, 42, .06); }
+@media (prefers-color-scheme: dark) { .seg button[aria-pressed="true"] { background: #2C323B; box-shadow: 0 1px 3px rgba(0, 0, 0, .5); } }
+.chip-btn { background: var(--card); color: var(--label); box-shadow: var(--card-edge); }
+.chip-btn[aria-pressed="true"] { background: var(--accent); color: #fff; box-shadow: none; }
+.chip.accent, .chip.moved, .chip.next-manual, .chip.next-start { color: var(--accent-text); background: rgba(37, 99, 235, .12); }
+@media (prefers-color-scheme: dark) { .chip.accent, .chip.moved, .chip.next-manual, .chip.next-start { background: rgba(59, 130, 246, .18); } }
+.rest-chip.own { background: rgba(37, 99, 235, .14); }
+
+/* ---------- Tab bar, navigation, sidebar ---------- */
+.tabbar { box-shadow: var(--glass-edge), var(--glass-shadow); }
+.tab[aria-current="page"] { color: var(--accent-text); background: var(--fill); }
+@media (min-width: 900px) {
+  .sidebar .side-h { letter-spacing: .07em; }
+}
+
+/* ---------- Kontroller ---------- */
+.switch input:checked + span { background: var(--run); }
+.stepper { border-radius: 10px; }
+.set-row.done .set-ok { background: var(--run); border-color: var(--run); color: #04200F; }
+.search { border-radius: 12px; }
+.wo-finish.ready { animation: pulse 1.6s ease-in-out infinite; }
+.sheet { border-radius: 22px 22px 0 0; }
+
+/* ---------- Grafer og statistik ---------- */
+.chart .bar { fill: var(--strength); opacity: .55; }
+.chart .bar.now { fill: var(--strength); opacity: 1; }
+.chart .bar.sel { fill: var(--accent); opacity: 1; stroke: none; }
+.chart .line.st { stroke: var(--accent); }
+.chart .dot.st { fill: var(--accent); }
+.chart .rd-area { fill: rgba(232, 117, 12, .22); stroke: var(--strength); }
+.chart .rd-band { fill: rgba(43, 182, 115, .12); }
+.mm-legend i { background: linear-gradient(90deg, rgba(232, 117, 12, .2), var(--strength)); }
+.musclemap .mm-m.hot2 > *, .musclemap .mm-m.hot2 g > * { fill: var(--cool); stroke: var(--cool); }
+.mm-legend.two i.s2 { background: var(--cool); opacity: .85; }
+.trv-d.fly { background: rgba(37, 99, 235, .18); }
+.trv-d.hotel { background: rgba(232, 117, 12, .20); }
+.streak-n { color: var(--strength-text); }
+.run-status.ok { color: var(--run-text); } .run-status.err { color: var(--race-text); }
+.bal-ok { color: var(--run-text); } .bal-high { color: var(--race-text); } .bal-low { color: var(--strength-text); }
+.pr-badge, .chip.strength, .chip.next-down { color: var(--strength-text); background: rgba(232, 117, 12, .14); }
+.chip.run, .chip.next-up { color: var(--run-text); background: rgba(43, 182, 115, .14); }
+.chip.race { color: var(--race-text); background: rgba(220, 53, 69, .13); }
