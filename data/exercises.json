@@ -1,0 +1,2730 @@
+{
+  "_note": "Øvelsesbibliotek. 'name' på planens øvelser skal være præcis som i plan.json. step_kg = progressionstrin (5 kg på tunge benløft, ellers 2,5 kg). body = lower/upper. garmin = navne i Garmins øvelseskatalog (to navne = superset); garmin_approx = intet præcist match, så navnet herfra skrives i Garmin-noten. alternatives = id'er på øvelser til samme bevægelse. load_type = hvordan vægten tælles (total/per_hand/machine/cable/bodyweight). aliases = andre navne, fx fra start_weights.json.",
+  "groups": [
+    "Ben",
+    "Baglår og baller",
+    "Læg",
+    "Core",
+    "Bryst",
+    "Ryg",
+    "Skuldre",
+    "Arme"
+  ],
+  "patterns": [
+    "Squat",
+    "Hip hinge",
+    "Enkeltben",
+    "Knæfleksion",
+    "Knæekstension",
+    "Lægløft",
+    "Core",
+    "Horisontalt pres",
+    "Skrå pres",
+    "Dips",
+    "Lodret pres",
+    "Lodret træk",
+    "Horisontalt træk",
+    "Bryst isolation",
+    "Lat isolation",
+    "Skulder isolation",
+    "Bagside skulder",
+    "Biceps",
+    "Triceps",
+    "Arme superset"
+  ],
+  "exercises": [
+    {
+      "id": "squat",
+      "name": "Squat (eller hack squat)",
+      "group": "Ben",
+      "pattern": "Squat",
+      "equipment": "Vægtstang",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Barbell Back Squat"
+      ],
+      "alternatives": [
+        "front-squat",
+        "goblet-squat",
+        "hack-squat",
+        "leg-press",
+        "smith-squat",
+        "trapbar-deadlift"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "lower_back",
+        "abs"
+      ],
+      "technique": "Fødder i skulderbredde, brystet oppe og hele foden i gulvet. Sæt dig ned og lidt bagud, knæene følger tæerne, og pres op gennem hele foden. Hold stram mave."
+    },
+    {
+      "id": "front-squat",
+      "name": "Front squat",
+      "group": "Ben",
+      "pattern": "Squat",
+      "equipment": "Vægtstang",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Barbell Front Squat"
+      ],
+      "alternatives": [
+        "squat",
+        "goblet-squat",
+        "hack-squat",
+        "leg-press"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "quads"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "abs",
+        "lower_back"
+      ],
+      "technique": "Fødder i skulderbredde, brystet oppe og hele foden i gulvet. Sæt dig ned og lidt bagud, knæene følger tæerne, og pres op gennem hele foden. Hold stram mave."
+    },
+    {
+      "id": "hack-squat",
+      "name": "Hack squat (maskine)",
+      "group": "Ben",
+      "pattern": "Squat",
+      "equipment": "Maskine",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Barbell Hack Squat"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "squat",
+        "leg-press",
+        "smith-squat",
+        "front-squat"
+      ],
+      "load_type": "machine",
+      "aliases": [
+        "Hack squat"
+      ],
+      "primary_muscles": [
+        "quads"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "technique": "Fødder i skulderbredde, brystet oppe og hele foden i gulvet. Sæt dig ned og lidt bagud, knæene følger tæerne, og pres op gennem hele foden. Hold stram mave."
+    },
+    {
+      "id": "leg-press",
+      "name": "Benpres (leg press)",
+      "group": "Ben",
+      "pattern": "Squat",
+      "equipment": "Maskine",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Leg Press"
+      ],
+      "alternatives": [
+        "squat",
+        "hack-squat",
+        "goblet-squat",
+        "bulgarian"
+      ],
+      "load_type": "machine",
+      "aliases": [
+        "Leg press"
+      ],
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "technique": "Fødder i skulderbredde, brystet oppe og hele foden i gulvet. Sæt dig ned og lidt bagud, knæene følger tæerne, og pres op gennem hele foden. Hold stram mave."
+    },
+    {
+      "id": "goblet-squat",
+      "name": "Goblet squat",
+      "group": "Ben",
+      "pattern": "Squat",
+      "equipment": "Håndvægt/kettlebell",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Goblet Squat"
+      ],
+      "alternatives": [
+        "squat",
+        "front-squat",
+        "leg-press",
+        "split-squat"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "abs"
+      ],
+      "technique": "Fødder i skulderbredde, brystet oppe og hele foden i gulvet. Sæt dig ned og lidt bagud, knæene følger tæerne, og pres op gennem hele foden. Hold stram mave."
+    },
+    {
+      "id": "smith-squat",
+      "name": "Smith-squat",
+      "group": "Ben",
+      "pattern": "Squat",
+      "equipment": "Smith-maskine",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Barbell Back Squat"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "squat",
+        "hack-squat",
+        "leg-press"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "technique": "Fødder i skulderbredde, brystet oppe og hele foden i gulvet. Sæt dig ned og lidt bagud, knæene følger tæerne, og pres op gennem hele foden. Hold stram mave."
+    },
+    {
+      "id": "rdl",
+      "name": "Rumænsk dødløft",
+      "group": "Baglår og baller",
+      "pattern": "Hip hinge",
+      "equipment": "Vægtstang",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Romanian Deadlift"
+      ],
+      "alternatives": [
+        "back-extension",
+        "db-rdl",
+        "deadlift",
+        "good-morning",
+        "hip-thrust",
+        "trapbar-deadlift"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "lower_back",
+        "forearms"
+      ],
+      "technique": "Skub hoften bagud med let bøjede knæ og ret ryg, mens vægten glider tæt langs benene. Mærk strækket i baglåret, og stå op ved at presse hoften frem.",
+      "doms": true
+    },
+    {
+      "id": "db-rdl",
+      "name": "Rumænsk dødløft med håndvægte",
+      "group": "Baglår og baller",
+      "pattern": "Hip hinge",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Romanian Deadlift"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "rdl",
+        "good-morning",
+        "back-extension",
+        "hip-thrust"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "lower_back",
+        "forearms"
+      ],
+      "technique": "Skub hoften bagud med let bøjede knæ og ret ryg, mens vægten glider tæt langs benene. Mærk strækket i baglåret, og stå op ved at presse hoften frem.",
+      "doms": true
+    },
+    {
+      "id": "deadlift",
+      "name": "Dødløft",
+      "group": "Baglår og baller",
+      "pattern": "Hip hinge",
+      "equipment": "Vægtstang",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Barbell Deadlift"
+      ],
+      "alternatives": [
+        "rdl",
+        "db-rdl",
+        "hip-thrust",
+        "good-morning"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "hamstrings",
+        "glutes",
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "quads",
+        "lats",
+        "forearms"
+      ],
+      "technique": "Stangen over midten af foden, ret ryg og stram mave. Pres gulvet væk, og lås hoften ud øverst uden at læne dig bagover.",
+      "doms": true
+    },
+    {
+      "id": "hip-thrust",
+      "name": "Hip thrust",
+      "group": "Baglår og baller",
+      "pattern": "Hip hinge",
+      "equipment": "Vægtstang + bænk",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Barbell Hip Thrust with Bench"
+      ],
+      "alternatives": [
+        "rdl",
+        "db-rdl",
+        "back-extension",
+        "deadlift"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "quads"
+      ],
+      "technique": "Skulderblade mod bænken, hagen mod brystet. Pres hoften op, til kroppen er lige fra knæ til skulder, og stram ballerne øverst."
+    },
+    {
+      "id": "good-morning",
+      "name": "Good morning",
+      "group": "Baglår og baller",
+      "pattern": "Hip hinge",
+      "equipment": "Vægtstang",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Good Morning"
+      ],
+      "alternatives": [
+        "rdl",
+        "db-rdl",
+        "back-extension"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "hamstrings",
+        "lower_back"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "technique": "Skub hoften bagud med let bøjede knæ og ret ryg, mens vægten glider tæt langs benene. Mærk strækket i baglåret, og stå op ved at presse hoften frem.",
+      "doms": true
+    },
+    {
+      "id": "back-extension",
+      "name": "Rygstræk (back extension)",
+      "group": "Baglår og baller",
+      "pattern": "Hip hinge",
+      "equipment": "Rygstræksbænk",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Hyperextension"
+      ],
+      "alternatives": [
+        "rdl",
+        "db-rdl",
+        "good-morning",
+        "hip-thrust"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "lower_back",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "technique": "Skub hoften bagud med let bøjede knæ og ret ryg, mens vægten glider tæt langs benene. Mærk strækket i baglåret, og stå op ved at presse hoften frem."
+    },
+    {
+      "id": "bulgarian",
+      "name": "Bulgarsk split squat",
+      "group": "Ben",
+      "pattern": "Enkeltben",
+      "equipment": "Håndvægte + bænk",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Dumbbell Bulgarian Split Squat"
+      ],
+      "alternatives": [
+        "split-squat",
+        "reverse-lunge",
+        "walking-lunge",
+        "step-ups",
+        "leg-press"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "technique": "Hold overkroppen ret og kontrol over balancen. Gå ned i et roligt tempo, forreste knæ følger tåen, og pres op gennem forreste hæl.",
+      "doms": true
+    },
+    {
+      "id": "split-squat",
+      "name": "Split squat",
+      "group": "Ben",
+      "pattern": "Enkeltben",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Dumbbell Split Squat"
+      ],
+      "alternatives": [
+        "bulgarian",
+        "reverse-lunge",
+        "walking-lunge",
+        "step-ups"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "technique": "Hold overkroppen ret og kontrol over balancen. Gå ned i et roligt tempo, forreste knæ følger tåen, og pres op gennem forreste hæl.",
+      "doms": true
+    },
+    {
+      "id": "reverse-lunge",
+      "name": "Baglæns udfald",
+      "group": "Ben",
+      "pattern": "Enkeltben",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Dumbbell Reverse Lunge"
+      ],
+      "alternatives": [
+        "bulgarian",
+        "split-squat",
+        "walking-lunge",
+        "step-ups"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings"
+      ],
+      "technique": "Hold overkroppen ret og kontrol over balancen. Gå ned i et roligt tempo, forreste knæ følger tåen, og pres op gennem forreste hæl.",
+      "doms": true
+    },
+    {
+      "id": "walking-lunge",
+      "name": "Gående udfald",
+      "group": "Ben",
+      "pattern": "Enkeltben",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Walking Lunge"
+      ],
+      "alternatives": [
+        "reverse-lunge",
+        "bulgarian",
+        "split-squat",
+        "step-ups"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "technique": "Hold overkroppen ret og kontrol over balancen. Gå ned i et roligt tempo, forreste knæ følger tåen, og pres op gennem forreste hæl.",
+      "doms": true
+    },
+    {
+      "id": "step-ups",
+      "name": "Step-ups med håndvægte (høj kasse, knæhøjde)",
+      "group": "Ben",
+      "pattern": "Enkeltben",
+      "equipment": "Håndvægte + kasse",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Dumbbell Step-up"
+      ],
+      "alternatives": [
+        "bulgarian",
+        "reverse-lunge",
+        "step-downs",
+        "split-squat"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "calves"
+      ],
+      "technique": "Hold overkroppen ret og kontrol over balancen. Gå ned i et roligt tempo, forreste knæ følger tåen, og pres op gennem forreste hæl."
+    },
+    {
+      "id": "step-downs",
+      "name": "Step-downs fra kasse (3 sek ned, excentrisk)",
+      "group": "Ben",
+      "pattern": "Enkeltben",
+      "equipment": "Kasse (evt. håndvægte)",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Dumbbell Step-up"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "step-ups",
+        "bulgarian",
+        "split-squat",
+        "reverse-lunge"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "quads"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "calves"
+      ],
+      "technique": "Hold overkroppen ret og kontrol over balancen. Gå ned i et roligt tempo, forreste knæ følger tåen, og pres op gennem forreste hæl.",
+      "doms": true
+    },
+    {
+      "id": "leg-curl",
+      "name": "Liggende leg curl",
+      "group": "Baglår og baller",
+      "pattern": "Knæfleksion",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Leg Curl"
+      ],
+      "alternatives": [
+        "seated-leg-curl",
+        "nordic",
+        "ball-leg-curl",
+        "rdl"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "calves"
+      ],
+      "technique": "Hold hoften nede, og bøj knæene med kontrol uden at svinge. Hold et sekund i toppen, og sænk langsomt (2–3 sek.)."
+    },
+    {
+      "id": "seated-leg-curl",
+      "name": "Siddende leg curl",
+      "group": "Baglår og baller",
+      "pattern": "Knæfleksion",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Leg Curl"
+      ],
+      "alternatives": [
+        "leg-curl",
+        "nordic",
+        "ball-leg-curl"
+      ],
+      "load_type": "machine",
+      "aliases": [
+        "Siddende leg curl"
+      ],
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "calves"
+      ],
+      "technique": "Hold hoften nede, og bøj knæene med kontrol uden at svinge. Hold et sekund i toppen, og sænk langsomt (2–3 sek.)."
+    },
+    {
+      "id": "nordic",
+      "name": "Nordic hamstring curl",
+      "group": "Baglår og baller",
+      "pattern": "Knæfleksion",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Sliding Leg Curl"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "leg-curl",
+        "seated-leg-curl",
+        "ball-leg-curl"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "calves"
+      ],
+      "technique": "Fiksér hælene, hold hoften strakt, og sænk dig langsomt fremad så længe du kan. Brug hænderne til at skubbe dig op igen.",
+      "doms": true
+    },
+    {
+      "id": "ball-leg-curl",
+      "name": "Leg curl på pilatesbold",
+      "group": "Baglår og baller",
+      "pattern": "Knæfleksion",
+      "equipment": "Pilatesbold",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Sliding Leg Curl"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "leg-curl",
+        "seated-leg-curl",
+        "nordic"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "technique": "Hold hoften nede, og bøj knæene med kontrol uden at svinge. Hold et sekund i toppen, og sænk langsomt (2–3 sek.)."
+    },
+    {
+      "id": "leg-extension",
+      "name": "Leg extension",
+      "group": "Ben",
+      "pattern": "Knæekstension",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Leg Extensions"
+      ],
+      "alternatives": [
+        "split-squat",
+        "goblet-squat",
+        "leg-press"
+      ],
+      "load_type": "machine",
+      "aliases": [
+        "Leg extension"
+      ],
+      "primary_muscles": [
+        "quads"
+      ],
+      "secondary_muscles": [],
+      "technique": "Sid ind mod ryglænet, stræk benene helt, og pause kort i toppen. Sænk langsomt uden at lade vægten slå sammen."
+    },
+    {
+      "id": "calf",
+      "name": "Stående lægløft",
+      "group": "Læg",
+      "pattern": "Lægløft",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Standing Calf Raise"
+      ],
+      "alternatives": [
+        "seated-calf",
+        "single-calf",
+        "legpress-calf"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "calves"
+      ],
+      "secondary_muscles": [],
+      "technique": "Gå helt ned i bunden for et godt stræk og helt op på tæerne. Pause et sekund i toppen, og undgå at svinge."
+    },
+    {
+      "id": "seated-calf",
+      "name": "Siddende lægløft",
+      "group": "Læg",
+      "pattern": "Lægløft",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Seated Calf Raise"
+      ],
+      "alternatives": [
+        "calf",
+        "single-calf",
+        "legpress-calf"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "calves"
+      ],
+      "secondary_muscles": [],
+      "technique": "Gå helt ned i bunden for et godt stræk og helt op på tæerne. Pause et sekund i toppen, og undgå at svinge."
+    },
+    {
+      "id": "single-calf",
+      "name": "Enbens lægløft med håndvægt",
+      "group": "Læg",
+      "pattern": "Lægløft",
+      "equipment": "Håndvægt + trin",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Single-leg Standing Calf Raise"
+      ],
+      "alternatives": [
+        "calf",
+        "seated-calf",
+        "legpress-calf"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "calves"
+      ],
+      "secondary_muscles": [],
+      "technique": "Gå helt ned i bunden for et godt stræk og helt op på tæerne. Pause et sekund i toppen, og undgå at svinge."
+    },
+    {
+      "id": "legpress-calf",
+      "name": "Lægløft i benpres",
+      "group": "Læg",
+      "pattern": "Lægløft",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Calf Raise"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "calf",
+        "seated-calf",
+        "single-calf"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "calves"
+      ],
+      "secondary_muscles": [],
+      "technique": "Gå helt ned i bunden for et godt stræk og helt op på tæerne. Pause et sekund i toppen, og undgå at svinge."
+    },
+    {
+      "id": "hanging-leg-raise",
+      "name": "Hanging leg raises / ab wheel",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Pull-up-stang / ab wheel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Hanging Leg Raise"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "ab-wheel",
+        "cable-crunch",
+        "plank",
+        "dead-bug"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Hold ribbenene nede og lænden stabil. Bevæg dig langsomt, og træk vejret ud, når du spænder maven."
+    },
+    {
+      "id": "ab-wheel",
+      "name": "Ab wheel",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Ab wheel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Kneeling Ab Wheel"
+      ],
+      "alternatives": [
+        "hanging-leg-raise",
+        "plank",
+        "cable-crunch",
+        "dead-bug"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [
+        "lats",
+        "lower_back"
+      ],
+      "technique": "Hold ribbenene nede og lænden stabil. Bevæg dig langsomt, og træk vejret ud, når du spænder maven."
+    },
+    {
+      "id": "cable-crunch",
+      "name": "Kabel-crunch",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Cable Crunch"
+      ],
+      "alternatives": [
+        "hanging-leg-raise",
+        "ab-wheel",
+        "plank"
+      ],
+      "load_type": "cable",
+      "aliases": [
+        "Cable crunch"
+      ],
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold ribbenene nede og lænden stabil. Bevæg dig langsomt, og træk vejret ud, når du spænder maven."
+    },
+    {
+      "id": "plank",
+      "name": "Planke",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Plank"
+      ],
+      "alternatives": [
+        "ab-wheel",
+        "dead-bug",
+        "hanging-leg-raise"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [
+        "lower_back",
+        "delt_front"
+      ],
+      "technique": "Albuer under skuldrene, krop i en lige linje, stram mave og baller. Hold vejret roligt, og undgå at hænge i lænden."
+    },
+    {
+      "id": "dead-bug",
+      "name": "Dead bug",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dead Bug"
+      ],
+      "alternatives": [
+        "plank",
+        "ab-wheel",
+        "cable-crunch"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold ribbenene nede og lænden stabil. Bevæg dig langsomt, og træk vejret ud, når du spænder maven."
+    },
+    {
+      "id": "bench",
+      "name": "Bænkpres",
+      "group": "Bryst",
+      "pattern": "Horisontalt pres",
+      "equipment": "Vægtstang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Barbell Bench Press"
+      ],
+      "alternatives": [
+        "db-bench",
+        "smith-bench",
+        "machine-press",
+        "incline-bench",
+        "push-up"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "delt_front"
+      ],
+      "technique": "Skulderblade samlet og ned, fødderne i gulvet. Stangen rører brystet ved brystvorterne, og pres op i en let bue. Albuer ca. 45–60° fra kroppen."
+    },
+    {
+      "id": "db-bench",
+      "name": "Bænkpres med håndvægte",
+      "group": "Bryst",
+      "pattern": "Horisontalt pres",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dumbbell Bench Press"
+      ],
+      "alternatives": [
+        "bench",
+        "smith-bench",
+        "machine-press",
+        "push-up"
+      ],
+      "load_type": "per_hand",
+      "aliases": [
+        "Bænkpres med håndvægte"
+      ],
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "delt_front"
+      ],
+      "technique": "Skulderblade samlet og ned, fødderne i gulvet. Sænk til brystet i kontrol, og pres op og lidt ind mod midten. Albuerne ca. 45–60° fra kroppen."
+    },
+    {
+      "id": "smith-bench",
+      "name": "Smith-bænkpres",
+      "group": "Bryst",
+      "pattern": "Horisontalt pres",
+      "equipment": "Smith-maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Smith Machine Bench Press"
+      ],
+      "alternatives": [
+        "bench",
+        "db-bench",
+        "machine-press"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "delt_front"
+      ],
+      "technique": "Skulderblade samlet og ned, fødderne i gulvet. Sænk til brystet i kontrol, og pres op og lidt ind mod midten. Albuerne ca. 45–60° fra kroppen."
+    },
+    {
+      "id": "machine-press",
+      "name": "Brystpres i maskine",
+      "group": "Bryst",
+      "pattern": "Horisontalt pres",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Bench Press"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "bench",
+        "db-bench",
+        "smith-bench",
+        "push-up"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "delt_front"
+      ],
+      "technique": "Skulderblade samlet og ned, fødderne i gulvet. Sænk til brystet i kontrol, og pres op og lidt ind mod midten. Albuerne ca. 45–60° fra kroppen.",
+      "aliases": [
+        "Machine chest press / pec deck"
+      ]
+    },
+    {
+      "id": "push-up",
+      "name": "Armstrækninger",
+      "group": "Bryst",
+      "pattern": "Horisontalt pres",
+      "equipment": "Kropsvægt (evt. vægtvest)",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Push-up"
+      ],
+      "alternatives": [
+        "bench",
+        "db-bench",
+        "machine-press",
+        "dips"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "delt_front",
+        "abs"
+      ],
+      "technique": "Krop i en lige linje fra hoved til hæl, hænderne lidt bredere end skuldrene. Sænk brystet mod gulvet, og pres op uden at svaje i lænden."
+    },
+    {
+      "id": "incline-bench",
+      "name": "Skrå bænkpres (stang)",
+      "group": "Bryst",
+      "pattern": "Skrå pres",
+      "equipment": "Vægtstang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Incline Barbell Bench Press"
+      ],
+      "alternatives": [
+        "incline-db",
+        "incline-smith",
+        "bench",
+        "db-bench"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "chest",
+        "delt_front"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Skulderblade samlet, bænk på ca. 30°. Sænk til øvre bryst, og pres op uden at løfte skuldrene mod ørerne."
+    },
+    {
+      "id": "incline-db",
+      "name": "Incline DB-pres",
+      "group": "Bryst",
+      "pattern": "Skrå pres",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Incline Dumbbell Bench Press"
+      ],
+      "alternatives": [
+        "incline-bench",
+        "incline-smith",
+        "db-bench",
+        "machine-press"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "chest",
+        "delt_front"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Skulderblade samlet, bænk på ca. 30°. Sænk til øvre bryst, og pres op uden at løfte skuldrene mod ørerne."
+    },
+    {
+      "id": "incline-smith",
+      "name": "Skrå Smith-bænkpres",
+      "group": "Bryst",
+      "pattern": "Skrå pres",
+      "equipment": "Smith-maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Incline Smith Machine Bench Press"
+      ],
+      "alternatives": [
+        "incline-db",
+        "incline-bench",
+        "smith-bench"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "chest",
+        "delt_front"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Skulderblade samlet, bænk på ca. 30°. Sænk til øvre bryst, og pres op uden at løfte skuldrene mod ørerne."
+    },
+    {
+      "id": "dips",
+      "name": "Dips (evt. med vægt)",
+      "group": "Bryst",
+      "pattern": "Dips",
+      "equipment": "Dipstativ (evt. vægtbælte)",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Weighted Dip"
+      ],
+      "alternatives": [
+        "assisted-dip",
+        "bench-dip",
+        "close-grip-bench",
+        "push-up"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let fremadlænet for bryst, mere oprejst for triceps. Gå ned, til overarmen er ca. parallel med gulvet, og pres op uden at låse skuldrene."
+    },
+    {
+      "id": "assisted-dip",
+      "name": "Assisterede dips (maskine/elastik)",
+      "group": "Bryst",
+      "pattern": "Dips",
+      "equipment": "Maskine/elastik",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Body-weight Dip"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "dips",
+        "bench-dip",
+        "close-grip-bench"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let fremadlænet for bryst, mere oprejst for triceps. Gå ned, til overarmen er ca. parallel med gulvet, og pres op uden at låse skuldrene."
+    },
+    {
+      "id": "bench-dip",
+      "name": "Bænk-dips",
+      "group": "Arme",
+      "pattern": "Dips",
+      "equipment": "Bænk",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Bench Dip"
+      ],
+      "alternatives": [
+        "dips",
+        "assisted-dip",
+        "close-grip-bench"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "chest",
+        "delt_front"
+      ],
+      "technique": "Let fremadlænet for bryst, mere oprejst for triceps. Gå ned, til overarmen er ca. parallel med gulvet, og pres op uden at låse skuldrene."
+    },
+    {
+      "id": "close-grip-bench",
+      "name": "Bænkpres med smalt greb",
+      "group": "Arme",
+      "pattern": "Horisontalt pres",
+      "equipment": "Vægtstang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Close-grip Barbell Bench Press"
+      ],
+      "alternatives": [
+        "dips",
+        "bench",
+        "pushdown"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "chest",
+        "delt_front"
+      ],
+      "technique": "Skulderblade samlet og ned, fødderne i gulvet. Sænk til brystet i kontrol, og pres op og lidt ind mod midten. Albuerne ca. 45–60° fra kroppen."
+    },
+    {
+      "id": "ohp",
+      "name": "Stående skulderpres",
+      "group": "Skuldre",
+      "pattern": "Lodret pres",
+      "equipment": "Vægtstang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Barbell Overhead Press"
+      ],
+      "alternatives": [
+        "db-ohp-seated",
+        "arnold",
+        "smith-ohp",
+        "machine-shoulder"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "delt_front",
+        "delt_side"
+      ],
+      "secondary_muscles": [
+        "triceps",
+        "abs"
+      ],
+      "technique": "Stram baller og mave, så lænden ikke svajer. Pres stangen lige op, flyt hovedet let gennem armene, og sænk til kravebenet."
+    },
+    {
+      "id": "db-ohp-seated",
+      "name": "Siddende DB-skulderpres",
+      "group": "Skuldre",
+      "pattern": "Lodret pres",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dumbbell Shoulder Press"
+      ],
+      "alternatives": [
+        "ohp",
+        "arnold",
+        "machine-shoulder",
+        "smith-ohp"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "delt_front",
+        "delt_side"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Stram mave og baller, så lænden ikke svajer. Pres lige op over hovedet, træk hagen let tilbage, og sænk kontrolleret til skulderhøjde."
+    },
+    {
+      "id": "arnold",
+      "name": "Arnold press",
+      "group": "Skuldre",
+      "pattern": "Lodret pres",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Arnold Press"
+      ],
+      "alternatives": [
+        "db-ohp-seated",
+        "ohp",
+        "machine-shoulder"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "delt_front",
+        "delt_side"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Stram mave og baller, så lænden ikke svajer. Pres lige op over hovedet, træk hagen let tilbage, og sænk kontrolleret til skulderhøjde."
+    },
+    {
+      "id": "smith-ohp",
+      "name": "Smith-skulderpres",
+      "group": "Skuldre",
+      "pattern": "Lodret pres",
+      "equipment": "Smith-maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Smith Machine Overhead Press"
+      ],
+      "alternatives": [
+        "ohp",
+        "db-ohp-seated",
+        "machine-shoulder"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "delt_front",
+        "delt_side"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Stram mave og baller, så lænden ikke svajer. Pres lige op over hovedet, træk hagen let tilbage, og sænk kontrolleret til skulderhøjde."
+    },
+    {
+      "id": "machine-shoulder",
+      "name": "Skulderpres i maskine",
+      "group": "Skuldre",
+      "pattern": "Lodret pres",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Shoulder Press"
+      ],
+      "alternatives": [
+        "db-ohp-seated",
+        "ohp",
+        "arnold"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "delt_front",
+        "delt_side"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Stram mave og baller, så lænden ikke svajer. Pres lige op over hovedet, træk hagen let tilbage, og sænk kontrolleret til skulderhøjde."
+    },
+    {
+      "id": "weighted-pullup",
+      "name": "Pull-ups med vægt / lat pulldown",
+      "group": "Ryg",
+      "pattern": "Lodret træk",
+      "equipment": "Pull-up-stang / kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Weighted Pull-up"
+      ],
+      "alternatives": [
+        "pullup",
+        "lat-pulldown",
+        "chinup",
+        "assisted-pullup",
+        "neutral-pulldown"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear",
+        "forearms"
+      ],
+      "technique": "Start med at trække skulderbladene ned, og træk albuerne mod hofterne. Brystet mod stangen, og sænk langsomt til strakte arme."
+    },
+    {
+      "id": "pullup",
+      "name": "Pull-ups",
+      "group": "Ryg",
+      "pattern": "Lodret træk",
+      "equipment": "Pull-up-stang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Pull-up"
+      ],
+      "alternatives": [
+        "weighted-pullup",
+        "chinup",
+        "lat-pulldown",
+        "assisted-pullup"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear",
+        "forearms"
+      ],
+      "technique": "Start med at trække skulderbladene ned, og træk albuerne mod hofterne. Brystet mod stangen, og sænk langsomt til strakte arme."
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat pulldown",
+      "group": "Ryg",
+      "pattern": "Lodret træk",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Lat Pull-down"
+      ],
+      "alternatives": [
+        "neutral-pulldown",
+        "pullup",
+        "chinup",
+        "assisted-pullup"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear"
+      ],
+      "technique": "Start med at trække skulderbladene ned, og træk albuerne mod hofterne. Brystet mod stangen, og sænk langsomt til strakte arme."
+    },
+    {
+      "id": "neutral-pulldown",
+      "name": "Lat pulldown med neutralt greb",
+      "group": "Ryg",
+      "pattern": "Lodret træk",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Close-grip Lat Pull-down"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "lat-pulldown",
+        "chinup",
+        "pullup",
+        "assisted-pullup"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear"
+      ],
+      "technique": "Start med at trække skulderbladene ned, og træk albuerne mod hofterne. Brystet mod stangen, og sænk langsomt til strakte arme."
+    },
+    {
+      "id": "chinup",
+      "name": "Chin-ups",
+      "group": "Ryg",
+      "pattern": "Lodret træk",
+      "equipment": "Pull-up-stang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Chin-up"
+      ],
+      "alternatives": [
+        "pullup",
+        "lat-pulldown",
+        "neutral-pulldown"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "lats",
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "delt_rear",
+        "forearms"
+      ],
+      "technique": "Start med at trække skulderbladene ned, og træk albuerne mod hofterne. Brystet mod stangen, og sænk langsomt til strakte arme."
+    },
+    {
+      "id": "assisted-pullup",
+      "name": "Assisterede pull-ups (maskine/elastik)",
+      "group": "Ryg",
+      "pattern": "Lodret træk",
+      "equipment": "Maskine/elastik",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Band-assisted Pull-up"
+      ],
+      "alternatives": [
+        "lat-pulldown",
+        "pullup",
+        "neutral-pulldown"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear"
+      ],
+      "technique": "Start med at trække skulderbladene ned, og træk albuerne mod hofterne. Brystet mod stangen, og sænk langsomt til strakte arme."
+    },
+    {
+      "id": "cs-row",
+      "name": "Rows med støtte til brystet",
+      "group": "Ryg",
+      "pattern": "Horisontalt træk",
+      "equipment": "Håndvægte + skrå bænk",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Chest Supported Dumbbell Row"
+      ],
+      "alternatives": [
+        "one-arm-row",
+        "cable-row",
+        "bb-row",
+        "tbar-row",
+        "inverted-row"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear"
+      ],
+      "technique": "Hold overkroppen stabil, træk albuerne bagud og tryk skulderbladene sammen. Pause kort, og sænk langsomt uden at rykke med ryggen."
+    },
+    {
+      "id": "bb-row",
+      "name": "Barbell- eller T-bar-row",
+      "group": "Ryg",
+      "pattern": "Horisontalt træk",
+      "equipment": "Vægtstang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Barbell Row"
+      ],
+      "alternatives": [
+        "tbar-row",
+        "cable-row",
+        "one-arm-row",
+        "cs-row"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear",
+        "lower_back",
+        "forearms"
+      ],
+      "technique": "Hold overkroppen stabil, træk albuerne bagud og tryk skulderbladene sammen. Pause kort, og sænk langsomt uden at rykke med ryggen."
+    },
+    {
+      "id": "tbar-row",
+      "name": "T-bar row",
+      "group": "Ryg",
+      "pattern": "Horisontalt træk",
+      "equipment": "T-bar/landmine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "T-Bar Row"
+      ],
+      "alternatives": [
+        "bb-row",
+        "cs-row",
+        "cable-row"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear",
+        "lower_back"
+      ],
+      "technique": "Hold overkroppen stabil, træk albuerne bagud og tryk skulderbladene sammen. Pause kort, og sænk langsomt uden at rykke med ryggen."
+    },
+    {
+      "id": "one-arm-row",
+      "name": "Enarms roning med håndvægt",
+      "group": "Ryg",
+      "pattern": "Horisontalt træk",
+      "equipment": "Håndvægt + bænk",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dumbbell Row"
+      ],
+      "alternatives": [
+        "cs-row",
+        "cable-row",
+        "bb-row"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear",
+        "forearms"
+      ],
+      "technique": "Hold overkroppen stabil, træk albuerne bagud og tryk skulderbladene sammen. Pause kort, og sænk langsomt uden at rykke med ryggen."
+    },
+    {
+      "id": "cable-row",
+      "name": "Siddende kabelroning",
+      "group": "Ryg",
+      "pattern": "Horisontalt træk",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Seated Cable Row"
+      ],
+      "alternatives": [
+        "cs-row",
+        "one-arm-row",
+        "bb-row",
+        "inverted-row"
+      ],
+      "load_type": "cable",
+      "aliases": [
+        "Seated cable row"
+      ],
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear"
+      ],
+      "technique": "Hold overkroppen stabil, træk albuerne bagud og tryk skulderbladene sammen. Pause kort, og sænk langsomt uden at rykke med ryggen."
+    },
+    {
+      "id": "inverted-row",
+      "name": "Inverted rows",
+      "group": "Ryg",
+      "pattern": "Horisontalt træk",
+      "equipment": "Stang/ringe",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Inverted Row"
+      ],
+      "alternatives": [
+        "cable-row",
+        "cs-row",
+        "one-arm-row"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "biceps",
+        "delt_rear"
+      ],
+      "technique": "Hold overkroppen stabil, træk albuerne bagud og tryk skulderbladene sammen. Pause kort, og sænk langsomt uden at rykke med ryggen."
+    },
+    {
+      "id": "cable-fly",
+      "name": "Cable fly (lav → høj)",
+      "group": "Bryst",
+      "pattern": "Bryst isolation",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Cable Crossover"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "db-fly",
+        "pec-deck",
+        "cable-fly-high"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let bøjede albuer, og en stor bue som om du krammer et træ. Mærk strækket i brystet, og før hænderne sammen uden at presse."
+    },
+    {
+      "id": "cable-fly-high",
+      "name": "Cable fly (høj → lav)",
+      "group": "Bryst",
+      "pattern": "Bryst isolation",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Cable Crossover"
+      ],
+      "alternatives": [
+        "cable-fly",
+        "db-fly",
+        "pec-deck"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let bøjede albuer, og en stor bue som om du krammer et træ. Mærk strækket i brystet, og før hænderne sammen uden at presse."
+    },
+    {
+      "id": "db-fly",
+      "name": "Flyes med håndvægte",
+      "group": "Bryst",
+      "pattern": "Bryst isolation",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dumbbell Fly"
+      ],
+      "alternatives": [
+        "cable-fly",
+        "pec-deck",
+        "cable-fly-high"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let bøjede albuer, og en stor bue som om du krammer et træ. Mærk strækket i brystet, og før hænderne sammen uden at presse."
+    },
+    {
+      "id": "pec-deck",
+      "name": "Butterfly-maskine (pec deck)",
+      "group": "Bryst",
+      "pattern": "Bryst isolation",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Fly"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "cable-fly",
+        "db-fly",
+        "cable-fly-high"
+      ],
+      "load_type": "machine",
+      "aliases": [
+        "Machine chest press / pec deck"
+      ],
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let bøjede albuer, og en stor bue som om du krammer et træ. Mærk strækket i brystet, og før hænderne sammen uden at presse."
+    },
+    {
+      "id": "straight-arm",
+      "name": "Straight-arm pulldown",
+      "group": "Ryg",
+      "pattern": "Lat isolation",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Straight-arm Pull-down"
+      ],
+      "alternatives": [
+        "cable-pullover",
+        "db-pullover",
+        "lat-pulldown"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Næsten strakte arme, og træk fra skulderen ned mod hofterne. Mærk lat'en arbejde, og undgå at bøje albuerne meget."
+    },
+    {
+      "id": "cable-pullover",
+      "name": "Kabel-pullover",
+      "group": "Ryg",
+      "pattern": "Lat isolation",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Standing Cable Pull-over"
+      ],
+      "alternatives": [
+        "straight-arm",
+        "db-pullover",
+        "lat-pulldown"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "triceps"
+      ],
+      "technique": "Næsten strakte arme, og træk fra skulderen ned mod hofterne. Mærk lat'en arbejde, og undgå at bøje albuerne meget."
+    },
+    {
+      "id": "db-pullover",
+      "name": "Pullover med håndvægt",
+      "group": "Ryg",
+      "pattern": "Lat isolation",
+      "equipment": "Håndvægt + bænk",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Lying Dumbbell Pull-over to Extension"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "straight-arm",
+        "cable-pullover"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "lats"
+      ],
+      "secondary_muscles": [
+        "chest",
+        "triceps"
+      ],
+      "technique": "Næsten strakte arme, og træk fra skulderen ned mod hofterne. Mærk lat'en arbejde, og undgå at bøje albuerne meget."
+    },
+    {
+      "id": "lateral",
+      "name": "Lateral raises (kabel eller DB)",
+      "group": "Skuldre",
+      "pattern": "Skulder isolation",
+      "equipment": "Håndvægte/kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dumbbell Lateral Raise"
+      ],
+      "alternatives": [
+        "cable-lateral",
+        "seated-lateral",
+        "machine-lateral"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "delt_side"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let bøjede albuer, løft til skulderhøjde med lillefingeren lidt højere end tommelfingeren. Sænk langsomt, og undgå at svinge kroppen."
+    },
+    {
+      "id": "cable-lateral",
+      "name": "Enarms lateral raise i kabel",
+      "group": "Skuldre",
+      "pattern": "Skulder isolation",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "One-arm Cable Lateral Raise"
+      ],
+      "alternatives": [
+        "lateral",
+        "seated-lateral",
+        "machine-lateral"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "delt_side"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let bøjede albuer, løft til skulderhøjde med lillefingeren lidt højere end tommelfingeren. Sænk langsomt, og undgå at svinge kroppen."
+    },
+    {
+      "id": "seated-lateral",
+      "name": "Siddende lateral raises",
+      "group": "Skuldre",
+      "pattern": "Skulder isolation",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Seated Lateral Raise"
+      ],
+      "alternatives": [
+        "lateral",
+        "cable-lateral",
+        "machine-lateral"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "delt_side"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Let bøjede albuer, løft til skulderhøjde med lillefingeren lidt højere end tommelfingeren. Sænk langsomt, og undgå at svinge kroppen."
+    },
+    {
+      "id": "machine-lateral",
+      "name": "Lateral raise-maskine",
+      "group": "Skuldre",
+      "pattern": "Skulder isolation",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Lateral Raise"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "lateral",
+        "cable-lateral",
+        "seated-lateral"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "delt_side"
+      ],
+      "secondary_muscles": [],
+      "technique": "Let bøjede albuer, løft til skulderhøjde med lillefingeren lidt højere end tommelfingeren. Sænk langsomt, og undgå at svinge kroppen."
+    },
+    {
+      "id": "rear-delt",
+      "name": "Rear delt fly / face pulls",
+      "group": "Skuldre",
+      "pattern": "Bagside skulder",
+      "equipment": "Kabel/maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Face Pull"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "face-pull",
+        "reverse-pec-deck",
+        "bentover-lateral",
+        "cable-reverse-fly"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "delt_rear"
+      ],
+      "secondary_muscles": [
+        "lats"
+      ],
+      "technique": "Hold brystet oppe, og træk armene ud til siden og bagud, så bagsiden af skulderen arbejder. Let vægt og kontrol."
+    },
+    {
+      "id": "face-pull",
+      "name": "Face pulls",
+      "group": "Skuldre",
+      "pattern": "Bagside skulder",
+      "equipment": "Kabel + reb",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Face Pull"
+      ],
+      "alternatives": [
+        "rear-delt",
+        "reverse-pec-deck",
+        "bentover-lateral"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "delt_rear"
+      ],
+      "secondary_muscles": [
+        "lats",
+        "delt_side"
+      ],
+      "technique": "Træk rebet mod ansigtet med albuerne højt og ude til siden. Drej hænderne udad til sidst, og mærk bagsiden af skulderen."
+    },
+    {
+      "id": "reverse-pec-deck",
+      "name": "Omvendt butterfly (reverse pec deck)",
+      "group": "Skuldre",
+      "pattern": "Bagside skulder",
+      "equipment": "Maskine",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Incline Reverse Fly"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "face-pull",
+        "bentover-lateral",
+        "cable-reverse-fly"
+      ],
+      "load_type": "machine",
+      "primary_muscles": [
+        "delt_rear"
+      ],
+      "secondary_muscles": [
+        "lats"
+      ],
+      "technique": "Hold brystet oppe, og træk armene ud til siden og bagud, så bagsiden af skulderen arbejder. Let vægt og kontrol."
+    },
+    {
+      "id": "bentover-lateral",
+      "name": "Foroverbøjede lateral raises",
+      "group": "Skuldre",
+      "pattern": "Bagside skulder",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Bent-over Lateral Raise"
+      ],
+      "alternatives": [
+        "face-pull",
+        "reverse-pec-deck",
+        "cable-reverse-fly"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "delt_rear"
+      ],
+      "secondary_muscles": [
+        "lats"
+      ],
+      "technique": "Hold brystet oppe, og træk armene ud til siden og bagud, så bagsiden af skulderen arbejder. Let vægt og kontrol."
+    },
+    {
+      "id": "cable-reverse-fly",
+      "name": "Reverse fly i kabel",
+      "group": "Skuldre",
+      "pattern": "Bagside skulder",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Single-arm Standing Cable Reverse Fly"
+      ],
+      "alternatives": [
+        "face-pull",
+        "reverse-pec-deck",
+        "bentover-lateral"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "delt_rear"
+      ],
+      "secondary_muscles": [
+        "lats"
+      ],
+      "technique": "Hold brystet oppe, og træk armene ud til siden og bagud, så bagsiden af skulderen arbejder. Let vægt og kontrol."
+    },
+    {
+      "id": "ez-curl",
+      "name": "EZ-bar curl",
+      "group": "Arme",
+      "pattern": "Biceps",
+      "equipment": "EZ-stang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Standing EZ-Bar Biceps Curl"
+      ],
+      "alternatives": [
+        "bb-curl",
+        "db-curl",
+        "cable-curl",
+        "preacher-curl",
+        "incline-curl"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Hold albuerne ind mod kroppen og stille. Løft med biceps, pres sammen i toppen, og sænk langsomt (2–3 sek.) uden at svinge."
+    },
+    {
+      "id": "bb-curl",
+      "name": "Stangcurl",
+      "group": "Arme",
+      "pattern": "Biceps",
+      "equipment": "Vægtstang",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Barbell Biceps Curl"
+      ],
+      "alternatives": [
+        "ez-curl",
+        "db-curl",
+        "cable-curl"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Hold albuerne ind mod kroppen og stille. Løft med biceps, pres sammen i toppen, og sænk langsomt (2–3 sek.) uden at svinge."
+    },
+    {
+      "id": "db-curl",
+      "name": "Biceps curl med håndvægte",
+      "group": "Arme",
+      "pattern": "Biceps",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dumbbell Biceps Curl"
+      ],
+      "alternatives": [
+        "ez-curl",
+        "incline-curl",
+        "cable-curl",
+        "hammer-curl"
+      ],
+      "load_type": "per_hand",
+      "aliases": [
+        "Biceps curl (håndvægt)"
+      ],
+      "primary_muscles": [
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Hold albuerne ind mod kroppen og stille. Løft med biceps, pres sammen i toppen, og sænk langsomt (2–3 sek.) uden at svinge."
+    },
+    {
+      "id": "cable-curl",
+      "name": "Kabelcurl",
+      "group": "Arme",
+      "pattern": "Biceps",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Cable Biceps Curl"
+      ],
+      "alternatives": [
+        "ez-curl",
+        "db-curl",
+        "preacher-curl"
+      ],
+      "load_type": "cable",
+      "aliases": [
+        "Biceps curl (reb, kabel)"
+      ],
+      "primary_muscles": [
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Hold albuerne ind mod kroppen og stille. Løft med biceps, pres sammen i toppen, og sænk langsomt (2–3 sek.) uden at svinge."
+    },
+    {
+      "id": "preacher-curl",
+      "name": "Preacher curl",
+      "group": "Arme",
+      "pattern": "Biceps",
+      "equipment": "EZ-stang + preacher-bænk",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "EZ-Bar Preacher Curl"
+      ],
+      "alternatives": [
+        "ez-curl",
+        "cable-curl",
+        "db-curl"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Hold albuerne ind mod kroppen og stille. Løft med biceps, pres sammen i toppen, og sænk langsomt (2–3 sek.) uden at svinge."
+    },
+    {
+      "id": "incline-curl",
+      "name": "Incline DB curl",
+      "group": "Arme",
+      "pattern": "Biceps",
+      "equipment": "Håndvægte + skrå bænk",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Incline Dumbbell Biceps Curl"
+      ],
+      "alternatives": [
+        "db-curl",
+        "ez-curl",
+        "cable-curl"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "biceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Hold albuerne ind mod kroppen og stille. Løft med biceps, pres sammen i toppen, og sænk langsomt (2–3 sek.) uden at svinge."
+    },
+    {
+      "id": "hammer-curl",
+      "name": "Hammer curl",
+      "group": "Arme",
+      "pattern": "Biceps",
+      "equipment": "Håndvægte",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dumbbell Hammer Curl"
+      ],
+      "alternatives": [
+        "cable-hammer",
+        "db-curl",
+        "ez-curl"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "biceps",
+        "forearms"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold albuerne ind mod kroppen og stille. Løft med biceps, pres sammen i toppen, og sænk langsomt (2–3 sek.) uden at svinge."
+    },
+    {
+      "id": "cable-hammer",
+      "name": "Hammer curl i kabel (reb)",
+      "group": "Arme",
+      "pattern": "Biceps",
+      "equipment": "Kabel + reb",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Cable Hammer Curl"
+      ],
+      "alternatives": [
+        "hammer-curl",
+        "cable-curl",
+        "db-curl"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "biceps",
+        "forearms"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold albuerne ind mod kroppen og stille. Løft med biceps, pres sammen i toppen, og sænk langsomt (2–3 sek.) uden at svinge."
+    },
+    {
+      "id": "oh-triceps",
+      "name": "Overhead triceps extension (kabel)",
+      "group": "Arme",
+      "pattern": "Triceps",
+      "equipment": "Kabel + reb",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Triceps Extension"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "db-oh-triceps",
+        "pushdown",
+        "skullcrusher",
+        "close-grip-bench"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold overarmene stille, og stræk albuerne helt ud. Sænk langsomt tilbage til et godt stræk uden at lade skuldrene hjælpe."
+    },
+    {
+      "id": "db-oh-triceps",
+      "name": "Overhead triceps extension med håndvægt",
+      "group": "Arme",
+      "pattern": "Triceps",
+      "equipment": "Håndvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Overhead Dumbbell Triceps Extension"
+      ],
+      "alternatives": [
+        "oh-triceps",
+        "skullcrusher",
+        "pushdown"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold overarmene stille, og stræk albuerne helt ud. Sænk langsomt tilbage til et godt stræk uden at lade skuldrene hjælpe."
+    },
+    {
+      "id": "pushdown",
+      "name": "Rebpushdown",
+      "group": "Arme",
+      "pattern": "Triceps",
+      "equipment": "Kabel + reb",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Triceps Press-down"
+      ],
+      "alternatives": [
+        "oh-triceps",
+        "skullcrusher",
+        "dips",
+        "close-grip-bench"
+      ],
+      "load_type": "cable",
+      "aliases": [
+        "Triceps pushdown"
+      ],
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold overarmene stille, og stræk albuerne helt ud. Sænk langsomt tilbage til et godt stræk uden at lade skuldrene hjælpe."
+    },
+    {
+      "id": "skullcrusher",
+      "name": "Skullcrushers (EZ-stang)",
+      "group": "Arme",
+      "pattern": "Triceps",
+      "equipment": "EZ-stang + bænk",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Incline EZ-Bar Lying Triceps Extension"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "oh-triceps",
+        "pushdown",
+        "close-grip-bench"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "triceps"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold overarmene stille, og stræk albuerne helt ud. Sænk langsomt tilbage til et godt stræk uden at lade skuldrene hjælpe."
+    },
+    {
+      "id": "superset-incline-pushdown",
+      "name": "Incline DB curl + rebpushdown (superset)",
+      "group": "Arme",
+      "pattern": "Arme superset",
+      "equipment": "Håndvægte + kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Incline Dumbbell Biceps Curl",
+        "Triceps Press-down"
+      ],
+      "alternatives": [
+        "superset-hammer-pushdown",
+        "incline-curl",
+        "pushdown",
+        "ez-curl"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "biceps",
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Kør de to øvelser lige efter hinanden uden pause, og hvil først bagefter. Hold albuerne stille i begge, og brug kontrolleret tempo."
+    },
+    {
+      "id": "superset-hammer-pushdown",
+      "name": "Hammer curl + pushdown (superset)",
+      "group": "Arme",
+      "pattern": "Arme superset",
+      "equipment": "Håndvægte + kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Dumbbell Hammer Curl",
+        "Triceps Press-down"
+      ],
+      "alternatives": [
+        "superset-incline-pushdown",
+        "hammer-curl",
+        "cable-hammer",
+        "pushdown"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "biceps",
+        "triceps"
+      ],
+      "secondary_muscles": [
+        "forearms"
+      ],
+      "technique": "Kør de to øvelser lige efter hinanden uden pause, og hvil først bagefter. Hold albuerne stille i begge, og brug kontrolleret tempo."
+    },
+    {
+      "id": "trapbar-deadlift",
+      "name": "Trapbar-dødløft",
+      "group": "Baglår og baller",
+      "pattern": "Hip hinge",
+      "equipment": "Trapbar",
+      "step_kg": 5,
+      "body": "lower",
+      "garmin": [
+        "Trap Bar Deadlift"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "squat",
+        "rdl",
+        "deadlift",
+        "hack-squat"
+      ],
+      "load_type": "total",
+      "primary_muscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondary_muscles": [
+        "hamstrings",
+        "lower_back",
+        "forearms"
+      ],
+      "technique": "Stå midt i trapbaren med fødderne i hoftebredde. Spænd ryg og mave, pres gulvet væk, og stå helt op med hoften. Sænk kontrolleret. Tung grundøvelse med få gentagelser."
+    },
+    {
+      "id": "side-plank",
+      "name": "Side plank",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Side Plank"
+      ],
+      "alternatives": [
+        "plank",
+        "dead-bug",
+        "pallof"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "delt_side"
+      ],
+      "technique": "Albue under skulderen, krop i en lige linje fra hoved til fødder. Løft hoften, og hold. Ingen failure – stop, når formen går."
+    },
+    {
+      "id": "copenhagen",
+      "name": "Copenhagen adduktor",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Bænk, kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Side Plank"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "side-plank",
+        "plank"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [
+        "glutes"
+      ],
+      "technique": "Side-planke med øverste ben på en bænk og det nederste ben frit. Løft hoften, og hold i tid. Styrker indersiden af låret og stabiliserer bækkenet i løb."
+    },
+    {
+      "id": "pallof",
+      "name": "Pallof press",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Kabel",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [
+        "Pallof Press"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "dead-bug",
+        "side-plank",
+        "plank"
+      ],
+      "load_type": "cable",
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [
+        "delt_front"
+      ],
+      "technique": "Stå sidelæns til kablet, tryk håndtaget fra brystet og ud foran dig, og lad ikke overkroppen dreje. Hold et sekund, og kom tilbage."
+    },
+    {
+      "id": "tibialis",
+      "name": "Tibialis-løft",
+      "group": "Læg",
+      "pattern": "Lægløft",
+      "equipment": "Kropsvægt (op ad væg)",
+      "step_kg": 2.5,
+      "body": "lower",
+      "garmin": [
+        "Calf Raise"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "calf",
+        "seated-calf"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "calves"
+      ],
+      "secondary_muscles": [],
+      "technique": "Ryggen mod en væg, hælene lidt frem. Løft tæerne mod skinnebenene, hold et sekund, og sænk langsomt. Skåner skinnebenene i løb."
+    },
+    {
+      "id": "farmers-walk",
+      "name": "Farmer's walk",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Håndvægte",
+      "step_kg": 2,
+      "body": "upper",
+      "garmin": [
+        "Farmers Walk"
+      ],
+      "garmin_approx": true,
+      "alternatives": [
+        "plank",
+        "pallof",
+        "side-plank"
+      ],
+      "load_type": "per_hand",
+      "primary_muscles": [
+        "forearms",
+        "abs"
+      ],
+      "secondary_muscles": [
+        "delt_side",
+        "glutes"
+      ],
+      "technique": "Tag to tunge håndvægte, stå højt med skuldrene tilbage og ned, og gå i faste, korte skridt. Hold stram mave, og lad ikke overkroppen hælde."
+    },
+    {
+      "id": "bird-dog",
+      "name": "Fuglehund",
+      "group": "Core",
+      "pattern": "Core",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [],
+      "alternatives": [
+        "dead-bug",
+        "plank"
+      ],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "abs"
+      ],
+      "secondary_muscles": [
+        "glutes",
+        "lower_back"
+      ],
+      "technique": "På alle fire: stræk modsat arm og ben ud uden at dreje hoften. Hold 2 sek, og skift side."
+    },
+    {
+      "id": "stretch-hip-flexor",
+      "name": "Udstrækning: hoftebøjere",
+      "group": "Core",
+      "pattern": "Mobilitet",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [],
+      "alternatives": [],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "quads"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold strækket roligt i 30–45 sek pr. side, uden at hoppe. Træk vejret dybt, og slip lidt mere for hver udånding."
+    },
+    {
+      "id": "stretch-calf",
+      "name": "Udstrækning: lægge",
+      "group": "Core",
+      "pattern": "Mobilitet",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [],
+      "alternatives": [],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "calves"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold strækket roligt i 30–45 sek pr. side, uden at hoppe. Træk vejret dybt, og slip lidt mere for hver udånding."
+    },
+    {
+      "id": "stretch-hamstring",
+      "name": "Udstrækning: baglår",
+      "group": "Core",
+      "pattern": "Mobilitet",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [],
+      "alternatives": [],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "hamstrings"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold strækket roligt i 30–45 sek pr. side, uden at hoppe. Træk vejret dybt, og slip lidt mere for hver udånding."
+    },
+    {
+      "id": "stretch-chest",
+      "name": "Udstrækning: bryst",
+      "group": "Core",
+      "pattern": "Mobilitet",
+      "equipment": "Kropsvægt",
+      "step_kg": 2.5,
+      "body": "upper",
+      "garmin": [],
+      "alternatives": [],
+      "load_type": "bodyweight",
+      "primary_muscles": [
+        "chest"
+      ],
+      "secondary_muscles": [],
+      "technique": "Hold strækket roligt i 30–45 sek pr. side, uden at hoppe. Træk vejret dybt, og slip lidt mere for hver udånding."
+    }
+  ],
+  "load_types": {
+    "total": "kg i alt",
+    "per_hand": "kg pr. hånd",
+    "machine": "kg (maskine)",
+    "cable": "kg (kabel)",
+    "bodyweight": "kropsvægt + kg"
+  }
+}

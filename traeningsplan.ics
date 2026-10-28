@@ -1,0 +1,2962 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Traeningsplan//DA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Træningsplan
+X-WR-TIMEZONE:Europe/Copenhagen
+BEGIN:VTIMEZONE
+TZID:Europe/Helsinki
+BEGIN:DAYLIGHT
+DTSTART:20250330T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251026T040000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261025T040000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20270328T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20271031T040000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20280326T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20281029T040000
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Europe/Copenhagen
+BEGIN:DAYLIGHT
+DTSTART:20250330T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20251026T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20261025T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20270328T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20271031T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20280326T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20281029T030000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2026-10-12-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261012T170000
+DTEND;TZID=Europe/Helsinki:20261012T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2-3)\n
+ Liggende leg curl: 2 × 10-12 (RIR 2-3)\nStående lægløft: 3 × 10-15 (R
+ IR 2-3)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 2-3)\n\nUge 1 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261013T070000
+DTEND;TZID=Europe/Helsinki:20261013T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-13-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261014T170000
+DTEND;TZID=Europe/Helsinki:20261014T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2-3)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 2-3)\nStående skulderpres: 3 × 6-8 (RIR 2-3)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 2-3)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 2-3)\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-14-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261015T070000
+DTEND;TZID=Europe/Helsinki:20261015T080000
+SUMMARY:🏃 Kvalitet 6 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Fartlek: 6×(1 min hurtigt / 1 m
+ in roligt)\nZone: Z4 · 160–179 bpm\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-15-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261016T170000
+DTEND;TZID=Europe/Helsinki:20261016T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2-3)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 2-3)\nDips (evt. med vægt): 3 × 8-12 (RIR 2-3)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 2-3)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 2-3)\nStraight-arm pulldown: 2 × 12-15 (RIR 2-3)\n\nUge 1 
+ · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-16-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261016T070000
+DTEND;TZID=Europe/Helsinki:20261016T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-17-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261017T170000
+DTEND;TZID=Europe/Helsinki:20261017T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2-3)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 2-3)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 2-3)\nEZ-bar curl: 3 × 8-12 (RIR 2-3)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 2-3)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 2-3)\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-18-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261018T090000
+DTEND;TZID=Europe/Helsinki:20261018T100500
+SUMMARY:🏃 Langtur 10 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 1 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-19-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261019T170000
+DTEND;TZID=Europe/Helsinki:20261019T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2-3)\n
+ Liggende leg curl: 2 × 10-12 (RIR 2-3)\nStående lægløft: 3 × 10-15 (R
+ IR 2-3)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 2-3)\n\nUge 2 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261020T170000
+DTEND;TZID=Europe/Helsinki:20261020T181500
+SUMMARY:🏋️ Upper (styrke)
+DESCRIPTION:Bænkpres: 4 × 5-7 (RIR 2-3)\nPull-ups med vægt / lat pulldow
+ n: 4 × 6-8 (RIR 2-3)\nStående skulderpres: 3 × 6-8 (RIR 2-3)\nRows med 
+ støtte til brystet: 3 × 8-10 (RIR 2-3)\nIncline DB curl + rebpushdown (s
+ uperset): 2 × 10-12 (RIR 2-3)\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-20-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261020T070000
+DTEND;TZID=Europe/Helsinki:20261020T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261021T070000
+DTEND;TZID=Europe/Helsinki:20261021T080000
+SUMMARY:🏃 Kvalitet 8 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×8 min tærskel (RPE 7)\, 2 mi
+ n jog pause\nZone: Z4 · 160–179 bpm\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261022T170000
+DTEND;TZID=Europe/Helsinki:20261022T181500
+SUMMARY:🏋️ Bryst & ryg
+DESCRIPTION:Incline DB-pres: 4 × 8-10 (RIR 2-3)\nBarbell- eller T-bar-row:
+  4 × 8-10 (RIR 2-3)\nDips (evt. med vægt): 3 × 8-12 (RIR 2-3)\nLat pull
+ down med neutralt greb: 3 × 10-12 (RIR 2-3)\nCable fly (lav → høj): 3 
+ × 12-15 (RIR 2-3)\nStraight-arm pulldown: 2 × 12-15 (RIR 2-3)\n\nUge 2 
+ · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261023T070000
+DTEND;TZID=Europe/Helsinki:20261023T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUge 
+ 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261024T170000
+DTEND;TZID=Europe/Helsinki:20261024T181500
+SUMMARY:🏋️ Skulder & arm
+DESCRIPTION:Siddende DB-skulderpres: 3 × 8-10 (RIR 2-3)\nLateral raises (k
+ abel eller DB): 4 × 12-20 (RIR 2-3)\nRear delt fly / face pulls: 3 × 15-
+ 20 (RIR 2-3)\nEZ-bar curl: 3 × 8-12 (RIR 2-3)\nOverhead triceps extension
+  (kabel): 3 × 10-12 (RIR 2-3)\nHammer curl + pushdown (superset): 2 × 12
+ -15 (RIR 2-3)\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-25-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261025T090000
+DTEND;TZID=Europe/Helsinki:20261025T101200
+SUMMARY:🏃 Langtur 11 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 2 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-27-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261027T070000
+DTEND;TZID=Europe/Helsinki:20261027T074500
+SUMMARY:🏃 Rolig 3 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c-cs-mvq61tm0yd@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261027T060900
+DTEND;TZID=Europe/Helsinki:20261027T072400
+SUMMARY:🏋️ Upper
+DESCRIPTION:Bænkpres: 2 × 6-8 (RIR 2)\nPull-ups med vægt / lat pulldown:
+  2 × 6-8 (RIR 2)\nIncline DB-pres: 2 × 6-8 (RIR 2)\nT-bar row: 2 × 6-8 
+ (RIR 2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 2)\nBiceps curl med hånd
+ vægte: 3 × 8-10 (RIR 2)\nRebpushdown: 3 × 8-10 (RIR 2)\n\nUge 3 · Base
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-26-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261028T170000
+DTEND;TZID=Europe/Helsinki:20261028T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 5-8 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 8-10 pr. ben (RIR 2-3)\n
+ Liggende leg curl: 2 × 10-12 (RIR 2-3)\nStående lægløft: 3 × 10-15 (R
+ IR 2-3)\nHanging leg raises / ab wheel: 3 × 10-12 (RIR 2-3)\n\nUge 3 · B
+ ase 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-29-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261029T070000
+DTEND;TZID=Europe/Helsinki:20261029T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-29-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261029T170000
+DTEND;TZID=Europe/Helsinki:20261029T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-28-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261030T170000
+DTEND;TZID=Europe/Helsinki:20261030T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 6-8 pr. ben (RIR 2-3)\nS
+ tående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende lægløft: 2 × 12-15 (RI
+ R 2-3)\n\nLøberens dag. Squat eksplosivt op (alternativ: trapbar-dødløf
+ t). Stående og siddende lægløft som supersæt.\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261031T170000
+DTEND;TZID=Europe/Helsinki:20261031T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-01-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261101T070000
+DTEND;TZID=Europe/Helsinki:20261101T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Rolig Z2 – lidt længere\, hold det helt roligt\nZone: Z2 · 
+ 120–139 bpm\n\nUge 3 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261102T170000
+DTEND;TZID=Europe/Helsinki:20261102T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 2-3)\nLat pulldown: 2 × 6-10 (RIR 2-3
+ )\nIncline DB-pres: 2 × 8-10 (RIR 2-3)\nSiddende kabelroning: 2 × 8-12 (
+ RIR 2-3)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 2-3)\nEnarms lateral rai
+ se i kabel: 2 × 12-20 (RIR 2-3)\nEZ-bar curl: 2 × 8-12 (RIR 2-3)\nRebpus
+ hdown: 2 × 8-12 (RIR 2-3)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 4 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-02-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261102T070000
+DTEND;TZID=Europe/Helsinki:20261102T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 4 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261103T070000
+DTEND;TZID=Europe/Helsinki:20261103T080000
+SUMMARY:🏃 Kvalitet 3 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides (kvalitetsdag\, let start)\nZone: 
+ Z2 · 120–139 bpm\n\nUge 4 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261104T170000
+DTEND;TZID=Europe/Helsinki:20261104T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 3)\nRumænsk dødløft:
+  2 × 6-8 (RIR 3)\nBulgarsk split squat: 2 × 6-8 pr. ben (RIR 3)\nStåend
+ e lægløft: 2 × 8-12 (RIR 3)\nSiddende lægløft: 2 × 12-15 (RIR 3)\n\n
+ Løberens dag. Squat eksplosivt op (alternativ: trapbar-dødløft). Ståen
+ de og siddende lægløft som supersæt.\n\nUge 4 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261104T070000
+DTEND;TZID=Europe/Helsinki:20261104T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 4 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261105T170000
+DTEND;TZID=Europe/Helsinki:20261105T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 4 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261106T170000
+DTEND;TZID=Europe/Helsinki:20261106T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 2-3)\nLat pulldown: 2 × 6-10 (RIR 2-3
+ )\nIncline DB-pres: 2 × 8-10 (RIR 2-3)\nSiddende kabelroning: 2 × 8-12 (
+ RIR 2-3)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 2-3)\nEnarms lateral rai
+ se i kabel: 2 × 12-20 (RIR 2-3)\nEZ-bar curl: 2 × 8-12 (RIR 2-3)\nRebpus
+ hdown: 2 × 8-12 (RIR 2-3)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 4 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-07-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261107T090000
+DTEND;TZID=Europe/Helsinki:20261107T095200
+SUMMARY:🏃 Langtur 8 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 4 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-09-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261109T170000
+DTEND;TZID=Europe/Helsinki:20261109T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 2-3)\nLat pulldown: 2 × 6-10 (RIR 2-3
+ )\nIncline DB-pres: 2 × 8-10 (RIR 2-3)\nSiddende kabelroning: 2 × 8-12 (
+ RIR 2-3)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 2-3)\nEnarms lateral rai
+ se i kabel: 2 × 12-20 (RIR 2-3)\nEZ-bar curl: 2 × 8-12 (RIR 2-3)\nRebpus
+ hdown: 2 × 8-12 (RIR 2-3)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-10-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261110T070000
+DTEND;TZID=Europe/Helsinki:20261110T080000
+SUMMARY:🏃 Kvalitet 3.5 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides (kvalitetsdag\, let start)\nZone: 
+ Z2 · 120–139 bpm\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261111T170000
+DTEND;TZID=Europe/Helsinki:20261111T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 3)\nRumænsk dødløft:
+  2 × 6-8 (RIR 3)\nBulgarsk split squat: 2 × 6-8 pr. ben (RIR 3)\nStåend
+ e lægløft: 2 × 8-12 (RIR 3)\nSiddende lægløft: 2 × 12-15 (RIR 3)\n\n
+ Løberens dag. Squat eksplosivt op (alternativ: trapbar-dødløft). Ståen
+ de og siddende lægløft som supersæt.\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261111T070000
+DTEND;TZID=Europe/Helsinki:20261111T074500
+SUMMARY:🏃 Rolig 3 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261112T070000
+DTEND;TZID=Europe/Helsinki:20261112T074500
+SUMMARY:🏃 Rolig 3 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-12-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261112T170000
+DTEND;TZID=Europe/Helsinki:20261112T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261113T170000
+DTEND;TZID=Europe/Helsinki:20261113T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 2-3)\nLat pulldown: 2 × 6-10 (RIR 2-3
+ )\nIncline DB-pres: 2 × 8-10 (RIR 2-3)\nSiddende kabelroning: 2 × 8-12 (
+ RIR 2-3)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 2-3)\nEnarms lateral rai
+ se i kabel: 2 × 12-20 (RIR 2-3)\nEZ-bar curl: 2 × 8-12 (RIR 2-3)\nRebpus
+ hdown: 2 × 8-12 (RIR 2-3)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261114T090000
+DTEND;TZID=Europe/Helsinki:20261114T100200
+SUMMARY:🏃 Langtur 9.5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 5 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-16-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261116T170000
+DTEND;TZID=Europe/Helsinki:20261116T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261117T070000
+DTEND;TZID=Europe/Helsinki:20261117T080000
+SUMMARY:🏃 Kvalitet 5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Fartlek: 6×(1 min hurtigt / 1 m
+ in roligt)\nZone: Z4 · 160–179 bpm\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261118T170000
+DTEND;TZID=Europe/Helsinki:20261118T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 6-8 pr. ben (RIR 2-3)\nS
+ tående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende lægløft: 2 × 12-15 (RI
+ R 2-3)\n\nLøberens dag. Squat eksplosivt op (alternativ: trapbar-dødløf
+ t). Stående og siddende lægløft som supersæt.\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-18-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261118T070000
+DTEND;TZID=Europe/Helsinki:20261118T074500
+SUMMARY:🏃 Rolig 3 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261119T070000
+DTEND;TZID=Europe/Helsinki:20261119T074500
+SUMMARY:🏃 Rolig 3.5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261119T170000
+DTEND;TZID=Europe/Helsinki:20261119T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-20-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261120T170000
+DTEND;TZID=Europe/Helsinki:20261120T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-21-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261121T090000
+DTEND;TZID=Europe/Helsinki:20261121T101200
+SUMMARY:🏃 Langtur 11 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 6 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-23-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261123T170000
+DTEND;TZID=Europe/Helsinki:20261123T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-24-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261124T070000
+DTEND;TZID=Europe/Helsinki:20261124T080000
+SUMMARY:🏃 Kvalitet 5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 3×8 min tærskel (RPE 7)\, 2 mi
+ n jog pause\nZone: Z4 · 160–179 bpm\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261125T170000
+DTEND;TZID=Europe/Helsinki:20261125T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 3)\nRumænsk dødløft:
+  2 × 6-8 (RIR 3)\nBulgarsk split squat: 2 × 6-8 pr. ben (RIR 3)\nStåend
+ e lægløft: 2 × 8-12 (RIR 3)\nSiddende lægløft: 2 × 12-15 (RIR 3)\n\n
+ Løberens dag. Squat eksplosivt op (alternativ: trapbar-dødløft). Ståen
+ de og siddende lægløft som supersæt.\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-25-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261125T070000
+DTEND;TZID=Europe/Helsinki:20261125T074500
+SUMMARY:🏃 Rolig 3 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-26-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261126T070000
+DTEND;TZID=Europe/Helsinki:20261126T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-26-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261126T170000
+DTEND;TZID=Europe/Helsinki:20261126T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-27-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261127T170000
+DTEND;TZID=Europe/Helsinki:20261127T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-28-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261128T090000
+DTEND;TZID=Europe/Helsinki:20261128T102100
+SUMMARY:🏃 Langtur 12.5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 7 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-30-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261130T170000
+DTEND;TZID=Europe/Helsinki:20261130T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 8 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261201T070000
+DTEND;TZID=Europe/Helsinki:20261201T080000
+SUMMARY:⏱️ 5 km-test (9 km)
+DESCRIPTION:5 km-test: 2 km rolig opvarmning\, 5 km hårdt og jævnt (det h
+ urtigste tempo\, du kan holde hele vejen)\, 2 km rolig nedvarmning. Log ti
+ den for de 5 km – så foreslår appen dit marathonmål og dine tempoer.\
+ nZone: Z4 · 160–179 bpm\n\nUge 8 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-02-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261202T170000
+DTEND;TZID=Europe/Helsinki:20261202T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nBulgarsk split squat: 2 × 6-8 pr. ben (RIR 2-3)\nS
+ tående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende lægløft: 2 × 12-15 (RI
+ R 2-3)\n\nLøberens dag. Squat eksplosivt op (alternativ: trapbar-dødløf
+ t). Stående og siddende lægløft som supersæt.\n\nUge 8 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-03-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261203T170000
+DTEND;TZID=Europe/Helsinki:20261203T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 8 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261204T170000
+DTEND;TZID=Europe/Helsinki:20261204T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 8 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-05-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261205T090000
+DTEND;TZID=Europe/Helsinki:20261205T103100
+SUMMARY:🏃 Langtur 14 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 8 · Base 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-07-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261207T170000
+DTEND;TZID=Europe/Helsinki:20261207T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-07-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261207T070000
+DTEND;TZID=Europe/Helsinki:20261207T074500
+SUMMARY:🏃 Rolig 3 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261208T070000
+DTEND;TZID=Europe/Helsinki:20261208T080000
+SUMMARY:🏃 Kvalitet 5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Bakker: 5×2 min op\, jog ned\nZ
+ one: Z4 · 160–179 bpm\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-09-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261209T170000
+DTEND;TZID=Europe/Helsinki:20261209T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 ×
+  8 pr. ben (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-09-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261209T070000
+DTEND;TZID=Europe/Helsinki:20261209T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-10-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261210T070000
+DTEND;TZID=Europe/Helsinki:20261210T073500
+SUMMARY:⛰️ Bakke 4.5 km · ↑250 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 20 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈250 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈250 m op\n\nUge 9 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-10-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261210T170000
+DTEND;TZID=Europe/Helsinki:20261210T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-11-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261211T170000
+DTEND;TZID=Europe/Helsinki:20261211T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 9 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-12-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261212T090000
+DTEND;TZID=Europe/Helsinki:20261212T104100
+SUMMARY:🏃 Langtur 15.5 km · ↑120 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈120 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈120 m op\n\nUge 9 · 
+ Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-14-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261214T170000
+DTEND;TZID=Europe/Helsinki:20261214T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 10 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-15-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261215T070000
+DTEND;TZID=Europe/Helsinki:20261215T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides (deload – ingen intervaller)\nZo
+ ne: Z2 · 120–139 bpm\n\nUge 10 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-16-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261216T170000
+DTEND;TZID=Europe/Helsinki:20261216T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 ×
+  8 pr. ben (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 10 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-16-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261216T070000
+DTEND;TZID=Europe/Helsinki:20261216T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 10 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-17-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261217T070000
+DTEND;TZID=Europe/Helsinki:20261217T073100
+SUMMARY:⛰️ Bakke 4 km · ↑180 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 16 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈180 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈180 m op\n\nUge 10
+  · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-17-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261217T170000
+DTEND;TZID=Europe/Helsinki:20261217T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 10 · Trail-opbygning · Del
+ oad
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-18-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Helsinki:20261218T170000
+DTEND;TZID=Europe/Helsinki:20261218T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 10 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-19-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261219T090000
+DTEND;TZID=Europe/Copenhagen:20261219T101500
+SUMMARY:🏃 Langtur 11.5 km · ↑90 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈90 højdemeter – find kupe
+ ret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning und
+ ervejs.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈90 m op\n\nUge 10 · T
+ rail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-21-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261221T170000
+DTEND;TZID=Europe/Copenhagen:20261221T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-21-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261221T070000
+DTEND;TZID=Europe/Copenhagen:20261221T074500
+SUMMARY:🏃 Rolig 3.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-22-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261222T070000
+DTEND;TZID=Europe/Copenhagen:20261222T080000
+SUMMARY:🏃 Kvalitet 5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Tærskel: 3×10 min (RPE 7)\, 3 
+ min jog pause\nZone: Z4 · 160–179 bpm\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-23-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261223T170000
+DTEND;TZID=Europe/Copenhagen:20261223T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 3)\nRumænsk dødløft:
+  2 × 6-8 (RIR 3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8 p
+ r. ben (RIR 3)\nStående lægløft: 2 × 8-12 (RIR 3)\nSiddende lægløft:
+  2 × 12-15 (RIR 3)\n\nLøberens dag. Squat eksplosivt op (alternativ: tra
+ pbar-dødløft). Stående og siddende lægløft som supersæt.\n\nUge 11 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-23-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261223T070000
+DTEND;TZID=Europe/Copenhagen:20261223T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-24-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261224T070000
+DTEND;TZID=Europe/Copenhagen:20261224T073900
+SUMMARY:⛰️ Bakke 4 km · ↑290 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 24 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈290 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈290 m op\n\nUge 11
+  · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-24-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261224T170000
+DTEND;TZID=Europe/Copenhagen:20261224T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-25-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261225T170000
+DTEND;TZID=Europe/Copenhagen:20261225T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 11 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-26-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261226T090000
+DTEND;TZID=Europe/Copenhagen:20261226T105000
+SUMMARY:🏃 Langtur 17 km · ↑240 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈240 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈240 m op\n\nUge 11 ·
+  Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-28-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261228T170000
+DTEND;TZID=Europe/Copenhagen:20261228T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 12 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-28-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261228T070000
+DTEND;TZID=Europe/Copenhagen:20261228T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 12 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-29-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261229T070000
+DTEND;TZID=Europe/Copenhagen:20261229T080000
+SUMMARY:🏃 Kvalitet 5.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Bakker: 6×3 min op\, jog ned\nZ
+ one: Z4 · 160–179 bpm\n\nUge 12 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-30-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261230T170000
+DTEND;TZID=Europe/Copenhagen:20261230T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 ×
+  8 pr. ben (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 12 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-30-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261230T070000
+DTEND;TZID=Europe/Copenhagen:20261230T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 12 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-31-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261231T070000
+DTEND;TZID=Europe/Copenhagen:20261231T074700
+SUMMARY:⛰️ Bakke 4 km · ↑380 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 32 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈380 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈380 m op\n\nUge 12
+  · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-31-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20261231T170000
+DTEND;TZID=Europe/Copenhagen:20261231T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 12 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-01-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270101T170000
+DTEND;TZID=Europe/Copenhagen:20270101T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 12 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-02-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270102T090000
+DTEND;TZID=Europe/Copenhagen:20270102T110000
+SUMMARY:🏃 Langtur 18.5 km · ↑360 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈360 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs. · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min.\nZone: Z2
+  · 120–139 bpm\nHøjdemeter: ≈360 m op\n\nUge 12 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-04-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270104T170000
+DTEND;TZID=Europe/Copenhagen:20270104T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-04-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270104T070000
+DTEND;TZID=Europe/Copenhagen:20270104T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-05-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270105T070000
+DTEND;TZID=Europe/Copenhagen:20270105T080000
+SUMMARY:🏃 Kvalitet 5.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Tærskel: 2×15 min (RPE 7)\, 3 
+ min jog pause\nZone: Z4 · 160–179 bpm\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-06-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270106T170000
+DTEND;TZID=Europe/Copenhagen:20270106T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 ×
+  8 pr. ben (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-06-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270106T070000
+DTEND;TZID=Europe/Copenhagen:20270106T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-07-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270107T070000
+DTEND;TZID=Europe/Copenhagen:20270107T075100
+SUMMARY:⛰️ Bakke 5.5 km · ↑410 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 36 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈410 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈410 m op\n\nUge 13
+  · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-07-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270107T170000
+DTEND;TZID=Europe/Copenhagen:20270107T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-08-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270108T170000
+DTEND;TZID=Europe/Copenhagen:20270108T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-09-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270109T090000
+DTEND;TZID=Europe/Copenhagen:20270109T111000
+SUMMARY:🏃 Langtur 20 km · ↑510 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈510 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs. · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min.\nZone: Z2
+  · 120–139 bpm\nHøjdemeter: ≈510 m op\n\nUge 13 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270111T170000
+DTEND;TZID=Europe/Copenhagen:20270111T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 14 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270111T070000
+DTEND;TZID=Europe/Copenhagen:20270111T074500
+SUMMARY:🏃 Rolig 3 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 14 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-12-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270112T070000
+DTEND;TZID=Europe/Copenhagen:20270112T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Rolig Z2 + 6×20 sek strides (deload – ingen intervaller)\nZo
+ ne: Z2 · 120–139 bpm\n\nUge 14 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-13-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270113T170000
+DTEND;TZID=Europe/Copenhagen:20270113T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 ×
+  8 pr. ben (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 14 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-13-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270113T070000
+DTEND;TZID=Europe/Copenhagen:20270113T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 14 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-14-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270114T070000
+DTEND;TZID=Europe/Copenhagen:20270114T074300
+SUMMARY:⛰️ Bakke 4 km · ↑300 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 28 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈300 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈300 m op\n\nUge 14
+  · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-14-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270114T170000
+DTEND;TZID=Europe/Copenhagen:20270114T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 14 · Trail-opbygning · Del
+ oad
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-15-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270115T170000
+DTEND;TZID=Europe/Copenhagen:20270115T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 14 · Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-16-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270116T090000
+DTEND;TZID=Europe/Copenhagen:20270116T103800
+SUMMARY:🏃 Langtur 15 km · ↑310 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈310 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs.\nZone: Z2 · 120–139 bpm\nHøjdemeter: ≈310 m op\n\nUge 14 ·
+  Trail-opbygning · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-18-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270118T170000
+DTEND;TZID=Europe/Copenhagen:20270118T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-18-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270118T070000
+DTEND;TZID=Europe/Copenhagen:20270118T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-19-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270119T070000
+DTEND;TZID=Europe/Copenhagen:20270119T080000
+SUMMARY:🏃 Kvalitet 6 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Bakker: 7×3 min op\, jog ned\nZ
+ one: Z4 · 160–179 bpm\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270120T170000
+DTEND;TZID=Europe/Copenhagen:20270120T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 3)\nRumænsk dødløft:
+  2 × 6-8 (RIR 3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 × 8 p
+ r. ben (RIR 3)\nStående lægløft: 2 × 8-12 (RIR 3)\nSiddende lægløft:
+  2 × 12-15 (RIR 3)\n\nLøberens dag. Squat eksplosivt op (alternativ: tra
+ pbar-dødløft). Stående og siddende lægløft som supersæt.\n\nUge 15 
+ · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-20-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270120T070000
+DTEND;TZID=Europe/Copenhagen:20270120T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-21-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270121T070000
+DTEND;TZID=Europe/Copenhagen:20270121T075500
+SUMMARY:⛰️ Bakke 5 km · ↑440 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 40 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈440 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈440 m op\n\nUge 15
+  · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-21-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270121T170000
+DTEND;TZID=Europe/Copenhagen:20270121T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-22-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270122T170000
+DTEND;TZID=Europe/Copenhagen:20270122T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-23-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270123T090000
+DTEND;TZID=Europe/Copenhagen:20270123T112000
+SUMMARY:🏃 Langtur 21.5 km · ↑670 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈670 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs. · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min.\nZone: Z2
+  · 120–139 bpm\nHøjdemeter: ≈670 m op\n\nUge 15 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-25-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270125T170000
+DTEND;TZID=Europe/Copenhagen:20270125T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 16 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-25-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270125T070000
+DTEND;TZID=Europe/Copenhagen:20270125T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 16 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-26-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270126T070000
+DTEND;TZID=Europe/Copenhagen:20270126T080000
+SUMMARY:🏃 Kvalitet 6.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Tærskel: 2×20 min (RPE 7)\, 3 
+ min jog pause\nZone: Z4 · 160–179 bpm\n\nUge 16 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270127T170000
+DTEND;TZID=Europe/Copenhagen:20270127T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 ×
+  8 pr. ben (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 16 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-27-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270127T070000
+DTEND;TZID=Europe/Copenhagen:20270127T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 16 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-28-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270128T070000
+DTEND;TZID=Europe/Copenhagen:20270128T075900
+SUMMARY:⛰️ Bakke 6 km · ↑470 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 44 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈470 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈470 m op\n\nUge 16
+  · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-28-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270128T170000
+DTEND;TZID=Europe/Copenhagen:20270128T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 16 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-29-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270129T170000
+DTEND;TZID=Europe/Copenhagen:20270129T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 16 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-30-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270130T090000
+DTEND;TZID=Europe/Copenhagen:20270130T112300
+SUMMARY:🏃 Langtur 22 km · ↑820 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈820 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs. · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min.\nZone: Z2
+  · 120–139 bpm\nHøjdemeter: ≈820 m op\n\nUge 16 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-01-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270201T170000
+DTEND;TZID=Europe/Copenhagen:20270201T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-01-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270201T070000
+DTEND;TZID=Europe/Copenhagen:20270201T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-02-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270202T070000
+DTEND;TZID=Europe/Copenhagen:20270202T080000
+SUMMARY:🏃 Kvalitet 6.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Bakker: 8×2–4 min op (varier)
+ \, jog ned\nZone: Z4 · 160–179 bpm\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-03-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270203T170000
+DTEND;TZID=Europe/Copenhagen:20270203T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 ×
+  8 pr. ben (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-03-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270203T070000
+DTEND;TZID=Europe/Copenhagen:20270203T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-04-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270204T070000
+DTEND;TZID=Europe/Copenhagen:20270204T080300
+SUMMARY:⛰️ Bakke 6 km · ↑490 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 48 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈490 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈490 m op\n\nUge 17
+  · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-04-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270204T170000
+DTEND;TZID=Europe/Copenhagen:20270204T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-05-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270205T170000
+DTEND;TZID=Europe/Copenhagen:20270205T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-06-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270206T090000
+DTEND;TZID=Europe/Copenhagen:20270206T112300
+SUMMARY:🏃 Langtur 22 km · ↑950 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈950 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs. · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min.\nZone: Z2
+  · 120–139 bpm\nHøjdemeter: ≈950 m op\n\nUge 17 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-08-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270208T170000
+DTEND;TZID=Europe/Copenhagen:20270208T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-08-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270208T070000
+DTEND;TZID=Europe/Copenhagen:20270208T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-09-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270209T070000
+DTEND;TZID=Europe/Copenhagen:20270209T080000
+SUMMARY:🏃 Kvalitet 7 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Tærskel: 2×15 min (RPE 7)\, 3 
+ min jog pause\nZone: Z4 · 160–179 bpm\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-10-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270210T170000
+DTEND;TZID=Europe/Copenhagen:20270210T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 3 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 3 × 6-8 (RIR 2-3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 2 ×
+  8 pr. ben (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-10-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270210T070000
+DTEND;TZID=Europe/Copenhagen:20270210T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-11-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270211T070000
+DTEND;TZID=Europe/Copenhagen:20270211T075500
+SUMMARY:⛰️ Bakke 6.5 km · ↑440 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 40 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈440 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈440 m op\n\nUge 18
+  · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-11-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270211T170000
+DTEND;TZID=Europe/Copenhagen:20270211T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-12-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270212T170000
+DTEND;TZID=Europe/Copenhagen:20270212T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-13-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270213T090000
+DTEND;TZID=Europe/Copenhagen:20270213T105000
+SUMMARY:🏃 Langtur 17 km · ↑710 hm
+DESCRIPTION:Trail\, øv væske/gel · Mål: ≈710 højdemeter – find kup
+ eret terræn\, eller løb 2-3 blokke på løbebånd med 8-10 % stigning un
+ dervejs. · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min.\nZone: Z2
+  · 120–139 bpm\nHøjdemeter: ≈710 m op\n\nUge 18 · Trail-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-15-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270215T170000
+DTEND;TZID=Europe/Copenhagen:20270215T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 1 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nRebpushdown: 1 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt. Nedtrapning/løbsuge: halve sæt\, samme vægt.\n\nUge 
+ 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-15-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270215T070000
+DTEND;TZID=Europe/Copenhagen:20270215T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-16-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270216T070000
+DTEND;TZID=Europe/Copenhagen:20270216T080000
+SUMMARY:🏃 Kvalitet 6.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Kort tærskel: 3×6 min (RPE 7)\
+ , 2 min jog pause\nZone: Z4 · 160–179 bpm\n\nUge 19 · Nedtrapning (Hal
+ f)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-17-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270217T170000
+DTEND;TZID=Europe/Copenhagen:20270217T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 3)\nRumænsk dødløft:
+  2 × 6-8 (RIR 3)\nStep-downs fra kasse (3 sek ned\, excentrisk): 1 × 8 p
+ r. ben (RIR 3)\nStående lægløft: 2 × 8-12 (RIR 3)\nSiddende lægløft:
+  1 × 12-15 (RIR 3)\n\nLøberens dag. Squat eksplosivt op (alternativ: tra
+ pbar-dødløft). Stående og siddende lægløft som supersæt. Nedtrapning
+ /løbsuge: halve sæt\, samme vægt.\n\nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-18-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270218T070000
+DTEND;TZID=Europe/Copenhagen:20270218T073500
+SUMMARY:⛰️ Bakke 5 km · ↑210 hm
+DESCRIPTION:Power hike: 10 min rolig opvarmning\, derefter 20 min rask gang
+ /let løb på løbebånd med 12–15 % stigning (≈210 højdemeter)\, Z2
+ –Z3\, 5 min rolig. Alternativ: trapper/StairMaster i samme tid. Træn h
+ ænder-på-lår-teknikken.\nZone: Z2-3\nHøjdemeter: ≈210 m op\n\nUge 19
+  · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-18-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270218T170000
+DTEND;TZID=Europe/Copenhagen:20270218T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 1 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 1 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds). Nedtrapning/løbsuge: halve sæt\, 
+ samme vægt.\n\nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-19-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270219T170000
+DTEND;TZID=Europe/Copenhagen:20270219T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 1 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nRebpushdown: 1 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt. Nedtrapning/løbsuge: halve sæt\, samme vægt.\n\nUge 
+ 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-20-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270220T090000
+DTEND;TZID=Europe/Copenhagen:20270220T101500
+SUMMARY:🏃 Langtur 11.5 km
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+ .\nZone: Z2 · 120–139 bpm\n\nUge 19 · Nedtrapning (Half)
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270222T170000
+DTEND;TZID=Europe/Copenhagen:20270222T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 1 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nRebpushdown: 1 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt. Nedtrapning/løbsuge: halve sæt\, samme vægt.\n\nUge 
+ 20 · Løbsuge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-22-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270222T070000
+DTEND;TZID=Europe/Copenhagen:20270222T074500
+SUMMARY:🏃 Rolig 3.5 km
+DESCRIPTION:Kort rolig + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUg
+ e 20 · Løbsuge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-23-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270223T070000
+DTEND;TZID=Europe/Copenhagen:20270223T080000
+SUMMARY:🏃 Kvalitet 5 km
+DESCRIPTION:5 km rolig med 3×3 min ved race-indsats (RPE 7)\, 2 min jog pa
+ use\nZone: Z3-4\n\nUge 20 · Løbsuge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-25-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270225T080000
+DTEND;TZID=Europe/Copenhagen:20270225T103000
+SUMMARY:🏁 Transgrancanaria Half · ↑1817 hm
+DESCRIPTION:RACE: Transgrancanaria Half – 23 km\, ca. 1.800 højdemeter o
+ p (2026-ruten Santa Lucía → Tejeda). Gå de stejle stykker\, løb reste
+ n.\nZone: Race · Race-indsats\nHøjdemeter: ≈1817 m op\n\nUge 20 · Lø
+ bsuge – Transgrancanaria
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-01-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270301T170000
+DTEND;TZID=Europe/Copenhagen:20270301T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-01-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270301T070000
+DTEND;TZID=Europe/Copenhagen:20270301T074500
+SUMMARY:🏃 Rolig 3 km
+DESCRIPTION:Rolig Z1–2\nZone: Z2 · 120–139 bpm\n\nUge 21 · Restitutio
+ n · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-02-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270302T070000
+DTEND;TZID=Europe/Copenhagen:20270302T074500
+SUMMARY:🏃 Rolig 3.5 km
+DESCRIPTION:Rolig Z1–2 (restitution – ingen kvalitet)\nZone: Z2 · 120
+ –139 bpm\n\nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-04-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270304T070000
+DTEND;TZID=Europe/Copenhagen:20270304T074500
+SUMMARY:🏃 Rolig 3.5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 21 · Restitution ·
+  Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-04-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270304T170000
+DTEND;TZID=Europe/Copenhagen:20270304T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-05-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270305T170000
+DTEND;TZID=Europe/Copenhagen:20270305T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-06-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270306T070000
+DTEND;TZID=Europe/Copenhagen:20270306T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig\, helt let – ingen hastighed\nZone: Z1-2 · 102–139 b
+ pm\n\nUge 21 · Restitution · Deload
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-08-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270308T170000
+DTEND;TZID=Europe/Copenhagen:20270308T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-08-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270308T070000
+DTEND;TZID=Europe/Copenhagen:20270308T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-09-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270309T070000
+DTEND;TZID=Europe/Copenhagen:20270309T080000
+SUMMARY:🏃 Kvalitet 6 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Tærskel: 3×10 min (RPE 7)\, 2 
+ min jog pause\nZone: Z4 · 160–179 bpm\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-10-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270310T170000
+DTEND;TZID=Europe/Copenhagen:20270310T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 2 × 6-8 (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-10-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270310T070000
+DTEND;TZID=Europe/Copenhagen:20270310T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-11-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270311T070000
+DTEND;TZID=Europe/Copenhagen:20270311T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 22 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-11-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270311T170000
+DTEND;TZID=Europe/Copenhagen:20270311T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-12-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270312T170000
+DTEND;TZID=Europe/Copenhagen:20270312T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-13-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270313T090000
+DTEND;TZID=Europe/Copenhagen:20270313T111000
+SUMMARY:🏃 Langtur 20 km
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+ .\nZone: Z2 · 120–139 bpm\n\nUge 22 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-15-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270315T170000
+DTEND;TZID=Europe/Copenhagen:20270315T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-15-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270315T070000
+DTEND;TZID=Europe/Copenhagen:20270315T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-16-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270316T070000
+DTEND;TZID=Europe/Copenhagen:20270316T080000
+SUMMARY:🏃 Kvalitet 5.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 5×1 km i 10 km-fart\, 2 min jog
+  pause\nZone: Z4 · 160–179 bpm\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270317T170000
+DTEND;TZID=Europe/Copenhagen:20270317T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 2 × 6-8 (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-17-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270317T070000
+DTEND;TZID=Europe/Copenhagen:20270317T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-18-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270318T070000
+DTEND;TZID=Europe/Copenhagen:20270318T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 23 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-18-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270318T170000
+DTEND;TZID=Europe/Copenhagen:20270318T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-19-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270319T170000
+DTEND;TZID=Europe/Copenhagen:20270319T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 23 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-20-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270320T090000
+DTEND;TZID=Europe/Copenhagen:20270320T113000
+SUMMARY:🏃 Langtur 23 km
+DESCRIPTION:Rolig Z2\, sidste 5 km i MP · Øv energi: 30-60 g kulhydrat i 
+ timen fra 45-60 min.\nZone: Z2 · 120–139 bpm\n\nUge 23 · Marathon-opby
+ gning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-22-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270322T170000
+DTEND;TZID=Europe/Copenhagen:20270322T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-22-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270322T070000
+DTEND;TZID=Europe/Copenhagen:20270322T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-23-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270323T070000
+DTEND;TZID=Europe/Copenhagen:20270323T080000
+SUMMARY:🏃 Kvalitet 5.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. MP-blokke: 3×15 min i MP\, 3 mi
+ n jog pause\nZone: Z3-4\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-24-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270324T170000
+DTEND;TZID=Europe/Copenhagen:20270324T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 2 × 6-8 (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-24-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270324T070000
+DTEND;TZID=Europe/Copenhagen:20270324T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270325T070000
+DTEND;TZID=Europe/Copenhagen:20270325T074500
+SUMMARY:🏃 Rolig 5.5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 24 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-25-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270325T170000
+DTEND;TZID=Europe/Copenhagen:20270325T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-26-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270326T170000
+DTEND;TZID=Europe/Copenhagen:20270326T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 24 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-27-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270327T090000
+DTEND;TZID=Europe/Copenhagen:20270327T114900
+SUMMARY:🏃 Langtur 26 km
+DESCRIPTION:Rolig Z2\, sidste 8 km i MP · Øv energi: 30-60 g kulhydrat i 
+ timen fra 45-60 min.\nZone: Z2 · 120–139 bpm\n\nUge 24 · Marathon-opby
+ gning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-29-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270329T170000
+DTEND;TZID=Europe/Copenhagen:20270329T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 25 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-29-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270329T070000
+DTEND;TZID=Europe/Copenhagen:20270329T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 25 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-30-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270330T070000
+DTEND;TZID=Europe/Copenhagen:20270330T080000
+SUMMARY:🏃 Kvalitet 5.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 6×1 km i 10 km-fart\, 2 min jog
+  pause\nZone: Z4 · 160–179 bpm\n\nUge 25 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-31-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270331T170000
+DTEND;TZID=Europe/Copenhagen:20270331T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 3)\nRumænsk dødløft:
+  2 × 6-8 (RIR 3)\nStående lægløft: 2 × 8-12 (RIR 3)\nSiddende læglø
+ ft: 2 × 12-15 (RIR 3)\n\nLøberens dag. Squat eksplosivt op (alternativ: 
+ trapbar-dødløft). Stående og siddende lægløft som supersæt.\n\nUge 2
+ 5 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-31-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270331T070000
+DTEND;TZID=Europe/Copenhagen:20270331T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 25 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-01-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270401T070000
+DTEND;TZID=Europe/Copenhagen:20270401T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 25 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-01-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270401T170000
+DTEND;TZID=Europe/Copenhagen:20270401T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 25 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-02-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270402T170000
+DTEND;TZID=Europe/Copenhagen:20270402T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 2 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 2 × 8-12 (RIR 3)\nRebpushdown: 2 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt.\n\nUge 25 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-03-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270403T090000
+DTEND;TZID=Europe/Copenhagen:20270403T120800
+SUMMARY:🏃 Langtur 29 km
+DESCRIPTION:Rolig Z2\, sidste 10 km i MP · Øv energi: 30-60 g kulhydrat i
+  timen fra 45-60 min.\nZone: Z2 · 120–139 bpm\n\nUge 25 · Marathon-opb
+ ygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-05-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270405T170000
+DTEND;TZID=Europe/Copenhagen:20270405T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-05-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270405T070000
+DTEND;TZID=Europe/Copenhagen:20270405T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-06-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270406T070000
+DTEND;TZID=Europe/Copenhagen:20270406T080000
+SUMMARY:🏃 Kvalitet 7 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. 6×1 km i 10 km-fart\, 2 min jog
+  pause\nZone: Z4 · 160–179 bpm\n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-07-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270407T170000
+DTEND;TZID=Europe/Copenhagen:20270407T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 2 × 6-8 (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-07-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270407T070000
+DTEND;TZID=Europe/Copenhagen:20270407T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-08-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270408T070000
+DTEND;TZID=Europe/Copenhagen:20270408T074500
+SUMMARY:🏃 Rolig 7 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 26 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-08-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270408T170000
+DTEND;TZID=Europe/Copenhagen:20270408T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-09-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270409T170000
+DTEND;TZID=Europe/Copenhagen:20270409T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 26 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-10-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270410T090000
+DTEND;TZID=Europe/Copenhagen:20270410T121500
+SUMMARY:🏃 Langtur 30 km
+DESCRIPTION:Rolig Z2\, sidste 10 km i MP · Øv energi: 30-60 g kulhydrat i
+  timen fra 45-60 min.\nZone: Z2 · 120–139 bpm\n\nUge 26 · Marathon-opb
+ ygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-12-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270412T170000
+DTEND;TZID=Europe/Copenhagen:20270412T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-12-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270412T070000
+DTEND;TZID=Europe/Copenhagen:20270412T074500
+SUMMARY:🏃 Rolig 5.5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-13-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270413T070000
+DTEND;TZID=Europe/Copenhagen:20270413T080000
+SUMMARY:🏃 Kvalitet 8 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. MP-blokke: 4×10 min i MP\, 3 mi
+ n jog pause\nZone: Z3-4\n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-14-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270414T170000
+DTEND;TZID=Europe/Copenhagen:20270414T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 2 × 4-6 (RIR 2-3)\nRumænsk dødløf
+ t: 2 × 6-8 (RIR 2-3)\nStående lægløft: 3 × 8-12 (RIR 2-3)\nSiddende l
+ ægløft: 2 × 12-15 (RIR 2-3)\n\nLøberens dag. Squat eksplosivt op (alte
+ rnativ: trapbar-dødløft). Stående og siddende lægløft som supersæt.\
+ n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-14-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270414T070000
+DTEND;TZID=Europe/Copenhagen:20270414T074500
+SUMMARY:🏃 Rolig 4 km (valgfri)
+DESCRIPTION:Valgfri kort rolig tur – spring over\, hvis du er træt\nZone
+ : Z2 · 120–139 bpm\n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-15-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270415T070000
+DTEND;TZID=Europe/Copenhagen:20270415T074500
+SUMMARY:🏃 Rolig 7.5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 27 · Marathon-opbyg
+ ning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-15-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270415T170000
+DTEND;TZID=Europe/Copenhagen:20270415T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 3 × 8-12 (RIR –)\nKabel-crunc
+ h: 3 × 10-15 (RIR –)\nSide plank: 2 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 2 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds).\n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-16-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270416T170000
+DTEND;TZID=Europe/Copenhagen:20270416T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 3 × 5-8 (RIR 1-2)\nLat pulldown: 3 × 6-10 (RIR 1-2
+ )\nIncline DB-pres: 3 × 8-10 (RIR 1-2)\nSiddende kabelroning: 3 × 8-12 (
+ RIR 1-2)\nSiddende DB-skulderpres: 2 × 8-10 (RIR 1-2)\nEnarms lateral rai
+ se i kabel: 3 × 12-20 (RIR 1-2)\nEZ-bar curl: 2 × 8-12 (RIR 1-2)\nRebpus
+ hdown: 2 × 8-12 (RIR 1-2)\n\nUpper (8 øvelser\, ens mandag og fredag). S
+ kulderpres\, curl og pushdown: 2–3 sæt. Falder reps mod mandag\, er det
+  ugetræthed – hold samme vægt.\n\nUge 27 · Marathon-opbygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-17-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270417T090000
+DTEND;TZID=Europe/Copenhagen:20270417T122800
+SUMMARY:🏃 Langtur 32 km
+DESCRIPTION:Rolig Z2\, sidste 14 km i MP · Øv energi: 30-60 g kulhydrat i
+  timen fra 45-60 min.\nZone: Z2 · 120–139 bpm\n\nUge 27 · Marathon-opb
+ ygning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-19-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270419T170000
+DTEND;TZID=Europe/Copenhagen:20270419T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 1 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nRebpushdown: 1 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt. Nedtrapning/løbsuge: halve sæt\, samme vægt.\n\nUge 
+ 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-19-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270419T070000
+DTEND;TZID=Europe/Copenhagen:20270419T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-20-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270420T070000
+DTEND;TZID=Europe/Copenhagen:20270420T080000
+SUMMARY:🏃 Kvalitet 6 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Kort tærskel: 3×6 min (RPE 7)\
+ , 2 min jog pause\nZone: Z4 · 160–179 bpm\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-21-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270421T170000
+DTEND;TZID=Europe/Copenhagen:20270421T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 1 × 4-6 (RIR 3)\nRumænsk dødløft:
+  1 × 6-8 (RIR 3)\nStående lægløft: 2 × 8-12 (RIR 3)\nSiddende læglø
+ ft: 1 × 12-15 (RIR 3)\n\nLøberens dag. Squat eksplosivt op (alternativ: 
+ trapbar-dødløft). Stående og siddende lægløft som supersæt. Nedtrapn
+ ing/løbsuge: halve sæt\, samme vægt.\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-22-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270422T070000
+DTEND;TZID=Europe/Copenhagen:20270422T074500
+SUMMARY:🏃 Rolig 6 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-22-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270422T170000
+DTEND;TZID=Europe/Copenhagen:20270422T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 1 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 1 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds). Nedtrapning/løbsuge: halve sæt\, 
+ samme vægt.\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-23-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270423T170000
+DTEND;TZID=Europe/Copenhagen:20270423T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 1 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nRebpushdown: 1 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt. Nedtrapning/løbsuge: halve sæt\, samme vægt.\n\nUge 
+ 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-24-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270424T090000
+DTEND;TZID=Europe/Copenhagen:20270424T113600
+SUMMARY:🏃 Langtur 24 km
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+ .\nZone: Z2 · 120–139 bpm\n\nUge 28 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-26-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270426T170000
+DTEND;TZID=Europe/Copenhagen:20270426T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 1 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nRebpushdown: 1 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt. Nedtrapning/løbsuge: halve sæt\, samme vægt.\n\nUge 
+ 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-26-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270426T070000
+DTEND;TZID=Europe/Copenhagen:20270426T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Kort rolig Z2 + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\
+ nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-27-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270427T070000
+DTEND;TZID=Europe/Copenhagen:20270427T080000
+SUMMARY:🏃 Kvalitet 6 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Kort MP: 2×10 min i MP\, 3 min 
+ jog pause\nZone: Z3-4\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-28-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270428T170000
+DTEND;TZID=Europe/Copenhagen:20270428T181500
+SUMMARY:🏋️ Lower
+DESCRIPTION:Squat (eller hack squat): 1 × 4-6 (RIR 3)\nRumænsk dødløft:
+  1 × 6-8 (RIR 3)\nStående lægløft: 2 × 8-12 (RIR 3)\nSiddende læglø
+ ft: 1 × 12-15 (RIR 3)\n\nLøberens dag. Squat eksplosivt op (alternativ: 
+ trapbar-dødløft). Stående og siddende lægløft som supersæt. Nedtrapn
+ ing/løbsuge: halve sæt\, samme vægt.\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-29-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270429T070000
+DTEND;TZID=Europe/Copenhagen:20270429T074500
+SUMMARY:🏃 Rolig 5 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-29-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270429T170000
+DTEND;TZID=Europe/Copenhagen:20270429T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 1 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 1 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds). Nedtrapning/løbsuge: halve sæt\, 
+ samme vægt.\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-30-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270430T170000
+DTEND;TZID=Europe/Copenhagen:20270430T181500
+SUMMARY:🏋️ Upper (fredag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 1 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nRebpushdown: 1 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt. Nedtrapning/løbsuge: halve sæt\, samme vægt.\n\nUge 
+ 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-01-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270501T090000
+DTEND;TZID=Europe/Copenhagen:20270501T105000
+SUMMARY:🏃 Langtur 17 km
+DESCRIPTION:Rolig Z2 · Øv energi: 30-60 g kulhydrat i timen fra 45-60 min
+ .\nZone: Z2 · 120–139 bpm\n\nUge 29 · Nedtrapning
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-03-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270503T170000
+DTEND;TZID=Europe/Copenhagen:20270503T181500
+SUMMARY:🏋️ Upper (mandag)
+DESCRIPTION:Bænkpres: 2 × 5-8 (RIR 3)\nLat pulldown: 2 × 6-10 (RIR 3)\nI
+ ncline DB-pres: 2 × 8-10 (RIR 3)\nSiddende kabelroning: 2 × 8-12 (RIR 3)
+ \nSiddende DB-skulderpres: 1 × 8-10 (RIR 3)\nEnarms lateral raise i kabel
+ : 2 × 12-20 (RIR 3)\nEZ-bar curl: 1 × 8-12 (RIR 3)\nRebpushdown: 1 × 8-
+ 12 (RIR 3)\n\nUpper (8 øvelser\, ens mandag og fredag). Skulderpres\, cur
+ l og pushdown: 2–3 sæt. Falder reps mod mandag\, er det ugetræthed –
+  hold samme vægt. Nedtrapning/løbsuge: halve sæt\, samme vægt.\n\nUge 
+ 30 · Løbsuge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-03-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270503T070000
+DTEND;TZID=Europe/Copenhagen:20270503T074500
+SUMMARY:🏃 Rolig 4.5 km
+DESCRIPTION:Kort rolig + 6×20 sek strides\nZone: Z2 · 120–139 bpm\n\nUg
+ e 30 · Løbsuge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-04-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270504T070000
+DTEND;TZID=Europe/Copenhagen:20270504T080000
+SUMMARY:🏃 Kvalitet 5.5 km
+DESCRIPTION:Inkl. 2 km op- og nedvarmning. Kort MP-pas: 2×8 min i MP\, 3 m
+ in jog pause\nZone: Z3-4\n\nUge 30 · Løbsuge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-06-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270506T070000
+DTEND;TZID=Europe/Copenhagen:20270506T074500
+SUMMARY:🏃 Rolig 4 km
+DESCRIPTION:Rolig Z2\nZone: Z2 · 120–139 bpm\n\nUge 30 · Løbsuge – C
+ PH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-06-1@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270506T170000
+DTEND;TZID=Europe/Copenhagen:20270506T181500
+SUMMARY:🏋️ Core & mobilitet
+DESCRIPTION:Hanging leg raises / ab wheel: 2 × 8-12 (RIR –)\nKabel-crunc
+ h: 2 × 10-15 (RIR –)\nSide plank: 1 × 30-45 sek pr. side (RIR –)\nPa
+ llof press: 1 × 10 pr. side (RIR –)\nUdstrækning: hoftebøjere: 1 × 4
+ 5 sek pr. side (RIR –)\nUdstrækning: lægge: 1 × 45 sek pr. side (RIR 
+ –)\nUdstrækning: baglår: 1 × 45 sek pr. side (RIR –)\nUdstrækning:
+  bryst: 1 × 45 sek pr. side (RIR –)\n\nLet pas (15–20 min) efter den 
+ rolige tur – tæller ikke som benpas eller hård dag. Hjemme: dead bug i
+  stedet for crunch/leg raise\, fuglehund i stedet for Pallof press. Afslut
+  med 5–8 min udstrækning (afkryds). Nedtrapning/løbsuge: halve sæt\, 
+ samme vægt.\n\nUge 30 · Løbsuge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-08-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270508T070000
+DTEND;TZID=Europe/Copenhagen:20270508T074500
+SUMMARY:🏃 Rolig 3 km
+DESCRIPTION:Shakeout: meget rolig + 4×20 sek strides\nZone: Z1-2 · 102–
+ 139 bpm\n\nUge 30 · Løbsuge – CPH Marathon
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-09-0@traeningsplan
+DTSTAMP:20261028T061328Z
+DTSTART;TZID=Europe/Copenhagen:20270509T093000
+DTEND;TZID=Europe/Copenhagen:20270509T140400
+SUMMARY:🏁 CPH Marathon
+DESCRIPTION:RACE: Copenhagen Marathon\nZone: Race · Race-indsats\n\nUge 30
+  · Løbsuge – CPH Marathon
+END:VEVENT
+END:VCALENDAR
