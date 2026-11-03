@@ -1,0 +1,334 @@
+{
+  "_note": "Jonathans motivationscitater. Tilføj gerne dine egne – 'tags' styrer hvilke dage citatet kan vises. Mulige tags: general, long, quality, easy, lower, upper, rest, deload, race_week_half, race_week_marathon, race_day, missed, milestone, morning.",
+  "quotes": [
+    {
+      "text": "Det er ikke den ene tur, der gør dig klar. Det er alle de kedelige tirsdage.",
+      "tags": [
+        "general",
+        "easy"
+      ]
+    },
+    {
+      "text": "Disciplin er at huske, hvad du vil have, også når du ikke har lyst.",
+      "tags": [
+        "general",
+        "morning"
+      ]
+    },
+    {
+      "text": "Du behøver ikke være motiveret. Du skal bare tage skoene på.",
+      "tags": [
+        "general",
+        "morning"
+      ]
+    },
+    {
+      "text": "Små skridt hver dag slår store planer, der aldrig bliver til noget.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "text": "Konsistens er det mest undervurderede talent.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "text": "Den bedste træning er den, du rent faktisk gennemfører.",
+      "tags": [
+        "general",
+        "missed"
+      ]
+    },
+    {
+      "text": "Du konkurrerer kun med den version af dig, der blev hjemme i går.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "text": "Stærk krop, rolig hjerne.",
+      "tags": [
+        "general",
+        "upper",
+        "lower"
+      ]
+    },
+    {
+      "text": "Fremskridt er sjældent lineært – men det er altid kumulativt.",
+      "tags": [
+        "general",
+        "deload"
+      ]
+    },
+    {
+      "text": "Ingen har nogensinde fortrudt en gennemført træning.",
+      "tags": [
+        "general",
+        "morning"
+      ]
+    },
+    {
+      "text": "Langsomt er også hurtigt. Det er kilometerne, der tæller.",
+      "tags": [
+        "long",
+        "easy"
+      ]
+    },
+    {
+      "text": "Langturen bygger ikke kun ben – den bygger tålmodighed.",
+      "tags": [
+        "long"
+      ]
+    },
+    {
+      "text": "Hvis du kan tale, løber du rigtigt.",
+      "tags": [
+        "long",
+        "easy"
+      ]
+    },
+    {
+      "text": "De sidste kilometer i dag er de første kilometer, du ikke frygter på løbsdagen.",
+      "tags": [
+        "long"
+      ]
+    },
+    {
+      "text": "Spis tidligt, drik ofte, løb roligt.",
+      "tags": [
+        "long"
+      ]
+    },
+    {
+      "text": "En langtur er en samtale med dig selv. Gør den venlig.",
+      "tags": [
+        "long"
+      ]
+    },
+    {
+      "text": "Komfortabelt hårdt. Ikke mere, ikke mindre.",
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "text": "Intervallerne gør ondt i 4 minutter. Stoltheden varer hele dagen.",
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "text": "Fart er en færdighed. I dag øver du den.",
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "text": "Det sidste interval viser, hvem du er.",
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "text": "Bakker er styrketræning i forklædning.",
+      "tags": [
+        "quality"
+      ]
+    },
+    {
+      "text": "Rolige ture er ikke spildte ture – det er dem, der bærer de hårde.",
+      "tags": [
+        "easy"
+      ]
+    },
+    {
+      "text": "Løb så langsomt, at du kan nyde det. Det er hele pointen i dag.",
+      "tags": [
+        "easy"
+      ]
+    },
+    {
+      "text": "Easy betyder easy. Dit ego kan blive hjemme.",
+      "tags": [
+        "easy"
+      ]
+    },
+    {
+      "text": "Stærke ben bærer dig de sidste 10 km.",
+      "tags": [
+        "lower"
+      ]
+    },
+    {
+      "text": "Squat i dag, så du ikke går i stå på kilometer 35.",
+      "tags": [
+        "lower"
+      ]
+    },
+    {
+      "text": "Benpas er en investering, der betaler sig i maj.",
+      "tags": [
+        "lower"
+      ]
+    },
+    {
+      "text": "Ingen løber hurtigere af at springe bendagen over.",
+      "tags": [
+        "lower"
+      ]
+    },
+    {
+      "text": "Bær vægten i dag, så du kan bære tempoet senere.",
+      "tags": [
+        "upper"
+      ]
+    },
+    {
+      "text": "To gentagelser i reserve. Kontrol slår ego.",
+      "tags": [
+        "upper",
+        "lower"
+      ]
+    },
+    {
+      "text": "Når du rammer toppen af rep-intervallet – så er det tid til mere vægt.",
+      "tags": [
+        "upper",
+        "lower"
+      ]
+    },
+    {
+      "text": "En stærk overkrop holder løbestilen, når benene bliver trætte.",
+      "tags": [
+        "upper"
+      ]
+    },
+    {
+      "text": "Hvile er en del af træningen, ikke en pause fra den.",
+      "tags": [
+        "rest",
+        "deload"
+      ]
+    },
+    {
+      "text": "Musklerne vokser ikke i fitnesscentret. De vokser i dag.",
+      "tags": [
+        "rest"
+      ]
+    },
+    {
+      "text": "Sov godt. Det er det billigste præstationsfremmende middel.",
+      "tags": [
+        "rest"
+      ]
+    },
+    {
+      "text": "En hviledag i dag er en bedre træning i morgen.",
+      "tags": [
+        "rest"
+      ]
+    },
+    {
+      "text": "Deload er ikke at blive svagere. Det er at give styrken lov at sætte sig.",
+      "tags": [
+        "deload"
+      ]
+    },
+    {
+      "text": "Træd et skridt tilbage, så du kan tage to frem.",
+      "tags": [
+        "deload"
+      ]
+    },
+    {
+      "text": "Bakkerne har du trænet. Nedløbet har du trænet. Nu skal du bare nyde Gran Canaria.",
+      "tags": [
+        "race_week_half"
+      ]
+    },
+    {
+      "text": "Trail handler ikke om tempo – det handler om at blive ved.",
+      "tags": [
+        "race_week_half"
+      ]
+    },
+    {
+      "text": "Det hårde arbejde er gjort. Nu skal du bare nyde det.",
+      "tags": [
+        "race_week_half",
+        "race_week_marathon"
+      ]
+    },
+    {
+      "text": "Tapering føles forkert. Det er det ikke. Stol på planen.",
+      "tags": [
+        "race_week_marathon",
+        "race_week_half"
+      ]
+    },
+    {
+      "text": "30 uger i benene. 42,2 km foran dig. Du er klar.",
+      "tags": [
+        "race_week_marathon"
+      ]
+    },
+    {
+      "text": "Start roligt. Halvvejs er kun opvarmningen.",
+      "tags": [
+        "race_week_marathon",
+        "race_day"
+      ]
+    },
+    {
+      "text": "Løb de første 30 km med hovedet, de sidste 12 med hjertet.",
+      "tags": [
+        "race_day"
+      ]
+    },
+    {
+      "text": "I dag løber du ikke for at træne. I dag høster du.",
+      "tags": [
+        "race_day"
+      ]
+    },
+    {
+      "text": "Én dag ændrer ingenting. Det gør de næste 30.",
+      "tags": [
+        "missed"
+      ]
+    },
+    {
+      "text": "Et sprunget pas er en pause, ikke en undskyldning for at stoppe.",
+      "tags": [
+        "missed"
+      ]
+    },
+    {
+      "text": "Planen er et kompas, ikke et fængsel. Juster og fortsæt.",
+      "tags": [
+        "missed",
+        "general"
+      ]
+    },
+    {
+      "text": "Se hvor langt du er kommet – ikke kun hvor langt der er igen.",
+      "tags": [
+        "milestone"
+      ]
+    },
+    {
+      "text": "Hver uge du gennemfører, er et løfte, du holder over for dig selv.",
+      "tags": [
+        "milestone"
+      ]
+    },
+    {
+      "text": "Halvmaraton i dag, maraton i maj – og så? Bucketlisten venter.",
+      "tags": [
+        "milestone"
+      ]
+    }
+  ]
+}

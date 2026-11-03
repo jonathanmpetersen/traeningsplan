@@ -1,0 +1,297 @@
+{
+  "intro": "Planen følger 80/20-princippet: ca. 80 % af løbet er roligt og ca. 20 % er hårdt. De rolige ture bygger fundamentet, så de hårde pas kan løbes med kvalitet. Løb de rolige ture roligt og de hårde pas hårdt – det er det, der gør dig hurtigere.",
+  "zones_note": "RPE = oplevet anstrengelse 1–10. Brug både puls og følelse: pulsen halter 1–2 min efter på korte intervaller, og varme, søvnmangel og stress hæver den.",
+  "zones": [
+    {
+      "zone": "Z1",
+      "rpe": "1–2",
+      "text": "Meget let – restitution"
+    },
+    {
+      "zone": "Z2",
+      "rpe": "3–4",
+      "text": "Rolig – du kan tale i hele sætninger"
+    },
+    {
+      "zone": "Z3",
+      "rpe": "5–6",
+      "text": "Stabil – kontrolleret, korte sætninger"
+    },
+    {
+      "zone": "Z4",
+      "rpe": "7–8",
+      "text": "Hård – tærskel og intervaller, kun få ord"
+    },
+    {
+      "zone": "Z5",
+      "rpe": "9–10",
+      "text": "Meget hård – korte stykker, ingen snak"
+    }
+  ],
+  "categories": [
+    {
+      "id": "easy",
+      "name": "Rolig",
+      "when": "Mandag (kort, med strides), torsdag og valgfrit onsdag.",
+      "volume": "Ca. 80 % af dit løb.",
+      "content": "Rolige ture i Z2, med strides efter mandagsturen.",
+      "purpose": "Bygger grundlaget, og gør at du kan restituere til de hårde pas.",
+      "types": [
+        "rolig",
+        "strides",
+        "shakeout"
+      ]
+    },
+    {
+      "id": "hard",
+      "name": "Hårde pas",
+      "when": "Tirsdag – ét pas om ugen (ikke i deload- og løbsuger).",
+      "volume": "Ca. 10–20 % af ugens km.",
+      "content": "Skifter mellem Intervaller, Tempo og Bakker (marts–april også Maratontempo).",
+      "purpose": "Gør dig hurtigere og stærkere – i et kontrolleret tempo (RPE 7).",
+      "types": [
+        "intervaller",
+        "tempo",
+        "bakker",
+        "maratontempo"
+      ]
+    },
+    {
+      "id": "long",
+      "name": "Langtur",
+      "when": "Lørdag – omkring 72 timer efter Lower.",
+      "volume": "Op til 3 timer eller 32 km.",
+      "content": "Rolig langtur; i trail-ugerne med højdemeter, i marts–april nogle gange med maratontempo til sidst.",
+      "purpose": "Udholdenhed, energi og mental sejhed.",
+      "types": [
+        "langtur",
+        "maratontempo",
+        "power_hike"
+      ]
+    },
+    {
+      "id": "trail",
+      "name": "Trail og vinter",
+      "when": "Torsdag dec–feb (power hike) og bakker på løbebånd.",
+      "volume": "250–600 højdemeter om torsdagen.",
+      "content": "Rask gang og bakker på løbebånd – også trapper med kontrolleret nedløb.",
+      "purpose": "Forbereder til Transgrancanaria.",
+      "types": [
+        "power_hike",
+        "bakker"
+      ]
+    },
+    {
+      "id": "race",
+      "name": "Test og race",
+      "when": "5 km-test 1/12, Transgrancanaria 25/2 og CPH Marathon 9/5.",
+      "volume": "Kort ugen før.",
+      "content": "Test og race med fast rutine.",
+      "purpose": "Sætter dine tempoer og viser, hvor du står.",
+      "types": [
+        "test_race",
+        "shakeout"
+      ]
+    }
+  ],
+  "week_example": [
+    {
+      "day": "Man",
+      "strength": "Upper",
+      "run": "Kort rolig + 6×20 sek strides"
+    },
+    {
+      "day": "Tir",
+      "strength": "–",
+      "run": "Intervaller / Tempo / Bakker"
+    },
+    {
+      "day": "Ons",
+      "strength": "Lower",
+      "run": "Valgfri kort rolig 3–5 km"
+    },
+    {
+      "day": "Tor",
+      "strength": "Core & mobilitet",
+      "run": "Rolig Z2 (dec–feb: Power hike)"
+    },
+    {
+      "day": "Fre",
+      "strength": "Upper",
+      "run": "–"
+    },
+    {
+      "day": "Lør",
+      "strength": "–",
+      "run": "Langtur"
+    },
+    {
+      "day": "Søn",
+      "strength": "–",
+      "run": "Hviledag"
+    }
+  ],
+  "week_exceptions": "Deload-uger cirka hver 4. uge (mindre mængde, ingen intervaller, styrke med halverede sæt) og løbsuger.",
+  "types": [
+    {
+      "id": "rolig",
+      "name": "Rolig",
+      "key": "easy",
+      "zone": "Z2",
+      "rpe": "3–4",
+      "intensity": 2,
+      "talk": "Du kan tale i hele sætninger.",
+      "coach": "De rolige ture er fundamentet i din plan. Her bygger du hjerte, sener og udholdenhed uden at slide dig ned. Løb så langsomt, at du kunne snakke hele tiden – det er faktisk meningen, at det skal føles næsten for let.",
+      "point": "En god rolig tur føles helt let.",
+      "what": "Jævnt, afslappet tempo, hvor du kan føre en samtale.",
+      "why": "Bygger hjerte, kapillærer, sener og fedtforbrænding – grundlaget for alt andet.",
+      "feel": "Næsten for let. Du kunne fortsætte meget længere.",
+      "mistake": "At løbe for hurtigt, så du er træt til dagens hårde pas. Gå op ad bakker, hvis pulsen stikker af.",
+      "video": "easy run pace how slow løb rolig tur"
+    },
+    {
+      "id": "tempo",
+      "name": "Tempo",
+      "key": "tempo",
+      "zone": "Z4",
+      "rpe": "7",
+      "intensity": 4,
+      "talk": "Du kan kun sige få ord ad gangen.",
+      "coach": "Tempo er “komfortabelt hårdt”: et jævnt, kontrolleret tempo lige omkring din tærskel. Det lærer kroppen at holde en høj fart længere uden at syre til – og er den bedste investering til både halvmaraton og marathon.",
+      "point": "Indsatsen må variere fra dag til dag.",
+      "what": "Længere blokke i et jævnt, hårdt tempo (tærskel), typisk 2–4 × 8–15 min med kort pause.",
+      "why": "Hæver den fart, du kan holde i lang tid, og træner kroppen i at rense mælkesyre.",
+      "feel": "Hårdt, men kontrolleret. Du kan tælle til 3 i et ord, men ikke føre en samtale.",
+      "mistake": "At starte for hurtigt i første blok. Hold samme tempo i alle blokke og slut stærkt.",
+      "video": "threshold tempo run explained tærskeltræning"
+    },
+    {
+      "id": "intervaller",
+      "name": "Intervaller",
+      "key": "intervals",
+      "zone": "Z4–Z5",
+      "rpe": "7–8",
+      "intensity": 5,
+      "talk": "Du kan næsten ikke sige noget under det hurtige.",
+      "coach": "Intervaller er korte, hurtige gentagelser med pause imellem – fartlek, 1 km eller 3–4 minutter ad gangen. De gør dig hurtigere og mere økonomisk, og pausen sørger for, at du kan holde kvaliteten hele vejen.",
+      "point": "Hold samme tempo i alle gentagelser.",
+      "what": "Hurtige gentagelser (fx 8×1 min, 5×3 min, 5×1 km) med jog- eller gå-pause.",
+      "why": "Forbedrer VO2max og løbeøkonomi og gør dit hvide tempo mindre anstrengende.",
+      "feel": "Hårdt i de hurtige dele, men du skal kunne gentage dem alle. Sidste gentagelse er den sværeste.",
+      "mistake": "At løbe første gentagelse for hurtigt. Start roligt, så du kan holde farten til sidste gentagelse.",
+      "video": "interval running workout vo2max intervaller løb"
+    },
+    {
+      "id": "bakker",
+      "name": "Bakker",
+      "key": "hills",
+      "zone": "Z4–Z5",
+      "rpe": "8",
+      "intensity": 5,
+      "talk": "Kun korte ord – du puster hårdt.",
+      "coach": "Bakker er styrketræning for løbere: korte, kraftfulde stigninger giver stærkere ben, bedre teknik og mere fart. Her er de som standard på løbebånd, da du ikke har bakker i Finland.",
+      "point": "Kraftfuldt op, afslappet ned.",
+      "what": "Korte (45 sek) eller lange (2–3 min) stigninger på 5–8 %, med let jog eller gang på 1 % som pause.",
+      "why": "Bygger styrke og løbeøkonomi, sparer led i forhold til fart på fladt og forbereder trail og nedløb.",
+      "feel": "Brændende lår op ad. Hold højt knæløft og stabile skuldre.",
+      "mistake": "At læne sig for meget frem og dukke hovedet. Løb højt og kig fremad.",
+      "video": "hill repeats treadmill incline løbebånd bakkeintervaller"
+    },
+    {
+      "id": "langtur",
+      "name": "Langtur",
+      "key": "long",
+      "zone": "Z2",
+      "rpe": "3–4",
+      "intensity": 2,
+      "talk": "Du kan tale i hele sætninger hele turen.",
+      "coach": "Langturen er ugens vigtigste pas. Du øver at være på benene længe, spiser og drikker undervejs og bygger den udholdenhed, marathon og trail kræver. Tempoet er roligt – tid på benene tæller, ikke fart.",
+      "point": "Tid på benene, ikke fart.",
+      "what": "Én lang, rolig tur om ugen – 90 min og opefter. På trail-uger med højdemeter, i marts–april nogle gange med maratontempo til sidst.",
+      "why": "Udholdenhed, fedtforbrænding, mental sejhed og træning af mave og energi (gel/væske).",
+      "feel": "Jævn og tålmodig. De sidste kilometer føles tungere – det er normalt.",
+      "mistake": "At starte for hurtigt. Hold loftet for roligt tempo, og spis fra 45–60 min.",
+      "video": "long run training tips marathon langtur"
+    },
+    {
+      "id": "maratontempo",
+      "name": "Maratontempo",
+      "key": "mp",
+      "zone": "Z3–Z4",
+      "rpe": "6",
+      "intensity": 3,
+      "talk": "Du kan sige korte sætninger.",
+      "coach": "Maratontempo er det tempo, du skal holde på marathon-dagen. Du øver det i blokke – ofte som de sidste kilometer af en langtur – så kroppen og hovedet kender følelsen, når du er træt.",
+      "point": "Jævnt og kontrolleret – ikke hurtigere end planlagt.",
+      "what": "Blokke i dit planlagte marathontempo, fx de sidste 8–10 km af langturen eller 3×15 min.",
+      "why": "Lærer dig tempofølelse og energi-økonomi, og øver ernæring i løbstempo.",
+      "feel": "Behageligt hårdt: du kan holde det længe, men ikke føre en samtale.",
+      "mistake": "At løbe det for hurtigt, fordi benene føles gode. Det er en øvelse i tålmodighed.",
+      "video": "marathon pace workout long run finish maratontempo"
+    },
+    {
+      "id": "power_hike",
+      "name": "Power hike",
+      "key": "powerhike",
+      "zone": "Z2–Z3",
+      "rpe": "5–6",
+      "intensity": 3,
+      "talk": "Du kan tale, men pulsen er høj.",
+      "coach": "Power hike er rask gang op ad stejle stigninger – præcis hvad du gør på trail, når det bliver for stejlt til at løbe. På løbebånd bruger du 12–15 % stigning og ingen håndtag, så du træner baglår, baller og pulsen uden stød.",
+      "point": "Hænderne på lårene, brystet åbent.",
+      "what": "Rask gang på 12–15 % stigning i 30–60 min, uden at holde i håndtagene.",
+      "why": "Bygger styrke og udholdenhed til trail og sparer dine led.",
+      "feel": "Brændende baller og lår, men roligt åndedræt. Du skal kunne holde det 30+ min.",
+      "mistake": "At holde i håndtagene eller gå for langsomt. Hold et ægte, rask tempo.",
+      "video": "power hiking treadmill incline trail running training"
+    },
+    {
+      "id": "test_race",
+      "name": "Test/Race",
+      "key": "race",
+      "zone": "Race",
+      "rpe": "9–10",
+      "intensity": 5,
+      "talk": "Ingen samtale – du giver alt, hvad der er.",
+      "coach": "Test og race viser, hvor du står. Testen bruges til at sætte dine tempoer og zoner, og racet er det, du har trænet til. Start roligt og slut stærkt.",
+      "point": "Start roligt – slut stærkt.",
+      "what": "En 5 km-test (på løbebånd: 1 % stigning) eller racet selv. Faste regler: opvarmning, jævnt tempo, nedvarmning.",
+      "why": "Giver tal til planen (tempo, zoner, sluttid) og øver racerutinen.",
+      "feel": "Hårdt og fokuseret. Første halvdel skal føles for let.",
+      "mistake": "At gå for hurtigt ud. Jævnt tempo giver den bedste tid.",
+      "video": "5k time trial pacing race strategy løbetest"
+    },
+    {
+      "id": "strides",
+      "name": "Strides",
+      "zone": "–",
+      "rpe": "7–8",
+      "what": "4–6 afslappede accelerationer på 20 sek op til ca. 90 % af topfart efter en rolig tur, med fuld pause (gå/stå) imellem.",
+      "why": "Bedre løbestil, kadence og fart uden at blive træt.",
+      "feel": "Hurtigt, let og afslappet – som at flyve.",
+      "mistake": "At spænde op i skuldre og ansigt eller sprinte 100 %.",
+      "key": "easy",
+      "intensity": 3,
+      "talk": "Korte stød – du kan tale imellem.",
+      "coach": "Strides er 6 korte, lette accelerationer på ca. 20 sekunder efter en rolig tur. De holder dig smidig og skarp uden at koste meget energi.",
+      "point": "Hurtigt, men afslappet – ikke en sprint.",
+      "video": "running strides how to"
+    },
+    {
+      "id": "shakeout",
+      "name": "Shakeout",
+      "zone": "Z1",
+      "rpe": "2",
+      "what": "Meget kort (3–5 km) og meget rolig tur, typisk dagen før et race.",
+      "why": "Løsner benene, dæmper nerverne og holder rytmen.",
+      "feel": "Næsten som en gåtur.",
+      "mistake": "At lave mere, end der står, eller at teste formen.",
+      "key": "easy",
+      "intensity": 1,
+      "talk": "Du kan snakke hele tiden.",
+      "coach": "Shakeout er en helt kort og meget rolig tur, typisk dagen før et løb. Den holder benene løse uden at trætte dig.",
+      "point": "Kort og meget let.",
+      "video": "shakeout run before race"
+    }
+  ]
+}
